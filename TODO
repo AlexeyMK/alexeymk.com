@@ -3,6 +3,7 @@ x TODO - include domain
 x cloudflare the damn thing [nvm, let github deal with caching]
 - Tags pages (/tag/hackathons)
 - Tags sidebar
+- paginate
 - missing images
 - read counts, as on Posterous
 - images should work locally
