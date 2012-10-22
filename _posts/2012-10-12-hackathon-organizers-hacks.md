@@ -31,13 +31,22 @@ Originally, this was (largely) a ploy to get students to have a reason to stay l
 
 - **Late Night Athletics** There's a kind of euphoria I tend to get around 2 or 3 in the morning, after spending more time than is reasonable working and knowing that the end is not yet in sight.  Euphoria with a good mix of fatigue.
 
-Atheltics help.  Taking a bunch of friends and stragners and going "alright, now let's do something silly" is fun.  PennApps has a midnight run tradition that is exactly what it sounds like: at midnight (really, closer to 1:20 AM) everybody who is up for it heads out and goes for a 10-minute jog around campus, jeans and not-quite-running shoes and everything. Tis a blast; highlights include the time when we jogged Dave from Andreesen Horowitz back to his hotel.  More recently, a 3AM game of ultimate frisbee (complete with glow-in-the-dark frisbee) made me happy the organizers had not neglected gatorade a drink option.  I've also heard of impromptu juggling lessons.
+Atheltics help.  Taking a bunch of friends and strangers and going "alright, now let's do something silly" is fun.  PennApps has a midnight run tradition that is exactly what it sounds like: at midnight (really, closer to 1:20 AM) everybody who is up for it heads out and goes for a 10-minute jog around campus, jeans and not-quite-running shoes and everything. Tis a blast; highlights include the time when we jogged Dave from Andreessen Horowitz back to his hotel.  More recently, a 3AM game of ultimate frisbee (complete with glow-in-the-dark frisbee) made me happy the organizers had not neglected gatorade a drink option.  I've also heard of impromptu juggling lessons.
 
 Late night athletic events have the benefit of being both fun and sufficiently out of place to be memorable.  Plus, it's nice to get out and stretch your legs.
 
 - ** Bubble Tea and other excesses **  Some of the more fun food hacks/surprises involve ordering several gallons of Bubble Tea (at PennApps), Red Bull Jello Shots (really) at the Greylock Hackathon, and late night cheese-steaks (via Venmo at now-every PennApps), and Ice Cream Sandwiches (HackNY).
 
 I'm still waiting for somebody to cater a pancake/crepe maker to make breakfast crepes on demand, for the morning of demos. There's probably no better sign of how hackathon-spoiled I am that I'm waiting for that.
+
+**Update:** HackNY and Michigan email/tweet me to provide photo evidence of said crepes/pancakes. I love the internet.
+
+HackNY Fall 2012:
+<a href="http://www.flickr.com/photos/hackny/8048192463/" title="fall 2012 hackNY student hackathon by hackNY, on Flickr"><img src="http://farm9.staticflickr.com/8459/8048192463_6d9d15ab5e_z.jpg" width="427" height="640" alt="fall 2012 hackNY student hackathon"></a>
+
+Michigan's Learn To Hack:
+<img src="/images/michigan_pancakes.jpg"></img>
+
 
 Logistics Hacks
 ===============
@@ -74,7 +83,7 @@ With a seemingly endless supply of teams hoping to demo and an exhausted audienc
 
 - **Demoing mobile apps**
 
-Ideally, obtain a slide projector (like back in middle school) a few days before the event, set the focus (once) properly, and put up a big sign saying "don't touch this knob."  Explain this principle to demoers, and make it trivial to switch one of the on-screen views to the mobile projector.
+Ideally, obtain a document projector (like back in middle school) a few days before the event, set the focus (once) properly, and put up a big sign saying "don't touch this knob."  Explain this principle to demoers, and make it trivial to switch one of the on-screen views to the mobile projector.
 
 If not, I've had a suprising amount of success with taking the demo laptop and using it's webcam to show off the mobile experience. It's hacky, and should be prepared way beforehand, but it works.
 
@@ -110,4 +119,10 @@ The worry with multi-tiered judging is this: imagine you spent your entire weeke
 That sucks.
 
 Multi-tiered demoing needs to be done in a way that recognizes the work hackers put in.  I don't know how to do that yet; having three demo auditoriums for the first round feels a bit of a logistical mess. Open for ideas - email me on this one.
+
+**Updates:**
+
+- A couple of minor fixes. Thanks to DJ, Ayaka, Jennifer and Jonathan!
+- See the [HN Commentary](http://news.ycombinator.com/item?id=4681304), for discussion on Multi-Tier Voting and charging attendees; in particular, Greg (from AngelHack)'s post on his experience [fund-raising for grown-up (non-college) hackathon](http://news.ycombinator.com/item?id=4682191).
+- Check out [my other hackathon posts](/tag/hackathons), and are curious about advice on fundraising and timing, and lots of other goodness.
 
