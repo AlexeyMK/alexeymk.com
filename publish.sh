@@ -6,6 +6,8 @@ PUBLISH_DIR=../published_alexeymk.com
 PUBLISH_BRANCH=master
 set -ex
 
+# ensure the content in /_site is up to date
+jekyll
 # copy stuff over
 rm -r $PUBLISH_DIR/*
 
