@@ -31,7 +31,7 @@ Originally, this was (largely) a ploy to get students to have a reason to stay l
 
 - **Late Night Athletics** There's a kind of euphoria I tend to get around 2 or 3 in the morning, after spending more time than is reasonable working and knowing that the end is not yet in sight.  Euphoria with a good mix of fatigue.
 
-Atheltics help.  Taking a bunch of friends and strangers and going "alright, now let's do something silly" is fun.  PennApps has a midnight run tradition that is exactly what it sounds like: at midnight (really, closer to 1:20 AM) everybody who is up for it heads out and goes for a 10-minute jog around campus, jeans and not-quite-running shoes and everything. Tis a blast; highlights include the time when we jogged Dave from Andreessen Horowitz back to his hotel.  More recently, a 3AM game of ultimate frisbee (complete with glow-in-the-dark frisbee) made me happy the organizers had not neglected gatorade a drink option.  I've also heard of impromptu juggling lessons.
+Athletics help.  Taking a bunch of friends and strangers and going "alright, now let's do something silly" is fun.  PennApps has a midnight run tradition that is exactly what it sounds like: at midnight (really, closer to 1:20 AM) everybody who is up for it heads out and goes for a 10-minute jog around campus, jeans and not-quite-running shoes and everything. Tis a blast; highlights include the time when we jogged Dave from Andreessen Horowitz back to his hotel.  More recently, a 3AM game of ultimate frisbee (complete with glow-in-the-dark frisbee) made me happy the organizers had not neglected gatorade a drink option.  I've also heard of impromptu juggling lessons.
 
 Late night athletic events have the benefit of being both fun and sufficiently out of place to be memorable.  Plus, it's nice to get out and stretch your legs.
 
@@ -59,14 +59,14 @@ Provide variety throughout the event, provide (reasonably healthy) and vegetaria
 
 - **Room For Improvement:** Organizers' Sleep Schedules. PennApps recently moved to a "who sleeps on what night" rotation, meaning that event organizers will likely get a reasonable night's sleep on the first night or the second. This is certainly better than the previous ordeal (organizers sleep when they can no longer stay awake) but can still lead to an organizing team in charge of demos at less than 100%.
 
-Here's my proposal: break the organizing team into two: a Hackerspace team responsible for during-the-hacking events, and a an Event team in charge of everything surrounding the hacking: Kickoff and API Tutorials before the start, and the Demo Session and Awards after.  A dedicated event team means folks that have gotten a ton of sleep before each event and are wide awake to move quickly and deal with any issues that come up at the last minute.  I'd love to hear from anybody that has an approach they've tried and liked, and that works.
+Here's my proposal: break the organizing team into two: a Hackerspace team responsible for during-the-hacking events, and an Event team in charge of everything surrounding the hacking: Kickoff and API Tutorials before the start, and the Demo Session and Awards after.  A dedicated event team means folks that have gotten a ton of sleep before each event and are wide awake to move quickly and deal with any issues that come up at the last minute.  I'd love to hear from anybody that has an approach they've tried and liked, and that works.
 
 
 <img src="/images/pennapps2012_drinks.jpg"></img>
 
 - **Room for Improvement**: Drinks Vendors.
 
-Anybody who's hada summer internship at a big-enough, 'tech' company knows about the contents of the Facebook/Google/Twitter beverage fridge, full of fresh fruit juices and various ice teas and all sorts of goodness. Since the first PennApps, I did my best to replicate that experience, to make (by any means necessary) to make the point that there were some benefits to working at a startup, and look: here they are, an always stocked, no limits free fridge of goodness.
+Anybody who's had a summer internship at a big-enough, 'tech' company knows about the contents of the Facebook/Google/Twitter beverage fridge, full of fresh fruit juices and various ice teas and all sorts of goodness. Since the first PennApps, I did my best to replicate that experience, to make (by any means necessary) to make the point that there were some benefits to working at a startup, and look: here they are, an always stocked, no limits free fridge of goodness.
 
 I learned that getting a see-through beverage fridge, as well as actually obtaining the necessary drinks for the fridge (Honest Tea, anybody) is a bit of a challenge.  Those types of fridges are a headache to rent, and Honest Tea is just not for sale at Costco.
 
@@ -85,7 +85,7 @@ With a seemingly endless supply of teams hoping to demo and an exhausted audienc
 
 Ideally, obtain a document projector (like back in middle school) a few days before the event, set the focus (once) properly, and put up a big sign saying "don't touch this knob."  Explain this principle to demoers, and make it trivial to switch one of the on-screen views to the mobile projector.
 
-If not, I've had a suprising amount of success with taking the demo laptop and using it's webcam to show off the mobile experience. It's hacky, and should be prepared way beforehand, but it works.
+If not, I've had a surprising amount of success with taking the demo laptop and using it's webcam to show off the mobile experience. It's hacky, and should be prepared way beforehand, but it works.
 
 Emulators are a bad idea; they involve plugging in somebody else's laptop into the projector.  Pain this way lies.
 
@@ -97,7 +97,7 @@ Emulators are a bad idea; they involve plugging in somebody else's laptop into t
 >
 > In general, if you have any special requirements let the organizers know way in advance.
 >
-> No using your own laptop unless you absolutely, unequivically, have no choice whatsoever (IE, desktop app).  If so, let the organizers know in advance and we'll see how we can accomodate you.
+> No using your own laptop unless you absolutely, unequivocally, have no choice whatsoever (IE, desktop app).  If so, let the organizers know in advance and we'll see how we can accommodate you.
 
 Ideally, have a second (identical) set-up in a nearby room for teams to practice on a few minutes before they demo, as part of the demo queue.  If not, at least make the demo setup available morning-of the demos and encourage teams taking a chance to practice.
 
@@ -112,9 +112,9 @@ Publicize demo order ASAP, and make it obvious where it is. It really helps team
 <img src="/images/pennapps2012_judging.jpg"></img>
 
 - **Needs Improvement:** Demoing with >50 teams
-If you have more than 30 or so teams demoing (and especially more than 50) considering exploring ways to cut down to either about 30 demos or about 15 demos and judge interaction.  I've heard about the LinkedIn Intern hackathons doing this well, and Greylock Hackathon and AngelHack both did a good job as well.
+If you have more than 30 or so teams demoing (and especially more than 50), consider exploring ways to cut down to either about 30 demos or about 15 demos with judge interaction.  I've heard about the LinkedIn Intern hackathons doing this well, and Greylock Hackathon and AngelHack both did a good job as well.
 
-The worry with multi-tiered judging is this: imagine you spent your entire weekend sleepless.  Your implicit reward, prizes or not, is that a hundred or more people will get to see what you did and, prizes or not, applud your effort.  Instead, you go into a tiny closed conference with 4 older-looking folks who listen to you for two minutes and then wait for an email with the list of finalists - a list you're not on.
+The worry with multi-tiered judging is this: imagine you spent your entire weekend sleepless.  Your implicit reward, prizes or not, is that a hundred or more people will get to see what you did and, prizes or not, applaud your effort.  Instead, you go into a tiny closed conference with 4 older-looking folks who listen to you for two minutes and then wait for an email with the list of finalists - a list you're not on.
 
 That sucks.
 
