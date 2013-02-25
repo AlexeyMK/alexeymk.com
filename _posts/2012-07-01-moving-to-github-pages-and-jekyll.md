@@ -2,7 +2,7 @@
 layout: post
 title: Migrating from Posterous to Jekyll on GitHub Pages
 published: true
-date: :2012-07-01 23:30:00
+date: 2012-07-01 23:30:00
 tags:
 - technical
 - writing
