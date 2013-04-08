@@ -8,7 +8,7 @@ tags:
 - recruiting
 ---
 
-I was recently introduced to the CEO of a post series-A startup at an event. We spoke about his company for a few minutes, and he asked me to email him in case there were any opportunities for me as a freelancer to help.
+At an event last week, I was introduced to the CEO of a post series-A startup I'd been following and found quite interesting. We spoke about his company for a few minutes, and he asked me to email him in case there were any opportunities for me as a freelancer to help.
 
 I followed up. A few days later, I got the following email:
 
@@ -32,13 +32,13 @@ At my last company, we flew a candidate in for a trial and ended up passing. The
 
 That was wrong. The guy deserved at least a phone call after giving us a week of his time.
 
-In the case above, the CEO **asked** me to email him; I was interested in the possibility of work, but I also just wanted to meet somebody who started a company that I admired and pick his brain about the industry. I got a response, without context, from somebody else entirely, treating me as a generic applicant. I hadn't even sent in a resume.
+Last week's CEO **asked** me to email him; I was interested in the possibility of work, but I also just wanted to have a chance to chat and seek his advice. I got a response, without context, from somebody else entirely, treating me as yet another applicant. I hadn't even sent in a resume.
 
-A generic response is reasonable for a generic application or cold-email. If you ask a candidate to email you, you owe them a response (even if it's one sentence) or you are doing damage to your company's reputation.
+Not that every possible candidate deserves a 500-word essay; a generic application or cold-email, ("Dear Sir or Madam...") should absolutely receive a friendly, templated rejection.
 
-#### You don't have to go into detail in a rejection, but there's a difference between a euphemism and a lie.
+#### There's a difference between a euphemism and a lie.
 
-On Tuesday, the CEO told me they were looking for engineers. On Thursday, I was told the opposite. Either their hiring priorities changed on Wednesday, or (much more likely) the latter statement was an excuse.  And as a candidate, I can tell, and it reflects rather poorly on the company.
+On Tuesday, the CEO told me they were looking for engineers. On Thursday, I was told the opposite. Either their hiring priorities changed on Wednesday, or (much more likely) the latter statement was an excuse.  As a candidate I can tell, and it reflects poorly on the company.
 
 The flip-side is, of course, you don't want to be incredibly specific in every rejection, because the occassional candidate is going to argue that in fact they ARE great at X and were just having a bad day and now you're in this terrible position of saying "dude, no."  The industry standard seems to be some variant of "not a fit" or "no positions available that you would be well-suited for," ending with "at this time."
 
