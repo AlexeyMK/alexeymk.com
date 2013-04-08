@@ -8,25 +8,27 @@ tags:
 - recruiting
 ---
 
-I was recently introduce to the CEO of an interesting, post-series A startup at an event. We were introduced, spoke briefly, and he asked me to email him in case there were any opportunities for me as a freelancer to help.
+I was recently introduced to the CEO of a post series-A startup at an event. We spoke about his company for a few minutes, and he asked me to email him in case there were any opportunities for me as a freelancer to help.
 
-I followed up. A few days later, I got the following email from a recruiter at his company.
+I followed up. A few days later, I got the following email:
 
 > Hi Alexey,
 >
 > Thanks for your interest in [Company].  We don't have immediate needs for hiring more engineers at the moment but would be happy to keep you on file for future opportunities.
 >
 > Please let me know if you have additional questions.
+>
+> - [Recruiter], [Company]
 
 Ouch.
 
 #### Who are you, again?
 
-I spent a good portion of 2012 running recruiting for the company I'd helped start, growing our team from 3 to 12 at my peak. I've had a chance to deal with my fair share of rejecting candidates, and made my fair share of mistakes.  So, having been on both sides of this table recently, some advice to fellow engineers who end up handling recruiting at their start-up.
+I spent a good portion of 2012 running recruiting for the company I'd helped start, growing our team from 3 to 12. I've had a chance to deal a few dozen candidate rejections, and made my fair share of mistakes.  Before that, I spent two years applying to internships.  As such, some advice for would-be rejection-letter writers:
 
 #### The effort going into the rejection should match the effort spent in the process.
 
-At my last company, we flew a candidate in to do a trial and ended up deciding to pass. The next day, I sent a two paragraph email saying, effectively, thank you but no thank you.
+At my last company, we flew a candidate in for a trial and ended up passing. The next day, I sent a two paragraph email saying, effectively, thank you but no thank you.
 
 That was wrong. The guy deserved at least a phone call after giving us a week of his time.
 
