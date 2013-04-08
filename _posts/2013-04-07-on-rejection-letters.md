@@ -32,7 +32,7 @@ At my last company, we flew a candidate in for a trial and ended up passing. The
 
 That was wrong. The guy deserved at least a phone call after giving us a week of his time.
 
-In the case above, the CEO **asked** me to email him; I was interested in the possibility of work, but I also just wanted to meet the guy as somebody I admired and pick his brain about his industry. I got a response, without context, from somebody else entirely, treating me as a generic applicant. I hadn't even sent in a resume.
+In the case above, the CEO **asked** me to email him; I was interested in the possibility of work, but I also just wanted to meet somebody who started a company that I admired and pick his brain about the industry. I got a response, without context, from somebody else entirely, treating me as a generic applicant. I hadn't even sent in a resume.
 
 A generic response is reasonable for a generic application or cold-email. If you ask a candidate to email you, you owe them a response (even if it's one sentence) or you are doing damage to your company's reputation.
 
