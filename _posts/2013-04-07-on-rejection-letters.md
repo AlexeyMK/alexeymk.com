@@ -22,7 +22,7 @@ I want to give you a quick heads-up about the way you handled my rejection. As t
 >
 > Thanks for following up, it was good to meet you.
 >
-> Unfortunately, I checked with our head of recruiting and we're focused entirely on full-time roles right now for engineering.  Thanks again for coming to the talk and best of luck with your career!
+> Unfortunately, I checked with our head of recruiting and we're focused entirely on full-time roles right now for engineering.  Thanks again for following up after we met on Tuesday and best of luck with your career!
 
 From a friend at Google, their philosophy on recruiting is, roughly, "we should be really nice to the engineers we interview, because most engineers out there will remember Google as that company they applied to and got rejected from, and these are the people recommending technology to their parents and advising friends on where to apply."
 
