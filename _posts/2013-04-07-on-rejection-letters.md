@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'On Rejection Letters'
+title: ! 'The Art of Rejection'
 published: true
 date: 2013-04-07 23:11:47
 tags:
