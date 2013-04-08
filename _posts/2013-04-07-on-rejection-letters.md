@@ -38,7 +38,7 @@ Not that every possible candidate deserves a 500-word essay; a generic applicati
 
 #### There's a difference between a euphemism and a lie.
 
-On Tuesday, the CEO told me they were looking for engineers. On Thursday, I was told the opposite. Either their hiring priorities changed on Wednesday, or (much more likely) the latter statement was an excuse.  As a candidate I can tell, and it reflects poorly on the company.
+On Tuesday, the CEO told me they were looking for engineers. On Thursday, I was told the opposite. Either their hiring priorities changed on Wednesday, or (hint: it's this one) 'not hiring' was an excuse.  As a candidate I can tell, and it reflects poorly on the company.
 
 The flip-side is, of course, you don't want to be incredibly specific in every rejection, because the occassional candidate is going to argue that in fact they ARE great at X and were just having a bad day and now you're in this terrible position of saying "dude, no."  The industry standard seems to be some variant of "not a fit" or "no positions available that you would be well-suited for," ending with "at this time."
 
