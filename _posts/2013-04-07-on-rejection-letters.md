@@ -18,7 +18,7 @@ I followed up. A few days later, I got the following email:
 >
 > Please let me know if you have additional questions.
 >
-> - [Recruiter], [Company]
+> \- [Recruiter], [Company]
 
 Ouch.
 
