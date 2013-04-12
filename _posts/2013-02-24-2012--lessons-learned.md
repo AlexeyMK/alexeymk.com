@@ -29,5 +29,5 @@ From now on, if (and when) I start a new venture, it'll be with folks I've worke
 
 I'm currently spending 3 days a week working freelance for [Baydin](http://baydin.com), the creators of the [Boomerang](http://boomeranggmail.com) Gmail plug-in.  I'm working on [Boomerang Calendar](http://boomerangcalendar.com), trying to make the ping-pong that is meeting scheduling over email a little bit less painful. Baydin are an awesome bunch of folks (who deserve their own blog post), and I've been thinking about [scheduling as a problem](/too-cool-for-tungleme/) before, so the gig has been pretty fantastic.
 
-- If you've got feedback or ideas for Boomerang Calendar (or want to try it out), [let me know!](mailto:alexey-at-alexeymk.com).
+- If you've got feedback or ideas for Boomerang Calendar (or want to try it out), [let me know!](mailto:alexey@alexeymk.com).
 - If you're in need of a freelancer and want a full-stack generalist who loves product and has some experience with [hackathons](/tag/hackathons): [that, also, is me](mailto:alexey+muleconsulting@alexeymk.com).
