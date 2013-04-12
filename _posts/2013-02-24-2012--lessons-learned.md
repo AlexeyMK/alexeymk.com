@@ -25,5 +25,9 @@ Still, there are upsides. More time with the girlfriend, more catching up with o
 
 From now on, if (and when) I start a new venture, it'll be with folks I've worked with before successfully, or at least after a non-trivial trial period.
 
-#### 4. What's the plan for 2013?
-I'll be doing freelance and consulting for at least the next six months.  Feel free to [reach out](mailto:alexey-at-alexeymk.com) if you've got an interesting project where [my skills](/about/) can be of use.
+#### 4. What now? [Update: April 2013]
+
+I'm currently doing freelance work for [Baydin](http://baydin.com), the creators of the [Boomerang](http://boomeranggmail.com) Gmail plug-in.  I'm working on [Boomerang Calendar](http://boomerangcalendar.com), trying to make the ping-pong that is meeting scheduling over email a little bit less painful.
+
+- If you've got feedback or ideas for Boomerang Calendar (or want to try it out), [let me know!](mailto:alexey-at-alexeymk.com).
+- If you're in need of a freelancer and want a full-stack generalist who loves product and has some experience with [hackathons](/tag/hackathons): [that, also, is me](mailto:alexey+muleconsulting@alexeymk.com).
