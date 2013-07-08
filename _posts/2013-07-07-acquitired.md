@@ -8,6 +8,25 @@ tags:
 - reflections
 ---
 
+TODO
+- clean definition of goodwill: the extent to which you (and your employees) are looking forward to showing up to work in the morning
+- culture fit and stripe's sunday test
+
+Current outline:
+- hook about startups
+- thesis about goodwill as a resource
+- paragraph about money / section about goodwill
+- examples of companies running out of goodwill --> section about acquitired, definition
+- Actionable learnings
+- personal note
+
+Alternate approach:
+- examples of companies/friends/etc getting 'acquired' or falling apart, not not out of money.
+- Why? Ran out of goodwill.
+- goodwill definition, goodwill as a resource (interleaving examples).
+- actionable learnings
+- personal note.
+
 
 Start-ups are rocketships.  We work at blazing speeds and we try to hire rockstars and we seek escape velocity, or die trying. I used to think that dying basically meant running out of money before 'getting there,' but based on my own experience and that of more than enough friends, it's actually more complicated than that.
 
