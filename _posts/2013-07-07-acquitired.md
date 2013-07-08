@@ -5,7 +5,9 @@ published: true
 date: 2013-07-07 20:51:31
 tags:
 - enterpreneurship
+- reflections
 ---
+
 
 Start-ups are rocketships.  We work at blazing speeds and we try to hire rockstars and we seek escape velocity, or die trying. I used to think that dying basically meant running out of money before 'getting there,' but based on my own experience and that of more than enough friends, it's actually more complicated than that.
 
@@ -27,3 +29,7 @@ Drew and Arash from Dropbox didn't know each other that well (supposedly) when t
 - Some people are way fucking better at goodwill than others. I've met several people who were politely described to me as "controvercial" that were running start-ups that had quite a bit of buzz and a solid team, and were starting to gain traction. I've seen more than one of these controvercial start-ups die a death that was very clearly goodwill-based.  There are clearly more than a couple well-known huge successful start-ups out there that are known to have been started by jerks, but, again - things must have worked out really well for them early, creating sufficient goodwill reserves to offset their dickishness.
 
 On the flipside, I've met certain founders that just sort of radiate genuine goodheartedness, the kinds of people I keep trying to help, just because. I would attribute at least part of their start-up's cause for success to the beacons of goodwill at their helm.
+
+- Watch out!  When a company is trying to hire you and talking about how much money they have in the bank and how awesome they are, don't let that be enough. Spend enough time, either directly or by asking around, and figure out whethere there is enough goodwill to go around and whether you joining would contribute to the reservoir.
+
+On a personal note, this terrifies me.  A shortfall of goodwill is an open-and-shut diagnosis for my leaving my last start-up. It's not difficult to get somebody to describe me as 'controversial'.  I like making something from nothing, and I'm concerned that my personality type may be an upper limit on the kind of thing I could create.  Three posible solutions are to either (1) make a substantial effort to change my personality type, (2) only work with people with whom I already have a substantial amount of goodwill and hope it lasts, or (3) work largely by myself.
