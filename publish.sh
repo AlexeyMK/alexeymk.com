@@ -7,12 +7,9 @@ PUBLISH_BRANCH=master
 set -ex
 
 # ensure the content in /_site is up to date
-jekyll
-# copy stuff over
+
 rm -r $PUBLISH_DIR/*
-
-
-cp -r _site/* $PUBLISH_DIR
+jekyll build --destination $PUBLISH_DIR
 
 # commit everything
 cd $PUBLISH_DIR
