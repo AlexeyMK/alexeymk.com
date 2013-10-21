@@ -6,11 +6,18 @@ title: Alexey needs a Web Presence
 
 <div id="posts">
   <ol>
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     {% assign body = post.content %}
     {% include partials/post.html %}
   {% endfor %}
   </ol>
+</div>
+<!-- Pagination links -->
+<div class="pagination">
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    | <a href="/{{ paginator.next_page }}" class="next">Next</a>
+  {% endif %}
 </div>
 
 

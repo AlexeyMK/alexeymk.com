@@ -1172,3 +1172,7 @@ h1 a:hover {
 .gist {
   font-size: 14px;
 }
+
+.footer-portrait {
+  width: 200px;
+}

@@ -5,3 +5,7 @@ author: Alexey Komissarouk
 domain: http://alexeymk.com
 
 tag_title_prefix: ! "Posts on \""
+
+paginate: 5
+paginate_path: ":num"
+
