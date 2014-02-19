@@ -8,7 +8,7 @@ set -ex
 
 # ensure the content in /_site is up to date
 
-rm -r $PUBLISH_DIR/*
+rm -r $PUBLISH_DIR/* || echo "Couldn't remove"
 jekyll build --destination $PUBLISH_DIR
 
 # commit everything
