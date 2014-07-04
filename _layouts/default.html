@@ -35,15 +35,15 @@
 		<div class="unit-head">
 			<div class="unit-inner unit-head-inner">
 				<nav class="nav-global">
-					<ul>
-						<li class="logo"><a href="/">{{ site.title }}</a></li>
+          <ul>
+            <li class="logo"><a href="/">{{ site.title }}</a></li>
             <div id="stick-together">
               <li class="page"><a href="/about">about</a></li>
               <li class="page"><a href="http://feeds.feedburner.com/AlexeyNeedsAWebPresence">subscribe</a></li>
               <li class="page"><a href="http://twitter.com/alexeymk">twitter</a></li>
               <li class="page"><a href="mailto:alexey.at.alexeymk.com">contact</a></li>
             </div>
-					</ul>
+          </ul>
 				</nav>
 			</div><!-- unit-inner -->
 		</div><!-- unit-head -->
@@ -61,16 +61,8 @@
 		<div class="unit-foot">
 			<div class="unit-inner unit-foot-inner">
 				<div class="misc vcard">
-					<h4>about</h4>
-          <img class="footer-portrait" src="/images/alexey.jpg" />
-          <ul>
-            <li>Currently: threesat.com and open source</li>
-            <li>UPenn <a href="http://www.cis.upenn.edu/">CIS '12</a></li>
-            <li>I started the <a href="http://pennapps.com">PennApps Hackathon</a> and <a href="http://labs.pennapps.com">PennApps Labs</a></li>
-            <li>Interned at Facebook and <a href="http://findery.com/">Findery</a></li>
-            <li><a href="http://ggl.to">ggl.to</a> - google URL shortener</li>
-            <li>More at <a href="http://about.alexeymk.com">about.alexeymk.com</a></li>
-          </ul>
+          {% capture sidebar %}{% include sidebar.md %}{% endcapture %}
+          {{ sidebar | markdownify }}
       </div><!-- misc -->
         <br />
 				<p class="license">
