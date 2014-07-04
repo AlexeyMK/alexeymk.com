@@ -636,6 +636,9 @@ a:hover {
   margin-left: 0;
   margin-right: 0;
 }
+.entry-content ul ul {
+  margin-left: 20px !important;
+}
 .unit-article ul,
 .unit-article ol,
 .unit-article dl {
