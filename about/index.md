@@ -4,7 +4,7 @@ title: About Me
 ---
 *Last updated July 2014.*
 
-**In one sentence:** I'm a [product engineer for hire](http://calldownmule.com) starting a year-long experiment in living abroad. First stop: Estonia, Sept-Oct 2014.
+**In one sentence:** I'm a [product engineer for hire](http://calldownmule.com) starting a [year-long experiment in living abroad](/2014/07/03/when-visas-turn-into-pumpkins.html). First stop: helping run [Hacker Paradise](http://hackerparadise.org) in Costa Rica, Sept-Nov 2014.
 
 I've been working as a [software consultant](http://calldownmule.com) since 2013, helping companies like Pebble, Dropbox, Tencent and Baydin with product development, growth and developer evangelism. I try to blog from time to time. I'm interested in behavioral economics (and online reputation systems more specifically), productivity and developer tools, as well as writing. Oh, and board games (especially lately), and rock climbing - that's fun too. The common thread is, I like solving problems with the tools available to me.
 

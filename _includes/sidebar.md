@@ -1,8 +1,8 @@
 #### about
 <img class="footer-portrait" src="/images/alexey.jpg" />
 
+- At [Hacker Paradise](http://hackerparadise.org) as of Sept 2014
 - Product Engineer [for hire](http://calldownmule.com)
-- As of July 2014: _getting ready to travel_
 - UPenn [CIS '12](http://www.cis.upenn.edu/)
 - Projects you may know me for:
   - [Houston](http://atmosphere.meteor.com/package/houston), the Meteor Admin.
