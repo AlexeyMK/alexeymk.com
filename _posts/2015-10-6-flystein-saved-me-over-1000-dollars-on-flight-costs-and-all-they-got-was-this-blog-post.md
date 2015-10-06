@@ -26,7 +26,13 @@ Taking money for providing value. Who knew.
 #### How did it go?
 I gave Flystein.com my itinerary and neurotic set of flight cost preferences.
 
-A day later, they came back with flights totalling ~$1,900. A $1,100 difference between a "reasonably competent" online flight shopper spending half an hour and a bona fide expert.
+![my flystein itinerary](/images/flystein-itinerary.png)
+
+A day later, they came back with flights totalling $1934.
+
+![flystein's proposal](/images/flystein-proposed-routes.png)
+
+A ~$1,150 difference between a "reasonably competent" online flight shopper spending half an hour and a bona fide expert.
 
 #### How did things get so much cheaper?
 **Phantom Round Trip** My Tel Aviv to New York flight includes a round trip flight back to Copenhagen in February. I'm probably not going to take it, but who knows. Also, who cares - it was $200 or so cheaper than the equivalent one-way flight. I would have never known to check.
@@ -36,7 +42,7 @@ A day later, they came back with flights totalling ~$1,900. A $1,100 difference 
 There's a [whole series of flight hacks](TODO: link) like the above you can find to considerably lower your costs, if you know what to look for and are willing to spend the time. Or you can use Flystein.
 
 #### How was booking?
-Mostly fine. One of my flight legs was expired by the time I looked (you have to be kind of quick about that) and I ended up calling British Airways, only to be told that I needed to pay them thousands of dollars.
+Mostly fine. One of my flight legs was expired by the time I looked (you have to be book pretty quickly afterwards) and I ended up calling British Airways, only to be told that I needed to pay them thousands of dollars.
 
 So I pinged Vlad on Skype. After cursing about British Airways for a bit, he found a flight that worked perfectly a few minutes later. It cost me $20 more.
 
