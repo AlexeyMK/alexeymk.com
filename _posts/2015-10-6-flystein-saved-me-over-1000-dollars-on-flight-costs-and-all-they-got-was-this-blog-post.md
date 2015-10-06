@@ -8,33 +8,35 @@ tags:
 - reviews
 ---
 
-I'm getting old. Not "bones ache in the morning" - more "grumpy old man." One symptom is I've gotten picky about flying. I still don't fly business (cheap > grumpy), but I have a strong aversion to redeyes and a preference for direct flights over connections that I value at about $20/hour.
+**TL;DR** [Flystein](1) saved me over $1,000 on booking flights. So I like them.
 
-### Shopping for flights is a whole process.
-I found myself planning a series of flights for [Hacker Paradise](http://hackerparadise.org) this past month, flying from
+I'm getting old.
+
+One symptom is I've gotten picky about flying. I still don't fly business (cheap > grumpy), but I have a strong aversion to redeyes and a preference for direct flights over connections that I value at about $20/hour.
+
+#### Shopping for flights is _work_
+I found myself planning a series of flights for [Hacker Paradise][2] this past month, flying from
 <pre>Tel Aviv --> New York --> San Francisco --> Tokyo --> Tel Aviv</pre>
 with a few days of flexibility for when to take each flight.
 
-I spent about a half an hour on Skyscanner and Google flights, and got to about $3,000. Which is a lot.
+I spent about half an hour on Skyscanner and Google Flights, and got to about $3,000. Which is a lot.
 
-At roughly the same time, Vlad from [Flystein.com][1] reached out and offered to help Hacker Paradise participants to book flights.
+At roughly the same time, Vlad from [Flystein][1] reached out and offered to help Hacker Paradise participants to book flights.
 
-### What's Flystein?
-Glad you asked. Flystein, it turns out, is what a value travel agent looks like in the digital age. Instead of making money by taking some percentage of your booking fare from airlines, Flystein helps you find the cheapest possible fare online that meets your needs, and then charges a flat fee for their services.
+#### What's Flystein?
+Glad you asked. Flystein, it turns out, is what a value travel agent looks like in the digital age. Instead of making money by taking some percentage of your booking fare from airlines, Flystein helps you find the cheapest possible fare online that meets your needs, and then charges a flat fee for doing so. You then book the flights yourselves, via links Flystein finds for you.
 
 Taking money for providing value as a business model. Who knew.
 
-### So how did it go?
+#### How did it go?
 I gave Flystein.com my itinerary and neurotic set of flight cost preferences.
 
-A day later, he came back to me with a ~$1,900 price tag. A $1,100 difference between a "reasonably competent" online flight shopper spending half an hour and a bona fide expert.
+A day later, they came back with flights totalling ~$1,900. A $1,100 difference between a "reasonably competent" online flight shopper spending half an hour and a bona fide expert.
 
 #### How did things get so much cheaper?
-###### Phantom Round Trip
-My Tel Aviv to New York flight includes a round trip flight back to Copenhagen in February. I'm probably not going to take it, but who knows. Also, who cares - it was $200 or so cheaper than the equivalent one-way flight. I would have never known to check.
+**Phantom Round Trip** My Tel Aviv to New York flight includes a round trip flight back to Copenhagen in February. I'm probably not going to take it, but who knows. Also, who cares - it was $200 or so cheaper than the equivalent one-way flight. I would have never known to check.
 
-###### Phantom Leg
-My San Francisco to Tokyo flight included a day-long layover in Tokyo, and then continued on to Hong Kong. I, however, never made it on the connection. One day, Hong Kong, one day.
+** Phantom Leg** My San Francisco to Tokyo flight included a day-long layover in Tokyo, and then continued on to Hong Kong. I, however, never made it on the connection. One day, Hong Kong, one day.
 
 There's a [whole series of flight hacks](TODO: link) like the above you can find to considerably lower your costs, if you know what to look for and are willing to spend the time. Or you can use Flystein.
 
@@ -43,54 +45,23 @@ Mostly fine. One of my flight legs was expired by the time I looked (you have to
 
 So I pinged Vlad on Skype. After cursing about British Airways for a bit, he found a flight that worked perfectly a few minutes later. It cost me $20 more.
 
-### Future features
-#### Book my flight
+#### Future features
+##### Book my flight
 The whole booking episode could have been avoided if I had the ability to go full "travel agent" and just given Flystein permission to book on my behalf. It turns out there are legal reasons why doing so is not trivial, but they're on it.
 
-#### Points & Alliances
+##### Points & Alliances
 [Sam](http://samhogg.com) recently explained to me that I needed to pick an airline alliance and try to level-up my frequent flier miles with them. I haven't been doing so, because I'm silly. I'm told Flystein can help by favoring airlines of a certain alliance or even finding ways to use your loyalty points as part of the flight cost.
 
-### Was it worth it?
+#### Was it worth it?
 Flystein saved me over $1,000 dollars (after trying). The total (retail) cost of their flights was less than $100 dollars. So, yes.  90%+ of the savings for 0% of the time to learn how phantom  leg-fu. Value.
 
-### ...but what if they don't find anything?
+#### ...but what if they don't find anything?
 Fair point. It's possible you've _already_ found the cheapest rate you're going to get. Luckily, Flystein has (1) a money-back guarantee and (2) a beat-my-price option. In either case, you only get charged if Flystein actually saves you as much as they charge.
 
-[Flystein](1). Use it when booking flights of non-trivial complexity. It's a thing.
+[Flystein][1]. Use it when booking flights of non-trivial complexity. It's a thing.
 
 #### PS. Are you a shill?
 Absolutely. Vlad offered to organize my flight for free in exchange for writing up the experience. Worth it.
 
-TL;DR
-- Saved ~$1,100
-- Paid $100 (err, I was trying it out, but I would have paid).
-- Vlad was super responsive on Skype.
-- Definitely worth it (money-back guarantee, beat-my-price)
-
-[1](http://flystein.com/referral_code=here)
-
-Outline
-
-- I'm getting old. I'm a bit picky when it comes to flights.
-	- Can't sleep on red-eyes
-	- will pay like $20/hr more for direct
-- I had to book these complicated flights for Hacker Paradise.
-- I tried to find them myself; they cost me ~3,000.
-- I had met Flystein and was considering offering them to HP participants, so I asked to try it out.
-
-- A day later, Vlad found me the same flights for ~1,900
-- How?
-	- Random round-trip (NY --> Copenhagen in Feb?)
-	- Phantom leg (SF --> Narita --> HK)
-	- unpublished/barely published fares (had to call around for quite a bit, code swaps).
-		Actually, this was a pain, but Vlad fixed it (IE, found a rate for $20 more that did not expire)
-
-Coming in the future: "we'll just book for you"
-
-TL;DR
-- Saved ~$1,100
-- Paid $100 (err, I was trying it out, but I would have paid).
-- Vlad was super responsive on Skype.
-- Definitely worth it (money-back guarantee, beat-my-price)
-
-[1](http://flystein.com/referral_code=here)
+[1]: http://flystein.com/referral_code=here   Flystein
+[2]: http://hackerparadise.org/   Hacker Paradise
