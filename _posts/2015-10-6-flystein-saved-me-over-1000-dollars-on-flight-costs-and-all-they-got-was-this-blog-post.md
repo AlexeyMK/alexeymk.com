@@ -10,23 +10,19 @@ tags:
 
 **TL;DR** [Flystein](1) saved me over $1,000 on booking flights. So I like them.
 
-I'm getting old.
-
-One symptom is I've gotten picky about flying. I still don't fly business (cheap > grumpy), but I have a strong aversion to redeyes and a preference for direct flights over connections that I value at about $20/hour.
-
 #### Shopping for flights is _work_
 I found myself planning a series of flights for [Hacker Paradise][2] this past month, flying from
 <pre>Tel Aviv --> New York --> San Francisco --> Tokyo --> Tel Aviv</pre>
 with a few days of flexibility for when to take each flight.
 
-I spent about half an hour on Skyscanner and Google Flights, and got to about $3,000. Which is a lot.
+I spent about half an hour on Skyscanner and Google Flights, and couldn't find better than about $3,000. Which is a lot.
 
-At roughly the same time, Vlad from [Flystein][1] reached out and offered to help Hacker Paradise participants to book flights.
+At roughly the same time, Vlad from [Flystein][1] reached out and offered to partner to help Hacker Paradise participants to book flights.
 
 #### What's Flystein?
 Glad you asked. Flystein, it turns out, is what a value travel agent looks like in the digital age. Instead of making money by taking some percentage of your booking fare from airlines, Flystein helps you find the cheapest possible fare online that meets your needs, and then charges a flat fee for doing so. You then book the flights yourselves, via links Flystein finds for you.
 
-Taking money for providing value as a business model. Who knew.
+Taking money for providing value. Who knew.
 
 #### How did it go?
 I gave Flystein.com my itinerary and neurotic set of flight cost preferences.
