@@ -10,7 +10,6 @@ tags:
 
 **TL;DR** [Flystein](1) saved me over $1,000 on booking flights. So I like them.
 
-#### Shopping for flights is _work_
 I found myself planning a series of flights for [Hacker Paradise][2] this past month, flying from
 <pre>Tel Aviv --> New York --> San Francisco --> Tokyo --> Tel Aviv</pre>
 with a few days of flexibility for when to take each flight.

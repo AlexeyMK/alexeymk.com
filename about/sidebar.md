@@ -1,7 +1,7 @@
 #### about
 <img class="footer-portrait" src="/images/alexey.jpg" />
 
-- At [Hacker Paradise](http://hackerparadise.org) as of Sept 2014
+- Traveling the world building [Hacker Paradise](http://hackerparadise.org)
 - Product Engineer [for hire](http://calldownmule.com)
 - UPenn [CIS '12](http://www.cis.upenn.edu/)
 - Projects you may know me for:
