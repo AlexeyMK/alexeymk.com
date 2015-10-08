@@ -1,12 +1,13 @@
 ---
 layout: post
-title: ! "Flystein saved me $1,100 in airline ticket costs and all they got was this blog post"
+title: ! "Flystein saved me $1,100 in airline ticket costs and all they got was this lousy blog post"
 published: true
 date: 2015-10-05 20:51:31
 tags:
 - flights
 - reviews
 ---
+
 
 **TL;DR** [Flystein](1) saved me over $1,000 on booking flights. So I like them.
 
@@ -20,6 +21,8 @@ At roughly the same time, Vlad from [Flystein][1] reached out and offered to par
 
 #### What's Flystein?
 Glad you asked. Flystein, it turns out, is what a value travel agent looks like in the digital age. Instead of making money by taking some percentage of your booking fare from airlines, Flystein helps you find the cheapest possible fare online that meets your needs, and then charges a flat fee for doing so. You then book the flights yourselves, via links Flystein finds for you.
+
+![flystein's website](/images/flystein-above-the-fold.png)
 
 Taking money for providing value. Who knew.
 
