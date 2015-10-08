@@ -52,7 +52,7 @@ So I let Flystein know. After cursing about British Airways for a bit, Vlad foun
 The whole booking episode could have been avoided if I had the ability to go full "travel agent" and just given Flystein permission to book on my behalf. It turns out there are legal reasons why doing so is not trivial, but they're on it.
 
 #### Was it worth it?
-Flystein saved me over $1,000 dollars. Research fees for a trip like mine cost <$100 (a simpler flight starts at $49). So, yes.  90%+ of the savings for near 0% of the frustration in finding & booking flights. Value.
+Flystein saved me over $1,000. Research fees for a trip like mine cost <$100 (a simpler flight starts at $49). So, yes.  90%+ of the savings for near 0% of the frustration in finding & booking flights. Value.
 
 **...but what if they don't find anything?** Fair question. It's possible you've _already_ found the cheapest rate you're going to get. Flystein has a beat-my-price option where you only get charged if Flystein actually saves you more than their fees.
 
