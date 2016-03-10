@@ -1,6 +1,6 @@
 ---
 layout: post
-title: !'Dependonate: Donate to your dependencies'
+title: "Dependonate: Donate to your dependencies"
 published: true
 date: 2016-3-10 20:51:31
 tags:
