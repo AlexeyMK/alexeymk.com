@@ -4,9 +4,9 @@ title: About Me
 ---
 *Last updated April 2016.*
 
-**In one sentence:** [Digital nomad](http://hackerparadise.org), [product engineering consultant](http://calldownmule.com) and bios-in-the-third-person aficianado.
+**In one sentence:**  I'm a [product engineer](http://calldownmule.com), recovering [digital nomad](http://hackerparadise.org), amateur rock climber, occasional blogger, hackathon enthusiast and tabletop gaming aficianado.
 
-Between 2013 and 2016, I built out a [product engineering consulting company](http://calldownmule.com), helping San Francisco-based clients such as Dropbox, Pebble, Boomerang, and Binti grow and expand lines of business through a combination of product management and engineering.
+Between 2013 and 2016, I built out a [product engineering consulting company](http://calldownmule.com), helping clients such as Dropbox, Pebble, Boomerang, and Binti grow and expand lines of business through a combination of product management and engineering.
 
 In 2014, I left San Francisco to [travel while working remotely](/2014/07/03/when-visas-turn-into-pumpkins.html) and co-founded a [boutique work+travel company, Hacker Paradise](http://hackerparadise.org). Since the company's inception in 2015, we've run trips to 8 locations, been joined by more than [150 Alumni](http://hackerparadise.org/people) and booked more than $250k in revenue.
 
