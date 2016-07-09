@@ -10,7 +10,7 @@ Between 2013 and 2016, I built out a [product engineering consulting company](ht
 
 In 2014, I left San Francisco to [travel while working remotely](/2014/07/03/when-visas-turn-into-pumpkins.html) and co-founded a [boutique work+travel company, Hacker Paradise](http://hackerparadise.org). Since the company's inception in 2015, we've run trips to 8 locations, been joined by more than [150 Alumni](http://hackerparadise.org/people) and booked more than $250k in revenue.
 
-In 2012, I graduated with a [CS degree from the University of Pennsylvania](http://www.cis.upenn.edu), where I started the [PennApps](http://pennapps.com) Hackathon, a now-biannual event with over 1,500 student participants from unirsities across the US and beyond.
+In 2012, I graduated with a [CS degree from the University of Pennsylvania](http://www.cis.upenn.edu), where I started the [PennApps](http://pennapps.com) Hackathon, a now-biannual event with over 1,500 student participants from universities across the US and beyond.
 
 **Engineer**
 I got into programming when I was 15, working on silly little games in Visual Basic.  From 2006-2009, I was a software engineer in the Israeli military. Since then, I've have had the opportunity to work on engineering problems for companies including Facebook, Dropbox, Pebble, and Baydin (they make the [Boomerang for Gmail](http://boomerangforgmail.com) plugin). I've also built several MVP and acted as 'first engineer' to help startups to raise subsequent funding. On occassion, I will act as a technical consultant for first-time non-technical founders who want help with estimating complexity and hiring/managing their initial hires.
