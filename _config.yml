@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 
 title: Alexey needs a web presence
 author: Alexey Komissarouk
