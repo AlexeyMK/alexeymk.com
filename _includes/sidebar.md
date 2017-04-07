@@ -1,13 +1,10 @@
 #### about
 <img class="footer-portrait" src="/images/alexey.jpg" />
 
-- Based in SF, since April 2016.
-- [Hacker Paradise](http://hackerparadise.org), a boutique work+travel company
-- [Mule Consulting](http://calldownmule.com), a product engineering consultancy.
-- Spent 2014-2016 as a "digital nomad"
+- Engineer at [Opendoor](https://opendoor.com)
 - UPenn [CIS '12](http://www.cis.upenn.edu/)
-
 - Projects you may know me for:
+  - [Hacker Paradise](http://hackerparadise.org), the remote-work-group-trip thing.
   - [Houston](http://atmosphere.meteor.com/package/houston), the Meteor Admin.
   - [ggl.to](http://ggl.to), google-powered URL shortener
   - [Boomerang Calendar](http://baydin.com/blog/2013/07/new-to-boomerang-calendar-schedule-meetings-in-a-single-email/)
