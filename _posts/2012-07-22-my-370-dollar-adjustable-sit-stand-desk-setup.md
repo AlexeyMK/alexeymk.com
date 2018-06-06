@@ -15,7 +15,7 @@ Whenever a friend visits our HQ, I proudly show off my [combination sit/stand de
 
 Wait, why a standing desk?
 --------------------------
-[Sitting is killing you](http://www.medicalbillingandcoding.org/sitting-kills/), apparently. I don't get as much exercise as I'd like now that I'm out of college, and at the least, standing for part of the day means I'm getting at least *some* exercise.
+[Sitting is killing you](http://w1.msskvf.net/prod/f812733c-edcb-4ecb-9d2d-7a9deac2b4ad/1dd05104-23e7-4d50-a629-2aab082f79a7), apparently. I don't get as much exercise as I'd like now that I'm out of college, and at the least, standing for part of the day means I'm getting at least *some* exercise.
 
 The options I explored
 ----------------------
