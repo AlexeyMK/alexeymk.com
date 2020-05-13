@@ -1,10 +1,10 @@
-source 'https://rubygems.org'
-# gem 'github-pages'
+# frozen_string_literal: true
 
-gem 'rdiscount'
-gem 'jekyll'
-gem 'jekyll-assets'
-gem 'maruku', '0.7.2'
-gem 'rake'
-gem 'sass'
-gem 'uglifier'
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+gem "jekyll"
+gem 'jekyll-paginate'
+
