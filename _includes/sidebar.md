@@ -1,8 +1,8 @@
 #### about
 <img class="footer-portrait" src="/images/alexey.jpg" />
 
-##### June 2020+
-Growth Eng @ MasterClass
+##### Current
+Staff Growth Eng @ MasterClass
 
 ##### Past
 - Engineering at [Opendoor](https://opendoor.com), 2016-2020
