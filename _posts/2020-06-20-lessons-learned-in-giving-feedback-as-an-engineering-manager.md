@@ -38,7 +38,7 @@ Upon reflection, I ended up <a href="#post-mortem-changes">updating our post-mor
 
 This way, it was the template pestering the post-mortem author. My role was simply to insist that the template be filled out; an entirely reasonable ask.
 
-Surprisingly enough, this worked; post-mortems became more substantive. The team to pared down outage frequency and met OKR goals.
+Surprisingly enough, this worked; post-mortems became more substantive. The team pared down outage frequency and met OKR goals.
 
 
 ## Process linters
