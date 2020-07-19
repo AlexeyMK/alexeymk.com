@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! Lies, Damn Lies, and Front-end Tracking
+title: ! Lies, Damned Lies, and Front-end Tracking
 published: true
 date: 2020-07-14 19:31:22
 tags:
@@ -33,7 +33,7 @@ WTF. Google [had told us](https://web.dev/measure/) our new page was way better.
 
 "Figure it out." The engineers on revamp paired up with a Data Scientist and went to go figure out what the hell was going on. They started digging into every nook and cranny of the relaunch.
 
-A week went by. Our director peaked in curiously. Murmurs about postponing the big launch started to circle. Weight was gained; hair was lost.
+A week went by. Our director peeked in curiously. Murmurs about postponing the big launch started to circle. Weight was gained; hair was lost.
 
 Ultimately, the clue that cracked the case was bounces. Bounces (IE, people leaving right away) were way up on the new site. But it was clear the new site loaded much faster. Bounce rates should have gone down, not up.
 
