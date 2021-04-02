@@ -2,13 +2,11 @@
 layout: page
 title: About Me
 ---
-*Last updated June 2020.*
+*Last updated May 2021.*
 
-**In one sentence:**
+These days, I lead Growth Engineering at MasterClass.
 
-I do Growth Engineering.
-
-I spent 2016-2020 at Opendoor, first as an early engineer, then as an Engineering Manager. Now I'm at MasterClass!
+I spent 2016-2020 at Opendoor as an early engineer and then managing Growth Engineering teams. It was intense!
 
 Between 2013 and 2016, I built out a [product engineering consulting company](http://calldownmule.com), helping clients such as Dropbox, Pebble, Boomerang, and Binti grow and expand lines of business through a combination of product management and engineering.
 

@@ -2,7 +2,7 @@
 <img class="footer-portrait" src="/images/alexey.jpg" />
 
 ##### Current
-Staff Growth Eng @ MasterClass
+Leading Growth Engineering @ MasterClass
 
 ##### Past
 - Engineering at [Opendoor](https://opendoor.com), 2016-2020
