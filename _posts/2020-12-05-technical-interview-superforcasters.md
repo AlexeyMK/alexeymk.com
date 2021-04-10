@@ -32,7 +32,7 @@ Honestly, all I wanted at the start was to see if I was a higher-signal intervie
 Joe turned out to be the better interviewer. More importantly, I stumbled into the fact that a number of engineers doing phone screens performed **consistently** better across the board. They both had more candidates pass their phone screens and then those candidates would get offers at a higher rate.
 
 {% include image.html
-            img="https://blog.interviewing.io/wp-content/uploads/2020/11/alexeypost1.png"
+            img="/images/phone-screen-chart.png"
             caption="Sample Data, recreated for Illustrative Purposes."
 %}
 
@@ -52,7 +52,7 @@ You should too (footnote 3, footnote 4).
 
 Get your Lever or Greenhouse (or [ATS](https://en.wikipedia.org/wiki/Applicant_tracking_system) of choice) into an analyzable place somewhere, and then quantify how well interviewers perform. There’s lots of ways to analyze performance; here’s a simple approach which favors folks who generated lots of offers from as few as possible onsites and phone screens.
 
-![formula](https://blog.interviewing.io/wp-content/uploads/2020/11/Screen-Shot-2020-11-25-at-10.52.57-AM.png)
+![formula](/images/phone-screen-formula.png)
 
 You can adjust the constants to where zero would match a median interviewer. A score of zero, then, is good.
 
