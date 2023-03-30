@@ -1,10 +1,10 @@
 <!-- _includes/image.html -->
 <!-- from https://superdevresources.com/image-caption-jekyll/ -->
-<div class="image-wrapper" >
+<div class="image-wrapper">
     {% if include.url %}
     <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
     {% endif %}
-        <img src="{{ include.img }}" alt="{{ include.title }}"/>
+        <img src="{{ include.img }}" alt="{{ include.title }}" style="{{include.style}}">
     {% if include.url %}
     </a>
     {% endif %}
