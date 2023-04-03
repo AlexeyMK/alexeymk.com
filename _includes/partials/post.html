@@ -22,6 +22,17 @@
 			<div class="bd">
 				<div class="entry-content">
           {{ body }}
+          <div class="misc-content">
+            <div class="social">
+              <ul class="list-linear">
+                <li><div class="subscribe"><a href="https://tinyletter.com/engineering-growth">✉️ Subscribe to Newsletter</a></li>
+                <li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="{{ site.domain }}{{ post.url }}" data-via="{{ site.author.twitter }}" data-lang="en">Tweet</a></div></li>
+                <li><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
+              </ul>
+            </div>
+            <div class="comment">
+            </div>
+          </div><!-- misc-content -->
           {% if post.date %}
             <div class="meta">
               <ul class="list-tag list-linear">
@@ -33,18 +44,10 @@
               </ul>
             </div><!-- meta -->
           </div><!-- entry-content -->
-          <div class="misc-content">
-            <div class="social">
-              <ul class="list-linear">
-                <li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="{{ site.domain }}{{ post.url }}" data-via="{{ site.author.twitter }}" data-lang="en">Tweet</a></div></li>
-                <li><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
-              </ul>
-            </div>
-            <div class="comment">
-            </div>
-          </div><!-- misc-content -->
         {% endif %}
 			</div><!-- bd -->
+
+
 			<footer class="unit-foot">
 				<div class="unit-inner unit-foot-inner">
 					<nav class="pagination">

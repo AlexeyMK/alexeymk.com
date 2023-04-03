@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "How Alexey Helps Early-to-Mid Stage Companies with Growth Engineering"
+title: "Engineering growth: how Alexey can help"
 ---
 
 <div style="display: flex; justify-content: center;">
@@ -21,7 +21,6 @@ title: "How Alexey Helps Early-to-Mid Stage Companies with Growth Engineering"
 %}
 </div>
 
-# What Can Alexey Help with?
 > Alexey has been an invaluable advisor to interviewing.io. As growth has become more of a focus for us and as our team grew and needed a bit of process (especially around having a good way to elicit ideas), he's stepped in and done everything from audit our funnel to recommend meeting structure and approaches to product prioritization to mentor members of the product team. He's also been a great sounding board and source of advice for me. Anyone would be lucky to have Alexey in their corner.
 >
 > \- Aline Lerner, Founder and CEO, interviewing.io
