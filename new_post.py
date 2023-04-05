@@ -1,5 +1,5 @@
 #!/usr/local/bin/python
-import urllib
+import urllib.parse
 
 from datetime import datetime
 from sys import argv
@@ -16,7 +16,7 @@ def generate_new_post(name, date):
 
   result_filename = "_posts/{date}-{title}.md".format(
     date=date.strftime("%Y-%m-%d"),
-    title=urllib.quote(name.lower().replace(" ", "-").replace(":","-"))
+    title=urllib.parse.quote(name.lower().replace(" ", "-").replace(":","-"))
   )
 
   open(result_filename, 'w').write(result_content)
