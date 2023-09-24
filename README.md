@@ -1,6 +1,6 @@
 # alexeymk.com project
 
-[alexey MK](/assets/img/carton.jpg)
+[alexey MK](assets/img/carton.jpg)
 
 ### 👋 Hey everyone, I’m Alexey MK
 
