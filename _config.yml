@@ -1,0 +1,92 @@
+title: Alexey MK
+description: Alexey needs a web presence
+#url: 
+baseurl: ''
+googlesiteverification: 
+lang: en
+locale: en_US
+media: 
+ favicon: /assets/img/alexey.jpg
+ cover: /assets/img/alexey.jpg
+
+author: 
+ name: Alexey MK
+ image: /assets/img/alexey.jpg
+ about: Starting, scaling, and optimizing a Software Engineering Organization focused on Growth
+ email: alexey@alexeymk.com
+
+navbar: 
+ - nav: Home
+   link: /
+ - nav: About
+   link: /
+ - nav: Blog
+   link: /
+ - nav: Growth Engineering
+   link: /
+ - nav: Contact
+   link: /
+
+footernav: 
+ - nav: Home
+   link: /
+ - nav: About
+   link: /
+ - nav: Blog
+   link: /
+ - nav: Contact
+   link: /
+
+subs: 
+ title: Get Notified About Alexey Update
+ text: Your email will never be shared. 
+ button: Subscribe
+
+social: 
+ facebook: 
+ twitter: https://twitter.com/alexeymk
+ rss: 
+ linked: 
+ youtube: 
+ facebook: 
+ instagram: 
+
+blog: 
+ title: Blog Update
+ text: Recent post article update
+ button: Explore all article
+
+services: 
+ title: Services
+ text: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
+ button: Explore all services
+
+contact: 
+ title: Contact Form
+ button: Send Message
+
+
+collections:
+  services:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+#      permalink: /:year/:month/:title:output_ext
+      permalink: /:title
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+
+
+
