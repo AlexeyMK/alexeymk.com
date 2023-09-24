@@ -1,6 +1,6 @@
 # alexeymk.com project
 
-[alexey MK](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFBMhJwSI1gEFQpiCTQ40v8JzEMADsTMOPv6U3vwxAJQh3YZTC_WGStHDFbSLFNmTY97OjOea9e791o0LsWpiqSQBRSdmBlRNhGxlI5Fk1e4mDdMKwWNzSwN0s1FP0QcKUy1YOOSpxSjZ1buqsncHsVmvdXvdRIY07gwFlQoVyTPcMM2TCANxKvDWARcUi/s400/carton.jpg)
+![alexey MK](assets/img/carton.jpg)
 
 ### 👋 Hey everyone, I’m Alexey MK
 
