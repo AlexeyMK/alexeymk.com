@@ -13,9 +13,17 @@ Recipe:
  - 🪐 Bootstrap v.5.3.2
  - ⚡️ Liquid template
  - 🛰️ Auto SEO
- - 📺 Lazy Load Image
+ - 📺 Lazy Load Image Script
+ - 🎬 Lazy Load Image Plugins
  - ✨ Clean Design
 
+
+Implementation lazyload image on markdown post
+- `![alt image](/assets/img/alexey.jpg){:loading='eager'}`
+
+Implementation on template lazy image plugin and script
+- `<img data-src="/assets/img/alexey.jpg" alt="my image" loading="lazy" class="img-fluid lazyload" / >`
+- `<img src="/assets/img/alexey.jpg" alt="my image" loading="eager" class="img-fluid" / >`
 
 
 💻 Test drive 
