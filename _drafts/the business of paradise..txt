@@ -1,0 +1,81 @@
+Hacker Paradise as a business.
+
+Paradise Now
+======
+### Description
+We get ~30 people to agree to come join a trip in 3 locations in a row.
+
+They pay about $1,000 for a single and $700 for a shared room.
+
+We pay for their room, a co-working space, a 3G card, two meals a week and an activity. All in all, we make about $200 ($300, optimistically) revenue per month after paying vendors.
+
+Assuming we can get fully booked, that means we are making about $6,000 a month in revenue.
+
+### Costs
+Outside of paying vendors, our costs have been
+1. *Scouting* - paying for somebody to go and visit every city we are thinking of and find hotel / co-working opportunities that work. 
+This time around, we sent Casey, who ended up spending about $3,000 over a month of flights and stays at 4 cities. This has also taken nearly a month of Casey's time, estimating at about 20 hours per week for 4 weeks.
+2. *Negotiations* - we have to spend a considerable amount of time negotiating with vendors to figure out prices that make the business work. 
+I have handled negotiations so far, and can reasonably assume I have spent about 20 hours per city - estimating reasonably at 60 hours for the trip.
+3. *Marketing* - From building the initial website (~40 hours, including revisions and discussions) to writing content marketing  to reaching out to potential sources of promotion, 
+Casey and I have spend a good 100 hours (as a guess) on marketing altogether, without having a single huge success (as of yet).
+4. *Moving candidates through the process* - I have interviewed almost every potential participant that has applied and manually managed the process for each one using a Google Form / spreadsheet and email. 
+All in all, the process has taken about 30 minutes per applicant (reviewing, sending email, scheduling, interviewing, responding) - and, depending on our applicants attendance rate (not accepted, drops off, doesn't come), could be measured at about 90 min per accepted applicant.  It is also important to note that not every applicant comes for the entire time - assuming an average of 1.5 months an applicant, we are currently spending about an hour of founder time per month of attendee.
+5. *Running the group* - this starts with managing the initial Facebook group and sending emails to attendees with information. Upon arrival, this involves introducing people, running some initial bonding activity, ensuring that people are having a good time -  "facilitating", handling any disputes that arise between vendors (hotel, co-working) and the participants, and generally being around for emergencies like hospital visits, etc.  
+We've been estimating this task at about 10-15 hours a week - though more time at the beginning of the retreat.
+
+### Doing the math.
+In total, the estimates above suggest that putting together a Hacker Paradise in this model costs $3,000 + 440 hours of time.  Keep in mind that (theoretically, at least) scouting and negotiations are one-time costs and marketing should become easier over time as we develop a reputation. Only getting candidates through the process and running the group will be expensive in any case, and these add up to (half-marketing) 50 + 90 + 120 = 260 hours.
+
+If we estimate the hourly rate to be around $50/hour, the retreat costs $3,000 + $22,000 = $25,000 to run, suggesting we are going at a loss.
+
+Still, being conservative, assuming old locations and that that most of the manual currently being done can be done for as little as $10 an hour, a retreat costs $2,600 to put on.
+
+Assuming $18,000 revenue for 3 months and (very optimistically) $2,600 of expenses, we are looking at $15,400 (or ~$5k a month) in profit if we can find somebody to run the retreat for an effective $10 an hour.
+
+Taking into account management overhead, this is still not a good business, even as a passive one.
+
+Future Paradise
+==============
+On the bright side, we've learned a little bit about running retreats or trips like this and can try to leverage that into figuring out what is next. Here are a few potential future sketches.
+
+1. Rich Hacker Paradise
+There exist today multiple significantly more high-end versions of Hacker Paradise available. If we double or triple prices (and accordingly shorten the length), we might be able to position HP as a sort of high-end long-term mixer for current and future world leaders. We'd lose a lot of the students and side-projectors, but there may be a market for higher-end trips as well.  
+
+Assuming we try to make $1k/participant per month and expenses stay roughly the same, we would be making about $15k/month per retreat, which is not bad for passive income.
+
+*Challenges:* We can barely figure out marketing now, imagine if we're advertising to people who are (1) in start-ups and (2) are willing to pay $3k for a month. I don't understand these people as well - marketing may be hard.
+
+2. Bootcamp / Master Class Paradise
+Bootcamps can charge ~$10k for 3 months and so there is a lot more money to go around. Assuming we have 25 participants and pay a head teacher/material creator $60k and his TAs $20k each, we still have $150k to play with. Assuming $1k per participant per month for living and food expenses, there goes another $75k.  Still, the remaining $75k ($25k per month) is pretty cool profit.
+
+*Challenges*:
+- It's kind of a different business - the abroadness becomes a gimmick.
+- I have no idea how the marketing would work and how to recruit a great teacher. 
+- I'm not overall particularly enthused at the idea of running a programming bootcamp. It feels very me-too, which is hard to get excited about.
+
+3. Franchise Paradise
+We run many Hacker Paradises at once, somehow profit-sharing with folks that organize the various groups.
+
+**Challenges*
+- We haven't learned marketing ourselves yet well enough to do a good job marketing others' groups.
+- Who are these other facilitators? If we have technical people go, the opportunity cost of their time is pretty high so it'll be hard to get them to repeat. If we get non-technical people, it's a challenge to learn to hire super-affordable, high-quality ones (though they may stick around).  
+- All in all, there should be more monthly revenue to play with before trying to share with anybody.
+
+4. Airbnb for Paradise
+We could reasonably be the platform for hackers taking extended trips abroad. There are already a bunch of other trips happening, and we could try to help market them in exchange for a booking / commission fee. We could also provide the technology / CRM for such trips as they filter their attendees, help take money and potentially help connect them with great locations. 
+
+*Challenges*
+- I cannot easily say that we an order of magnitude better at marketing than the other groups. We could be, but we just aren't at the moment.
+- Unlike in the case of Airbnb, each of these trips is trying to build a brand (at least now). If somebody discovers trip X on our site, they may well go on to their site and book there. So we have to spend more effort figuring out how to get paid.
+- It's unclear whether this industry is actually growing as much as we think and at what point it'll be big enough that our commission alone will justify the business.
+
+
+Parting thoughts
+================
+Like most business, we have three desires:
+1. Bring costs down
+2. Increase revenues
+3. Scale.
+
+It looks like we don't currently do a good enough job of (1) and (2) to be ready to scale. We should focus on trying to making more money per retreat and phasing ourselves out of the critical path - once that works, we either have a sellable business or a source of passive income. Only then can we reasonably explore scaling.

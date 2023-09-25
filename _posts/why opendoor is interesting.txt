@@ -1,0 +1,32 @@
+Why Opendoor is interesting.
+
+Opendoor buys & sells homes. Successful. Early.
+
+It's not shiny. It's not AR or drones or big data (well, a little). It's not massive consumer like FB or #snap. But it's exciting as fuck. 
+
+It's not obvious but once you get it you get why we have 5 former YC founders doing IC eng work and a bunch of super senior folks.
+
+First you gotta understand.
+
+Why are you an engineer? What is your job? 
+You create value. 
+
+What is Opendoor value? We make people's lives less stressful for as little as possible.
+
+So you can either (1) reduce stress or (2) make it cheaper.
+
+I'll focus on (2).  Here's what needs to happen if you sell a home. You need to A, B, C. It sucks.
+
+With us you don't, but we have to charge you like 9% on average. Why? Cause we gotta pay for A, B, C.
+
+What if we fixed A? (sarah example). It turns out B, C, and you would save like $Z per home. Which we give back to the customer. Happy customer.
+
+But to do that we have to domain-model A, B, C effectively so we can try changes like A and understand what is going on. The modeling is hard. Lots of humans.
+
+So here's why it's interesting. You've gotta support the existing process while trying A and understanding the impact. Creativity and domain modeling. Also super small team so you kinda need to have your shit together.
+
+high bar, great engineers, all the coworkers are super pragmatic because we realize that we're upgrading each part as we go and nothing is permanent. lane structure is one example.
+
+Super high leverage. Less expenses --> cheaper fees --> more business. Virtuous cycle, engineering is key to keeping the factory running ever better.
+
+so it's good, come work here.
