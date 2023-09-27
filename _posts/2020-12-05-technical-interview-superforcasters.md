@@ -98,6 +98,7 @@ Hold a monthly retrospective with the team and recruiting, with three items on t
 - have interviewers read through feedback their candidates got from onsite interviewers and look for consistent patterns.
 
 
+
 #### 5. Retention
 
 Eventually, interviewers may get burnt out and say things like “I’m interviewing way more people than others on my actual team - why? I could just go do onsite interviews.” This probably means it’s time to rotate them out. Six months feels about right for a typical “phone screen team” tour of duty, to give people a rest. Some folks may not mind and stay on the team for longer.

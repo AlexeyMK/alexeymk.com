@@ -46,6 +46,9 @@ Most webdevs I've met learned HTML & CSS on their own, and ended up doing a bunc
 
 In most cases, webdevs will start as contractors, and go full-time if things are going well. Career progression will vary across their various strengths, going full-time into design, performance marketing or software engineering; alternately, they could end up managing a team or webdevs or starting their own agency.
 
+{% include widget/subscribe.html %}
+
+
 ### How do you keep Engineering happy with this new dual-class structure?
 
 Webdevs won't be contributing to the primary code base or critical surface areas. The webdev tech stack (mostly landing pages) will be entirely separate, and engineering is not accountable for it.

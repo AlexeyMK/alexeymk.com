@@ -37,6 +37,8 @@ If you ask a Formula 1 Racing Engineer to work on Flugtag, they’ll spend too l
 
 Meanwhile, a strong growth engineering team embraces the “growth” part of the job. They’ll be comfortable with scrappiness, a high rate of failure, and a focus on business outcomes. This kind of team wipes the floor with a “product engineering” team sent to work on growth.
 
+{% include widget/subscribe.html %}
+
 Be deliberate when you assemble your Growth Engineering team. How you recruit, interview, manage, and incentivize your engineers will make all the difference.
 
 Figuring out how to spin up, or fix up your Growth Engineering team? I’m [writing a book](https://tinyletter.com/engineering-growth) about it, and [happy to chat](https://alexeymk.com/growth-eng).

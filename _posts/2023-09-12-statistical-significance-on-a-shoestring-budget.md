@@ -173,6 +173,9 @@ Ideally, many of these approaches are often used during design, as a precursor t
 
 Ultimately, the simplest thing you can always do is just go ahead and make whatever change it is you believe in.  So long as you are right often enough, you should start to see conversion starting to tick up over time.
 
+
+{% include widget/subscribe.html %}
+
 This approach also saves a decent amount of engineering effort, since you no longer need to spend eng effort on supporting more than one version of your site or product.
 
 **The trade-off is** that ****without the precision A/B testing, it’s that much harder to know which of your efforts are actually working, and which are neutral-to-harmful.  Working pre-post puts you back in the old days of “[half of my marketing efforts are wasted, but I don’t know which half](https://quoteinvestigator.com/2022/04/11/advertising/).”

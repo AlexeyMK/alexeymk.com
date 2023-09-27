@@ -2,12 +2,16 @@
 <div class="p-3 shadow-sm ser bg-light mt-3 mb-3">
 <h4 class="text-center p-1">{{site.subscribes.title}}</h4>
 <div class="col-md-6 mx-auto">
-<div class="input-group mb-3 mt-3">
 <form action="https://airform.io/{{site.author.email}}" method="post">
+<div class="row mb-3 mt-3">
+<div class="col-md-8">
 <input type="email" class="form-control" placeholder="{{site.subscribes.placeholder}}" name="email subscribe from alexa website" aria-label="email" aria-describedby="basic-addon2" required>
-<button class="btn btn-dark" id="basic-addon2">{{site.subscribes.button}}</button>
-</form>
 </div>
+<div class="col-md-4">
+<button class="btn btn-dark" id="basic-addon2">{{site.subscribes.button}}</button>
+</div>
+</div>
+</form>
 </div>
 <p class="p-1 text-center">{{site.subscribes.text}}</p>
 </div>

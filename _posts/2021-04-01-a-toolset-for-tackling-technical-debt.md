@@ -108,6 +108,8 @@ This is where good leadership helps. At this particular company, Engineering lea
 
 What is a "quality" goal? This was left up to teams, but the gist of it was, just go fix the most painful thing that isn’t already translated in your business metrics.
 
+{% include widget/subscribe.html %}
+
 During quarterly planning, we whittled the top three “heavy tech debt” projects into proposals, got buy-in from leadership, then brought the ideas back to the group.
 
 Since quality projects had been blessed from top-down and indisputable, the PM had air cover to support the work without pushback.

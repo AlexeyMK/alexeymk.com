@@ -17,6 +17,8 @@ Now, I hear what you’re saying.  “Isn’t that just Engineering? That’s w
 
 Well, good news! With Growth Engineering™️, you can still drive a significant portion of what you work on, and be responsible for moving a business metric vs coding a feature. The best Growth Engineers are effectively Mini-PMs. And if you join now, as an added bonus, we’ll throw in: having a stable job and being able to leave work at a reasonable hour!
 
+{% include widget/subscribe.html %}
+
 Don’t believe me? Meet circa-2018 Alexey, a retired Co-Founder. How are you doing Alexey? 
 
 Circa-2018 Alexey: “Great! I moved our funnel conversion by 10% last week through one simple experiment. And with my new free time, I’m competing in my first Triathlon next week!

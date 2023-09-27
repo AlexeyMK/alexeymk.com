@@ -90,6 +90,6 @@ Phase 3: Scaling (Series B or so)
 
 **Your goal** here is a little more flexible - profitability, another funding round, perhaps an IPO. Hopefully you’ve hit escape velocity and can make that choice.
 
-  
+  {% include widget/subscribe.html %}
 
 Zooming all the way back - if you’re in Phase 1 or Phase 2, Growth is the Founder’s job or the company doesn’t work. Personally, I’ve spent the last 7 years or so running Phase 3 growth teams. If you’re not in Phase 3, the best advice I can give you is to focus on nailing the stage you’re in and avoid premature optimization.

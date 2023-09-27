@@ -154,7 +154,7 @@ In these cases, it’s simply too soon for a dedicated growth engineering team.
 
 Seasonality and organizational boundaries are the two demons you have to battle to have sensible metrics.
 
-  
+  {% include widget/subscribe.html %}
 
 **Seasonality**
 

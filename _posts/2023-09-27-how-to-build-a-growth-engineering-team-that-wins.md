@@ -98,6 +98,8 @@ Start every quarter with a brainstorm, giving engineers enough context to come u
 
 Once your engineers have gotten their feet wet with ideation and leadership, you can move on to fancier practices.
 
+{% include widget/subscribe.html %}
+
 **Advanced Growth Team Patterns**
 Have engineers pick which project they want to work on every sprint (from your approved list) instead of assigning tickets.  Introduce an “experiment lead” role, where a dedicated engineer will collaborate with design and analytics teams directly and drive the project (with as much help from the PM as necessary for their level).  Have experiment leads write the first pass of an “experiment results” email to share with the broader organization.
 
