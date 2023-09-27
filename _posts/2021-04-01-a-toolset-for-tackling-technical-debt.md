@@ -56,7 +56,7 @@ Guaranteed[^1].
 
 The biggest reason technical debt exists is because Engineers have internalized that it’s not their job to fix it. Start-up mantras like “focus” and “let small fires burn” have lead to just that - small fires everywhere.
 
-![](/images/small_fires.png)
+![](/images/small_fires.png){:loading="eager"}
 
 
  “Get shit done” is a great mantra, but you still have to clean up after yourself.

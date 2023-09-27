@@ -20,6 +20,7 @@ Unfortunately, this also means you're going to spend more time tracking down bug
 
 **Here's the fix**: set [`safe=True` in your Mongo connection object](http://www.mongodb.org/display/DOCS/Connections).  In django non-rel, this means setting
 
+```py
     DATABASES = {
       'default': {
         ...
@@ -28,6 +29,8 @@ Unfortunately, this also means you're going to spend more time tracking down bug
         },
       },
     }
+
+```
 
 in settings.py.
 

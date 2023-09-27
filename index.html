@@ -1,23 +1,29 @@
 ---
-layout: default
-title: Alexey needs a Web Presence
+layout: start
+title: 👋 Hey everyone, I’m Alexey MK
+description : This is my website built with new version of jekyll
+cover: /assets/img/alexey.jpg
 ---
-
-
-<div id="posts">
-  <ol>
-  {% for post in paginator.posts %}
-    {% assign body = post.content %}
-    {% include partials/post.html %}
-  {% endfor %}
-  </ol>
+<main class="container">
+<div class="row"> 
+<div class="col-md-12 p-3">
+<h3>{{site.postlist.title}}</h3>
 </div>
-<!-- Pagination links -->
-<div class="pagination">
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    | <a href="/{{ paginator.next_page }}" class="next">Next</a>
-  {% endif %}
+{% for post in paginator.posts %}
+{% if post.published==true %}
+<div class="col-md-6 p-1">
+<div class="p-3 ">
+<h4><a href="{{post.url}}">{{post.title}}</a></h4>
+{% if post.description %}<p>{{post.description}}</p>{% endif %}
 </div>
-
-
+</div>
+{% endif %}
+{% endfor %}
+</div>
+<div class="col-md-12">
+<div class="mt-3 mb-5">
+{% if paginator.previous_page %}<a href="{{ paginator.previous_page_path }}" class="me-3">{{site.paginationpage.next}}</a>{% endif %}
+{% if paginator.next_page %}<a href="{{ paginator.next_page_path }}">{{site.paginationpage.previous}}</a>{% endif %}
+</div>
+</div>
+</main>

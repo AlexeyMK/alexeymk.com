@@ -8,7 +8,7 @@ tags:
 - open source
 ---
 
-![a user sums it up](/images/abandoned-project.gif "source: https://github.com/gterrono/houston/issues/294#issuecomment-238914107")
+![a user sums it up](/images/abandoned-project.gif "source: https://github.com/gterrono/houston/issues/294#issuecomment-238914107"){:loading="eager"}
 
 
 Create an open source project, they said.
@@ -20,7 +20,7 @@ The year was 2013, Meteor was the hip new kid on the block and Coffeescript was 
 
 Sequestering ourselves on the second floor of the hackspace, a couple of college friends and I acquired a whiteboard and some markers, and jotted down our big idea list. Not lacking for ambition, the first thing we figured we would fix was server-side rendering. Turned out this _seemingly simple_ task was already on Meteor's [Trello Roadmap](https://trello.com/c/Lz07fBAm/7-server-side-rendering), so, what the heck, we figured we'd pitch in.
 
-![I inquire about server-side rendering](/images/server-side-rendering.gif)
+![I inquire about server-side rendering](/images/server-side-rendering.gif){:loading="eager"}
 
 Speaking with the actual development team a few hours later, we learned that server side was (1) hard and (2) coming soon anyway[^ssr]. Fair enough - we'd solve our other painpoint, the lack of a proper admin DSL.
 
@@ -38,7 +38,7 @@ class Author(models.Model):
 
 leading to auto-generated pages that look like:
 
-![django admin screenshot, from tutorial](https://docs.djangoproject.com/en/1.11/_images/list_filter.png)
+![django admin screenshot, from tutorial](https://docs.djangoproject.com/en/1.11/_images/list_filter.png){:loading="eager"}
 
 Meteor didn't have an admin DSL[^genghis] yet. I wanted very much to build one, and a zero-config one (IE, automatically discover your models) at that. I kept suggesting this idea until the others agreed. Leadership.
 
@@ -69,7 +69,7 @@ Package loading was the other relatively painful thing - since we couldn't figur
 #### Launching with the MVP
 Surprisingly, it kind of worked.
 
-![an early version of the UI](https://camo.githubusercontent.com/2b2811cfc1308e19f99a3b31bf2b9b8d9b4dd008/68747470733a2f2f7261772e6769746875622e636f6d2f67746572726f6e6f2f6d6574656f722d61646d696e2d75692f6d61737465722f646f632f636f6c6c656374696f6e2e706e67)
+![an early version of the UI](https://camo.githubusercontent.com/2b2811cfc1308e19f99a3b31bf2b9b8d9b4dd008/68747470733a2f2f7261772e6769746875622e636f6d2f67746572726f6e6f2f6d6574656f722d61646d696e2d75692f6d61737465722f646f632f636f6c6c656374696f6e2e706e67){:loading="eager"}
 
 We demoed at the Hackathon and even [won the 'Award for Most Technically Impressive'](https://blog.meteor.com/congratulations-to-the-meteor-summer-hackathon-2013-teams-c2ec782e9b53).
 
@@ -77,7 +77,9 @@ Greg and I kept working on the project throughout the summer and fall of 2013. W
 
 For our 1.0 release, I demoed a slightly-less-hacky-and-[now-renamed](https://github.com/gterrono/houston/issues/37) Houston Admin at Meteor Devshop 10:
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/8ASwWEZsAog" frameborder="0" allowfullscreen></iframe>
+<div class="ratio ratio-16x9">
+<iframe width="640" loading="lazy" class="lazyload" height="360" data-src="//www.youtube.com/embed/8ASwWEZsAog" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Here's [the blog post](http://alexeymk.com/2013/12/19/houston-admin-talk-at-meteor-devshop-10.html) I wrote to celebrate the event.
 
@@ -126,14 +128,15 @@ Things were in slighly better shape than they were back during the hackathon, bu
 #### Costa Rica: the plan
 
 Around Summer 2014, a year after we started, things were going kind of slumpey. As an effort to regroup, I invited Greg to Costa Rica where I was staying for a few months:
-![Hey Greg, come to Costa Rica!](/images/costa-rica-summit.gif)
+![Hey Greg, come to Costa Rica!](/images/costa-rica-summit.gif){:loading="eager"}
+
 
 The plan was basically to unbreak the critical stuff and make a plan for what we wanted to do next, and maybe also play some soccer on the beach.
 
 #### Costa Rica: what actually happened
 I got bogged down on a consulting project that was a bit behind schedule as Greg visited. So we got maybe 1-2 days of work done, which instead of dealing with any of the issues on my part was shipping a new feature I decided I wanted, called [Custom Actions](https://github.com/gterrono/houston#custom-actions), which were kind of cool but not at all the problem.
 
-![Custom Actions](https://camo.githubusercontent.com/dbf805a68e8d8ea7e5afa28ad991035ae97530d7/68747470733a2f2f7261772e6769746875622e636f6d2f67746572726f6e6f2f686f7573746f6e2f6d61737465722f646f632f637573746f6d2d616374696f6e732e706e67)
+![Custom Actions](https://camo.githubusercontent.com/dbf805a68e8d8ea7e5afa28ad991035ae97530d7/68747470733a2f2f7261772e6769746875622e636f6d2f67746572726f6e6f2f686f7573746f6e2f6d61737465722f646f632f637573746f6d2d616374696f6e732e706e67){:loading="eager"}
 
 We still played some soccer, though. Greg was way better at soccer than the rest of us.
 
@@ -168,7 +171,7 @@ I think Greg may have fixed the 1.3 issue, but the last change I can see in the 
 
 #### ...one more thing
 I leave you with the contributions over time graph, which tells the whole story, but with graphics.
-![contributions over time](/images/contributions.gif)
+![contributions over time](/images/contributions.gif){:loading="eager"}
 
 #### Thank you
 
