@@ -15,7 +15,7 @@ To that end, here are some "hackathon hacks" I've noticed or come up with over t
 Events around the hackathon
 ================
 
-<img src="/images/pennapps2012_1.jpg"></img>
+<img data-src="/images/pennapps2012_1.jpg" class="img-fluid lazyload" loading="lazy">
 
 - **Pre-Hackathon Tutorials**. Especially for a college hackathon,  something like or git/python/html-css/javascript for beginners, and particular new interesting frameworks/tech for hackathon veterans are a great way to get the word out and build confidence. You're not going to teach anybody Ruby on Rails in sixty minutes, so consider the tutorials to be a chance to plant seeds and offer a technical head start.  Newbies appreciate having at least some initial guidance and a rough path they can continue to take during the hackathon. Experienced hackers get a sense of what kinds of things might be fun to explore during the hackathon. I've seen PennApps put these together the week before and the Friday afternoon of the hackathon, both to solid attendance.
 - **Office Hours**. Greylock Hackathon from this summer (and I'm sure others before them) have explored the possibility of having Tech luminaries drop by and take meetings during the hackathon. The best time for office hours is probably about half or two-thirds of the way through the event, once participants already have a sense of what they're working on but are not so close to the end that they only have time for small changes.
@@ -23,7 +23,7 @@ Events around the hackathon
 Hack Breaks
 =========================
 
-<img src="/images/pennapps2012_swag.jpg"></img>
+<img data-src="/images/pennapps2012_swag.jpg" class="img-fluid lazyload" loading="lazy">
 
 - **Swag Raffles** I picked this idea up from Philly Game Jam in 2010, and it was deployed to great success throughout various PennAppses.  The basic premise is simple: offer participants a chance to win free stuff given out by sponsors if they meet some criteria (usually, being up late or answering a trivia question).
 
@@ -42,10 +42,11 @@ I'm still waiting for somebody to cater a pancake/crepe maker to make breakfast 
 **Update:** HackNY and Michigan email/tweet me to provide photo evidence of said crepes/pancakes. I love the internet.
 
 HackNY Fall 2012:
-<a href="http://www.flickr.com/photos/hackny/8048192463/" title="fall 2012 hackNY student hackathon by hackNY, on Flickr"><img src="http://farm9.staticflickr.com/8459/8048192463_6d9d15ab5e_z.jpg" width="427" height="640" alt="fall 2012 hackNY student hackathon"></a>
+<a href="http://www.flickr.com/photos/hackny/8048192463/" title="fall 2012 hackNY student hackathon by hackNY, on Flickr">
+<img data-src="http://farm9.staticflickr.com/8459/8048192463_6d9d15ab5e_z.jpg" width="100%" height="100%" alt="fall 2012 hackNY student hackathon" class="img-fluid lazyload" loading="lazy"></a>
 
 Michigan's Learn To Hack:
-<img src="/images/michigan_pancakes.jpg"></img>
+<img data-src="/images/michigan_pancakes.jpg" width="100%" height="100%" class="img-fluid lazyload" loading="lazy">
 
 
 Logistics Hacks
@@ -62,7 +63,7 @@ Provide variety throughout the event, provide (reasonably healthy) and vegetaria
 Here's my proposal: break the organizing team into two: a Hackerspace team responsible for during-the-hacking events, and an Event team in charge of everything surrounding the hacking: Kickoff and API Tutorials before the start, and the Demo Session and Awards after.  A dedicated event team means folks that have gotten a ton of sleep before each event and are wide awake to move quickly and deal with any issues that come up at the last minute.  I'd love to hear from anybody that has an approach they've tried and liked, and that works.
 
 
-<img src="/images/pennapps2012_drinks.jpg"></img>
+<img data-src="/images/pennapps2012_drinks.jpg" width="100%" height="100%"  class="img-fluid lazyload" loading="lazy">
 
 - **Room for Improvement**: Drinks Vendors.
 
@@ -77,7 +78,7 @@ If anybody has seen any hackathon do an awesome job of their drinks catering, fr
 Demo Hacks
 ----------
 
-<img src="/images/pennapps2012_2.jpg"></img>
+<img data-src="/images/pennapps2012_2.jpg" width="100%" height="100%"  class="img-fluid lazyload" loading="lazy">
 
 With a seemingly endless supply of teams hoping to demo and an exhausted audience, lots and lots of things are continuously trying to go wrong.  Some hacks towards making demos run more smoothly:
 
@@ -101,7 +102,7 @@ Emulators are a bad idea; they involve plugging in somebody else's laptop into t
 
 Ideally, have a second (identical) set-up in a nearby room for teams to practice on a few minutes before they demo, as part of the demo queue.  If not, at least make the demo setup available morning-of the demos and encourage teams taking a chance to practice.
 
-<img src="/images/pennapps2012_3.jpg"></img>
+<img data-src="/images/pennapps2012_3.jpg" width="100%" height="100%"  class="img-fluid lazyload" loading="lazy">
 
 - **Demo Order**  Use things like HackerLeague (or just Google Forms) to organize the demo submissions and order.
 
@@ -109,7 +110,7 @@ Does anybody have to leave early? Put them in front. Otherwise, randomize demo o
 
 Publicize demo order ASAP, and make it obvious where it is. It really helps teams to know where they are in the queue in case any of them sneak out to the bathroom, etc..
 
-<img src="/images/pennapps2012_judging.jpg"></img>
+<img data-src="/images/pennapps2012_judging.jpg" width="100%" height="100%"  class="img-fluid lazyload" loading="lazy">
 
 - **Needs Improvement:** Demoing with >50 teams
 If you have more than 30 or so teams demoing (and especially more than 50), consider exploring ways to cut down to either about 30 demos or about 15 demos with judge interaction.  I've heard about the LinkedIn Intern hackathons doing this well, and Greylock Hackathon and AngelHack both did a good job as well.

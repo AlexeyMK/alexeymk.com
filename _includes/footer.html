@@ -1,0 +1,27 @@
+<footer class="container">
+<div class="row p-3"> 
+<div class="col-md-12 bg-light p-3 rounded mb-3 shadow-sm">
+<div class="row">
+<div class="col-md-10 p-3 p-md-5">
+<h3>{{site.author.name}}</h3>
+<div class="row">
+<div class="col-md-4 p-3">
+<img class="img-fluid p-3 bg-white rounded header-img lazyload" alt="{{site.title}}" width="100%" height="100%" loading="lazy" data-src="{{site.author.image}}"/>
+</div>
+<div class="col-md-8 p-3">
+<p>{{site.author.about}}</p>
+<p>{{site.author.text}}</p>
+{% include widget/social.html %}
+</div>
+</div>
+</div>
+{% include widget/navfooter.html %}
+</div>
+</div>
+</div>  
+</footer>
+{% include widget/totop.html %}
+<script src="/assets/js/image.js"></script>
+<script src="/assets/js/bs.js"></script>
+</body>
+</html>

@@ -12,59 +12,75 @@ media:
 author: 
  name: Alexey MK
  image: /assets/img/alexey.jpg
- about: Starting, scaling, and optimizing a Software Engineering Organization focused on Growth
+ about: About Alexey MK - Starting, scaling, and optimizing a Software Engineering Organization focused on Growth 
+ text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  email: alexey@alexeymk.com
 
-navbar: 
- - nav: Home
-   link: /
- - nav: About
-   link: /
- - nav: Blog
-   link: /
- - nav: Growth Engineering
-   link: /
- - nav: Contact
-   link: /
+popularposttitle: Popular Post
+popularpost: 
+ - title: Statistical Significance on a Shoestring Budget
+   description: This guide helps companies determine if (and how) they could staff a Growth team to start running experiments. First, we’ll diagnose what is achievable with the amount of traffic currently available. Then, we’ll dig into what techniques might be available to increase experimental power.
+   link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
 
-footernav: 
- - nav: Home
-   link: /
- - nav: About
-   link: /
- - nav: Blog
-   link: /
- - nav: Contact
-   link: /
+bestposttitle: Best Article
+bestpost: 
+ - title: Hamtips, or why I still run the Technical Phone Screen as the Hiring Manager
+   description: This guide helps companies determine if (and how) they could staff a Growth team to start running experiments. First, we’ll diagnose what is achievable with the amount of traffic currently available. Then, we’ll dig into what techniques might be available to increase experimental power.
+   link: /2021/09/15/hamtips.html
 
-subs: 
- title: Get Notified About Alexey Update
- text: Your email will never be shared. 
+postlist: 
+ title: Lastest Update
+ button: Explore all post
+ limit: 6
+
+paginationpage: 
+ next: More Post
+ previous: Older Post
+
+footernavtitle: Menu
+footernav1: 
+ nav: Home
+ link: /
+footernav2: 
+ nav: About
+ link: /about
+footernav3: 
+ nav: Growth
+ link: /growth-eng
+footernav4: 
+ nav: Contact
+ link: mailto:alexey@alexeymk.com
+
+subscribes: 
+ title: Subscribe Now
+ text: Subscribe so you don't miss the latest updates about Growth.
+ placeholder: example@email.com
  button: Subscribe
 
-social: 
+subscribemodal:
+ title: Input Your Email
+ placeholder: example@email.com
+ button: Subscribe Now
+
+sharemodal:
+ button: Share article
+ title: Share this article
+ description: In you liked this article share it with your friends. They will thank you later.
+ email: email
+ twitter: tweet
+ facebook: facebook
+
+social: #max 5 social
  facebook: 
  twitter: https://twitter.com/alexeymk
  rss: 
  linked: 
  youtube: 
- facebook: 
- instagram: 
+# instagram: 
 
-blog: 
- title: Blog Update
- text: Recent post article update
- button: Explore all article
 
-services: 
- title: Services
- text: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
- button: Explore all services
-
-contact: 
- title: Contact Form
- button: Send Message
-
+paginate: 6
+paginate_path: '/:num/'
 
 collections:
   services:
@@ -75,8 +91,8 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-#      permalink: /:year/:month/:title:output_ext
-      permalink: /:title
+      permalink: /:year/:month/:title:output_ext.html
+      permalink: 
   - scope:
       path: ""
     values:
@@ -87,7 +103,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-loading-lazy
 
-
-
-
-
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'syntax'
