@@ -3,6 +3,7 @@ layout: post
 title: Sidecar and Digital Reputation Systems
 published: true
 date: 2012-07-29 23:23:57
+cover: /images/Sidecar.png
 tags:
 - cool products
 - review
@@ -10,8 +11,6 @@ tags:
 ---
 
 For the past few months I've been using [Sidecar](side.cr) whenever I'm in SF.  The service is a sort of Uber meets [Gypsy cabs](http://en.wikipedia.org/wiki/Illegal_taxicab_operation), allowing ordering on-demand **everyday drivers**, who will give you a ride across town at a price comparable or slightly cheaper than a Taxi.
-
-<img src="/images/Sidecar.png"></img>
 
 A post about the service's legal standing is probably worthwhile but not for me to write.  Should you use Sidecar?  Yes, if you're looking for Uber-like service at Taxi-like prices and aren't made uncomfortable by just how sketchy the whole thing feels.  The service is invite-only for now, but if you're in SF: [here, have an invite (and 10 bucks)](http://go.side.cr/oCz).
 

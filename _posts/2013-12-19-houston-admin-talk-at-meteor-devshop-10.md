@@ -8,9 +8,14 @@ tags:
 - meteor
 ---
 
-I gave a talk at the latest Meteor Devshop a couple of weeks ago about [Houston](http://github.com/gterrono/houston), the Django-Admin like tool that Greg, Geoff and I are working on for Meteor.
+I gave a talk at the latest Meteor Devshop a couple of weeks ago about [Houston](http://github.com/gterrono/houston), 
+the Django-Admin like tool that Greg, Geoff and I are working on for Meteor.
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/8ASwWEZsAog" frameborder="0" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-3">
+<iframe data-src="//www.youtube.com/embed/8ASwWEZsAog" loading="lazy" class="lazyload" allowfullscreen></iframe>
+</div>
+
+
 
 With over [200 stars on Github](http://github.com/gterrono/houston), I think we might _almost_ be real Open Source Contributors now. It's fun!
 

@@ -10,7 +10,7 @@ tags:
 
 2013 hasn't been a great year for new content on this blog. Let me try to change that.
 
-###First, what've I been up to since January?
+### First, what've I been up to since January?
 
 - I did some [engineering consulting work](http://calldownmule.com), with the bulk of the time spent working for [Baydin](http://baydin.com), [Tencent](http://tencent.com) and [Dropbox](http://dropbox.com).
 - Started [The InternProject](http://theinternproject.com), a "let's make sure interns in the bay area have a great time" non-profit with [Alex](https://twitter.com/theAlexPoon), with major help from [Tess](http://tessrinearson.com/), [Geoff](http://yef.im), [James](https://twitter.com/jofeuereisen) and countless others.
@@ -18,7 +18,7 @@ tags:
 - Worked with [Amy](https://twitter.com/amyquispe) to start the [Campus Data Summit](http://campusdatasummit.com), creating the [Campus Data](http://campusdata.org) Guidebook for students starting PennAppsLabs-like organizations at their schools.
 - Generally speaking, figured out what I enjoy and what I don't enjoy, and what I want to do next.
 
-=========
+
 
 ### Contracting
 
@@ -34,7 +34,7 @@ Finally, I spent two and a half months at Dropbox, working on [Dropbox for Busin
 
 Each of the three gigs above was a 4-day-a-week kind of job, and I learned a lot from each. The thing that most stuck with me - and I was a little surprised by this - was how much fun I had working on Boomerang Calendar. I worked in a mostly-solo capacity, but with design and library engineering support when needed and great product people to brainstorm and prioritize with. I want to do more of that.
 
-###The InternProject
+### The InternProject
 I've written a whole bunch about recruiting and internships in the Bay before, and started the 2012 Bay Area interns Facebook group. Still, the problem of "how do you make sure people doing internships in the Bay Area get the value out of it that they can" - admittedly a first-world problem, but *my* first-world problem, didn't feel completely-solved.
 
 I had met Alex Poon the prior year, when he organized a number of intern dinners. We brainstormed about what the ideal solution would look like - a [single website](http://theinternproject.com) with everything you need to know, a big kick-off event for interns from small companies to meet others to hang out with during the summer, and a way to generally keep in the loop on what the good events were. Out of this came [the InternProject](http://theinternproject.com), which (it seems, so far) met our goals for the summer and then exceeded them.
