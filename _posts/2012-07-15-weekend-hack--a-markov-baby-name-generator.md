@@ -22,7 +22,7 @@ Read [the wikipedia entry](http://en.wikipedia.org/wiki/Markov_chain) for a more
 
 For example: as we're generating baby names, say we start with the letter "C".  What should be our next letter?  Well, what kind of letters usually come after a "C" in names?  Let's look through our [list of existing names](https://github.com/AlexeyMK/markov-baby-names/blob/master/boys.txt) and see what usually comes next.
 
-![A Markov Baby Name Generator](/images/letters_after_c.png){:loading="eager"}
+<img src="/images/letters_after_c.png"></img>
 
 Great.  Let's pick the next character at random from within this list, weighing each possibility by how often it appears.  If we get 'end of word', we're done.
 
