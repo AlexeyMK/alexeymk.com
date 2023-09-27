@@ -6,12 +6,12 @@ googlesiteverification:
 lang: en
 locale: en_US
 media: 
- favicon: /assets/img/alexey.jpg
- cover: /assets/img/alexey.jpg
+ favicon: /assets/img/alexey.webp
+ cover: /assets/img/alexey.webp
 
 author: 
  name: Alexey MK
- image: /assets/img/alexey.jpg
+ image: /assets/img/alexey.webp
  about: About Alexey MK - Starting, scaling, and optimizing a Software Engineering Organization focused on Growth 
  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  email: alexey@alexeymk.com
