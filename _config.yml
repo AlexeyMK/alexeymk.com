@@ -1,7 +1,7 @@
 title: Alexey MK
 description: Alexey needs a web presence
-#url: 
-baseurl: ''
+url: 'https://alexeymk-com.pages.dev/'
+baseurl: 'https://alexeymk-com.pages.dev/'
 googlesiteverification: 
 lang: en
 locale: en_US
