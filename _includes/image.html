@@ -1,14 +1,14 @@
 <!-- _includes/image.html -->
 <!-- from https://superdevresources.com/image-caption-jekyll/ -->
-<div class="image-wrapper row mt-3">
+<div class="image-wrapper">
     {% if include.url %}
-    <a href="{{ include.url }}" class="col-md-4 col-4" title="{{ include.title }}" target="_blank">
+    <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
     {% endif %}
-        <img src="{{ include.img }}" class="img-fluid" loading="eager" width="100%" height="100%" alt="{{ include.title }}" style="{{include.style}}">
+        <img src="{{ include.img }}" alt="{{ include.title }}" style="{{include.style}}">
     {% if include.url %}
     </a>
     {% endif %}
     {% if include.caption %}
-        <p class="image-caption tag text-center">{{ include.caption }}</p>
+        <p class="image-caption">{{ include.caption }}</p>
     {% endif %}
 </div>
