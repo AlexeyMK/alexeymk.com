@@ -21,6 +21,14 @@ Recipe:
 
 
 -----
+Implementation auto image
+``` 
+{% include images.html
+img="https://alexeymk.com/assets/img/image.png"
+alt="Alt image"
+%}
+```
+
 Implementation lazyload image on markdown post
 - `![alt image](/assets/img/alexey.jpg){:loading='eager'}`
 

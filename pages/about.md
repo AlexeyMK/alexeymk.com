@@ -2,7 +2,7 @@
 layout: default
 title: About Alexey MK
 description : This is my website built with new version of jekyll
-cover: /assets/img/alx.jpg
+cover: https://alexeymk-com.pages.dev/assets/img/alx.jpg
 permalink: /about
 ---
 Last updated April 2023.*
