@@ -21,5 +21,25 @@
 <link rel="stylesheet" href="/assets/css/alexey.css"/>
 <style>img,iframe {max-width:100%; height:auto; border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px;}</style>
 <link rel="stylesheet" href="/assets/css/color.css" />
+{% if site.google.analystic %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google.analystic}}"></script>
+<script async>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google.analystic}}');
+</script>{% endif %}
+{% if site.google.tagmanager %}
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{site.google.tagmanager}}');</script>
+{% endif %}
 </head>
 <body>
+{% if site.google.tagmanager %}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.google.tagmanager}}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{% endif %}

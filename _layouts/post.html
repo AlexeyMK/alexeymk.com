@@ -1,20 +1,16 @@
 {% include headpost.html %}
 <main class="container">
-<div class="row"> 
-<div class="col-md-8 mx-auto">
-<div class="p-3">
+<div class="row mt-3"> 
+<div class="col-md-9 mt-5 p-1 mx-auto">
 <h1><a href="{{page.url}}">{{page.title}}</a></h1>
-</div>
 </div> 
 <div class="col-md-10 mx-auto">
 {% if page.cover %}<img class="img-fluid shadow-sm lazyload" width="100%" alt="{{page.title}}" loading="lazy" data-src="{{page.cover}}"/>{% endif %}
 </div>
 <div class="col-md-9 mx-auto">
-<div class="p-3">
-<p>{{ page.date | date: "%-d %B %Y" }}</p>
+<p class="tag text-secondary"><i>{{ page.date | date: "%-d %B %Y" }}</i></p>
 <div class="content">
 {{content}}
-</div>
 <p class="tag">Tags: 
 {% if page.tags %}
 {% for tag in page.tags %}
