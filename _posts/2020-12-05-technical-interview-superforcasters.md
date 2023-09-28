@@ -31,10 +31,9 @@ Honestly, all I wanted at the start was to see if I was a higher-signal intervie
 
 Joe turned out to be the better interviewer. More importantly, I stumbled into the fact that a number of engineers doing phone screens performed **consistently** better across the board. They both had more candidates pass their phone screens and then those candidates would get offers at a higher rate.
 
-{% include image.html
-            img="/images/phone-screen-chart.png"
-            caption="Sample Data, recreated for Illustrative Purposes."
-%}
+![Sample Data, recreated for Illustrative Purposes.](/images/phone-screen-chart.png){:loading="eager"}
+*Sample Data, recreated for Illustrative Purposes.*
+
 
 
 These numbers were consistent, quarter over quarter.  As we compared the top quartile of phone screeners to everybody else, the difference was stark. Each group included a mix of strict and lenient phone screeners; on average, both groups had a **phone screen pass rate** of 40%.
@@ -52,7 +51,7 @@ You should too (footnote 3, footnote 4).
 
 Get your Lever or Greenhouse (or [ATS](https://en.wikipedia.org/wiki/Applicant_tracking_system) of choice) into an analyzable place somewhere, and then quantify how well interviewers perform. There’s lots of ways to analyze performance; here’s a simple approach which favors folks who generated lots of offers from as few as possible onsites and phone screens.
 
-![formula](/images/phone-screen-formula.png)
+![formula](/images/phone-screen-formula.png){:loading="eager"}
 
 You can adjust the constants to where zero would match a median interviewer. A score of zero, then, is good.
 
@@ -66,14 +65,17 @@ Your query will look something like this:
 | Chaotic Chris  | 20            | 10      | 3      | (45 - 40 - 20) / 20 = -0.75 |
 | No Good Nick   | 20            | 12      | 2      | (30 - 48 - 20) / 30 = -1.9  |
 
-Ideally, hires would also be included in the funnel, since a great phone screen experience would make a candidate more likely to join. I tried including them; unfortunately, the numbers get too small and we start running out of statistical predictive power.
+Ideally, hires would also be included in the funnel, since a great phone screen experience would make a candidate more likely to join. 
+I tried including them; unfortunately, the numbers get too small and we start running out of statistical predictive power.
 
 
 #### 2. Logistics & Scheduling
 
 Phone Screen interviewers no longer do onsite interviews (except as emergency backfills). The questions they ask are now retired from the onsite interview pool to avoid collisions.
 
-Ask the engineers to identify and block off 4 hour-long weekly slots to make available to recruiting (recruiting coordinators will love you). Use a tool like [youcanbook.me](http://youcanbook.me) or [calendly](http://calendly.com) to create a unified availability calendar. Aim to have no more than ~2.5 interviews per interviewer per week. To minimize burnout, one thing we tried was to take 2 weeks off interviewing every 6 weeks.
+Ask the engineers to identify and block off 4 hour-long weekly slots to make available to recruiting (recruiting coordinators will love you). 
+Use a tool like [youcanbook.me](http://youcanbook.me) or [calendly](http://calendly.com) to create a unified availability calendar. 
+Aim to have no more than ~2.5 interviews per interviewer per week. To minimize burnout, one thing we tried was to take 2 weeks off interviewing every 6 weeks.
 
 To avoid conflict, ensure that interviewers’ managers are bought in to the time commitment and incorporate their participation during performance reviews.
 
@@ -94,6 +96,7 @@ Hold a monthly retrospective with the team and recruiting, with three items on t
 - discuss potential process improvements to the interviewing process
 - review borderline interviews with the group to review together, if [your interviewing tool](http://coderpad.io) supports recording and playback
 - have interviewers read through feedback their candidates got from onsite interviewers and look for consistent patterns.
+
 
 
 #### 5. Retention

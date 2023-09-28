@@ -37,8 +37,9 @@ I blame the [curse of knowledge](https://hbr.org/2006/12/the-curse-of-knowledge;
 
 #### Seriously though, are you going to make me import a testing framework? Like, Mocha or Cucumber? Ugh.
 
-¯\\\_\(ツ\)\_/¯, I just use asserts and print statements. If I'm feeling fancy, I'll create an array of test case scenarios and run them like
 
+¯\\\_\(ツ\)\_/¯, I just use asserts and print statements. If I'm feeling fancy, I'll create an array of test case scenarios and run them like
+```py
     test_cases = [
       [[2, 2], 4],
       [[1, 2, 3, 4], 10],
@@ -57,6 +58,7 @@ I blame the [curse of knowledge](https://hbr.org/2006/12/the-curse-of-knowledge;
 
       if answer != expected_answer:
         print("UH OH!")
+```		
 
       # (or you could just do: assert answer == expected_answer)
 

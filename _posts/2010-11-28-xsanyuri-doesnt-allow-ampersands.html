@@ -12,8 +12,7 @@ tags:
 <p><strong><span style="font-size: medium;">Background</span>:</strong></p>
 <p>I've been working with passing an ExternalQuestion to MechanicalTurk, and have learned (the hard way) that the 'ExternalURL' component, set up as a "xs:anyURI" in the MTurk AWS schema, does not allow ampersands '&amp;' except if escaped via '&amp;amp;'.&nbsp;</p>
 <p>That was not at all obvious. The AWS exception gives is:</p>
-<div class="CodeRay">
-  <div class="code"><pre>&lt;CreateHITResponse&gt;
+<code><pre>&lt;CreateHITResponse&gt;
   &lt;OperationRequest&gt;
     &lt;RequestId&gt;...&lt;/RequestId&gt;
   &lt;/OperationRequest&gt;
@@ -28,8 +27,7 @@ tags:
       &lt;/Errors&gt;
     &lt;/Request&gt;
   &lt;/HIT&gt;/
-&lt;/CreateHITResponse&gt;</pre></div>
-</div>
+&lt;/CreateHITResponse&gt;</pre></code>
 
 <p><span style="font-size: medium;"><strong>Solution:&nbsp;</strong></span></p>
 <p><span style="font-size: small;">Replace any instance of &amp; in the ExternalQuestion URI (IE, <a href="http://www.yoursite.com/mturk/a.php?foo=true&amp;bar=false">www.yoursite.com/mturk/a.php?foo=true&amp;bar=false</a>) with &amp;amp;&nbsp;(IE, <a href="http://www.yoursite.com/mturk/a.php?foo=true&amp;amp;bar=false">www.yoursite.com/mturk/a.php?foo=true&amp;amp;bar=false</a>).</span></p>

@@ -14,13 +14,13 @@ tags:
 Working remotely: not just for COVID-19 anymore.
 
 
-![](https://www.themarketingstudent.com/wp-content/uploads/2017/04/chasm-adoption-lifecycle.jpeg)
+![](https://www.themarketingstudent.com/wp-content/uploads/2017/04/chasm-adoption-lifecycle.jpeg){:loading="eager"}
 
 From academia to the Open Source movement, remote collaboration is not exactly novel. From Github to DuckDuckGo, remote-first successful businesses are no longer rare.
 
 Remote work occupied the cultural relevance of _something those whiz kids do, working on a beach in Thailand_. Until today.
 
-![Actually, we took this photo in Vietnam. Hi Luka!](https://pbs.twimg.com/media/CUt3QiFWEAA9DmH?format=jpg&name=small)
+![Actually, we took this photo in Vietnam. Hi Luka!](https://pbs.twimg.com/media/CUt3QiFWEAA9DmH?format=jpg&name=small){:loading="eager"}
 
 
 
@@ -55,7 +55,7 @@ And yet.
 
 Techies have been leaving San Francisco for cities like Portland, Austin, Denver and Seattle (PADS) for over a decade. We seek a place to settle down and improve cost-to-quality-of-life ratio.
 
-![This is how you know they appreciate us.](https://www.mercurynews.com/wp-content/uploads/2017/07/d6c879ffa3d044f8.jpg?w=720&h=540)
+![This is how you know they appreciate us.](https://www.mercurynews.com/wp-content/uploads/2017/07/d6c879ffa3d044f8.jpg?w=720&h=540){:loading="eager"}
 
 
 As it becomes easier than ever to keep your job while moving, this trend will pick up. The microkitchens at Twitter are nice, but not “an extra $2k/mo in rent” nice.
@@ -73,7 +73,7 @@ In fairness, we’re not even that good at regular company building. We just fig
 
 You can’t just slap “remote friendly” on your jobs page and decide you've done a "heck of a job."
 
-![](https://cdn.vox-cdn.com/thumbor/M1cEh6qPNBWgeXLJj49eLR-gJ2Q=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18743612/afe8348117.jpg)
+![](https://cdn.vox-cdn.com/thumbor/M1cEh6qPNBWgeXLJj49eLR-gJ2Q=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18743612/afe8348117.jpg){:loading="eager"}
 
 
 Should team sizes change? How to you measure and manage morale? What about onboarding and knowledge sharing?

@@ -56,7 +56,7 @@ Guaranteed[^1].
 
 The biggest reason technical debt exists is because Engineers have internalized that it’s not their job to fix it. Start-up mantras like “focus” and “let small fires burn” have lead to just that - small fires everywhere.
 
-![](/images/small_fires.png)
+![](/images/small_fires.png){:loading="eager"}
 
 
  “Get shit done” is a great mantra, but you still have to clean up after yourself.
@@ -107,6 +107,8 @@ For ~week-long projects, try to leverage particular times of year like Hack Week
 This is where good leadership helps. At this particular company, Engineering leadership had rolled out "Quality OKRs". Every quarter, each team had to sign up for a meaningful "quality" OKR goal.
 
 What is a "quality" goal? This was left up to teams, but the gist of it was, just go fix the most painful thing that isn’t already translated in your business metrics.
+
+{% include widget/subscribe.html %}
 
 During quarterly planning, we whittled the top three “heavy tech debt” projects into proposals, got buy-in from leadership, then brought the ideas back to the group.
 

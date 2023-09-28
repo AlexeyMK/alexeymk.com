@@ -1,11 +1,38 @@
----
-layout: default
----
-{% comment %}
-  amazingly enough, this is the hack that avoids duplicate code
-{% endcomment %}
-
-{% assign post = page %}
-
-{% assign body = content %}
-{% include partials/post.html %}
+{% include headpost.html %}
+<main class="container">
+<div class="row"> 
+<div class="col-md-8 mx-auto">
+<div class="p-3">
+<h1><a href="{{page.url}}">{{page.title}}</a></h1>
+</div>
+</div> 
+<div class="col-md-10 mx-auto">
+{% if page.cover %}<img class="img-fluid shadow-sm lazyload" width="100%" alt="{{page.title}}" loading="lazy" data-src="{{page.cover}}"/>{% endif %}
+</div>
+<div class="col-md-9 mx-auto">
+<div class="p-3">
+<p>{{ page.date | date: "%-d %B %Y" }}</p>
+<div class="content">
+{{content}}
+</div>
+<p class="tag">Tags: 
+{% if page.tags %}
+{% for tag in page.tags %}
+{% capture tag_name %}{{ tag }}{% endcapture %}
+<a href="{{site.baseurl}}/tags.html#{{tag}}" class="p-1 me-1">#{{ tag_name }}</a>
+{% endfor %}
+{% endif %}
+</p>
+</div>
+<div class="p-3 text-center">
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#shareModal">
+{{site.sharemodal.button}}
+</button>
+</div>
+{% include hardcode/otherpost.html %}  
+</div>
+</div>
+</main>
+{% include widget/subscribemodal.html %}  
+{% include widget/share.html %}  
+{% include footer.html %}

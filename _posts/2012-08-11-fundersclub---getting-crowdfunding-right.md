@@ -13,7 +13,7 @@ Crowdfunding doesn't work.
 -------------------------
 It just doesn't.  You can't get the top-tier guys to crowd-raise.  "What for? It's just more complicated."  If you can't get the top-tier companies, you can't get the companies that follow whatever top-tier companies do.  You end up with wanterpreneurs tricking Grandmas out of their paychecks. You've already lost.
 
-<img src="/images/grandma-paycheck.jpg"></img>
+![FundersClub: getting Crowdfunding right](/images/grandma-paycheck.jpg){:loading="eager"}
 
 As a result, Crowdfunding-ish startups have been tiptoeing around the idea. [AngelList](http://angelist.com) will make introductions but not facilitate the financial exchange. [KickStarter](http://kickstarter.com) focuses on sponsorship rewards, but stays away from offering equity.  [SecondMarket](http://secondmarket.com) works with later-stage companies and requires 6-figure minimums.
 
@@ -25,8 +25,10 @@ Except that it does.
 -------------------------
 Boris and Alex of [FundersClub](http://thefundersclub.com) have found a way around the credibility problem, by having it to start with.  As part of the summer 2012 YCombinator class, the team has the implicit (and explicit) endorsement of Paul Graham, godfather of legit startups.  The two themselves have [a rather impressive background](https://thefundersclub.com/site/about/) As a result, the [initial 5 companies](https://thefundersclub.com/investments/) raising money on FundersClub are [some of the most interesting startups](http://pandodaily.com/2012/08/01/eight-y-combinator-companies-to-watch/) of the group.
 
-<img src="/images/startuptoprow.png"></img>
-<img src="/images/startupbottomrow.png"></img>
+
+<img alt="FundersClub: getting Crowdfunding right" width="100%" height="100%" data-src="/images/startuptoprow.png" loading="lazy" class="lazyload">
+<img alt="FundersClub: getting Crowdfunding right" width="100%" height="100%" data-src="/images/startupbottomrow.png" loading="lazy" class="lazyload">
+
 
 These are the cream of the crop.  Most are likely to be over-subscribed come Demo Day. As an investor, if you aren't well connected to YCombinator (and probably even if you are), you'll be stuck on the sidelines wishing you had a way into their seed rounds.
 
