@@ -2,7 +2,7 @@
 <html lang="{{site.lang}}">
 <head>
 <meta charset="utf-8">
-{% if site.googlesiteverification %}<meta name="google-site-verification" content="{{site.googlesiteverification}}" />{% endif %}
+{% if site.google.siteverification %}<meta name="google-site-verification" content="{{site.googlesiteverification}}" />{% endif %}
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- seo -%}
@@ -18,5 +18,25 @@
 {% if site.social.twitter %}<meta content='{{site.social.twitter}}' name='twitter:site'/>{% endif %}
 <link rel="stylesheet" href="/assets/css/bs.css"/>
 <link rel="stylesheet" href="/assets/css/alexey.css"/>
+{% if site.google.analystic %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google.analystic}}"></script>
+<script async>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google.analystic}}');
+</script>{% endif %}
+{% if site.google.tagmanager %}
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{site.google.tagmanager}}');</script>
+{% endif %}
 </head>
 <body>
+{% if site.google.tagmanager %}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.google.tagmanager}}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{% endif %}

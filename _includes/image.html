@@ -4,7 +4,7 @@
     {% if include.url %}
     <a href="{{ include.url }}" class="col-md-4 col-4" title="{{ include.title }}" target="_blank">
     {% endif %}
-        <img src="{{ include.img }}" class="img-fluid" loading="eager" width="100%" height="100%" alt="{{ include.title }}" style="{{include.style}}">
+        <img data-src="{{ include.img }}" class="img-fluid lazyload" loading="lazy" width="100%" height="100%" alt="{{ include.title }}" style="{{include.style}}">
     {% if include.url %}
     </a>
     {% endif %}

@@ -2,10 +2,16 @@
 layout: default
 title: About Alexey MK
 description : This is my website built with new version of jekyll
-cover: /assets/img/alx.jpg
+cover: https://alexeymk-com.pages.dev/assets/img/alx.jpg
 permalink: /about
 ---
 Last updated April 2023.*
+
+{% include images.html
+img="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwzqElR_xbfHgPHTWUMu3MjEaVBnTlicX_IZOuAaYQQaoBXJKYuC6oBIGAzFPjWspiIFW4jd3TyZi-tOFZ0lqX1j_aE1OqIwy9b4NTorTGxgKJ_aT-5xIrI5pubUywO7aaC6AiMERQLiT0j4kBHXIselb29T3GwblG-28xScp5KMO3tU5vpGVbNFGJg5cx/s1920/00111-1642817818.png"
+alt="Head of Growth Eng"
+width="100%"
+%}
 
 These days, I'm living in Tokyo and [helping start-ups scale up their Growth Engineering practice](/growth-eng).
 
