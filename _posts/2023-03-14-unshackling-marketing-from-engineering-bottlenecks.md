@@ -3,7 +3,7 @@ layout: post
 title: 'Unshackling Marketing from Engineering Bottlenecks: A Primer'
 description: We've had these new landing pages mocked up for the last two months! All of our research says the new pages will be a huge conversion lift. Can you talk to the engineering team and see what the holdup is?
 published: true
-cover: /assets/img/blog/unshaking.jpg
+cover: https://alexeymk-com.pages.dev/assets/img/blog/unshaking.jpg
 date: 2023-03-14 16:00:29
 tags:
  - growth-eng

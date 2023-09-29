@@ -3,7 +3,7 @@ layout: post
 title: "Why Core Product Engineers can't Hack it on Growth"
 description: "Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team."
 published: true
-cover: /assets/img/blog/coreproduct.png
+cover: https://alexeymk-com.pages.dev/assets/img/blog/coreproduct.png
 date: 2023-03-03 16:00:29
 tags:
  - growth-eng
