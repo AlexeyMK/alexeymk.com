@@ -3,7 +3,7 @@ layout: post
 title: 'Avoid Premature Optimization: Growth Advice for Early Stage Founders'
 description: Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team.
 published: true
-cover: /assets/img/blog/avoidpremature.png
+cover: https://alexeymk-com.pages.dev/assets/img/blog/avoidpremature.png
 date: 2023-03-08 16:00:29
 tags:
  - growth-eng
