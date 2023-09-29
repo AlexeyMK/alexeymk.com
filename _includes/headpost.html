@@ -10,9 +10,11 @@
 {% if page.cover %}<meta name="twitter:image:src" content="{{page.cover}}">{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='twitter:image'/>{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='facebook:image'/>{% endif %}
+{% if page.cover %}<meta content='{{page.cover}}' name='og:image'/>{% endif %}
 <link rel="icon" type="image/x-icon" href="{{site.media.favicon}}" />
 {% if site.social.facebook %}<meta content='{{site.social.facebook}}' property='facebook:author'/>{% endif %}
 <meta content='{{page.description}}' property='facebook:description'/>
+<meta content='{{page.description}}' property='og:description'/>
 <meta content='{{page.description}}' name='twitter:description'/>
 <meta content='index, follow' name='robots'/>
 {% if site.social.twitter %}<meta content='{{site.social.twitter}}' property='twitter:author'/>{% endif %}
