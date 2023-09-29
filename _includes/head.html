@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- seo -%}
 {%- feed_meta -%}
+{% if page.cover %}<meta name="twitter:image:src" content="{{page.cover}}">{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='twitter:image'/>{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='facebook:image'/>{% endif %}
 <link rel="icon" type="image/x-icon" href="{{site.media.favicon}}" />
