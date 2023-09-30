@@ -76,6 +76,7 @@ sharemodal:
 social: #max 5 social
  facebook: 
  twitter: https://twitter.com/alexeymk
+ twitter_username: alexeymk
  rss: /feed.xml
  linked: 
  youtube: 

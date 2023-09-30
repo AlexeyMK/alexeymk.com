@@ -7,6 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- seo -%}
 {%- feed_meta -%}
+<meta name="twitter:site"    content="@{{ site.sosial.twitter_username }}">
+<meta name="twitter:creator" content="@{{ site.sosial.twitter_username}}">
+{% if page.cover %}<meta name="twitter:image:src" content="{{page.cover}}">{% endif %}
+{% if page.cover %<meta name="twitter:card"  content="summary_large_image">{% endif %}
 {% if page.cover %}<meta name="twitter:image:src" content="{{page.cover}}">{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='twitter:image'/>{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='facebook:image'/>{% endif %}
@@ -21,6 +25,7 @@
 {% if site.social.twitter %}<meta content='{{site.social.twitter}}' name='twitter:site'/>{% endif %}
 <link rel="stylesheet" href="/assets/css/bs.css"/>
 <link rel="stylesheet" href="/assets/css/alexey.css"/>
+<meta name="developer" content="https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll" />
 {% if site.google.analystic %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google.analystic}}"></script>
 <script async>
