@@ -10,12 +10,12 @@
 <meta name="twitter:site"    content="@{{ site.social.twitter_username }}">
 <meta name="twitter:creator" content="@{{ site.social.twitter_username}}">
 {% if page.cover %}<meta name="twitter:image:src" content="{{page.cover}}">{% endif %}
-{% if page.cover %<meta name="twitter:card"  content="summary_large_image">{% endif %}
-{% if page.cover %<meta name="twitter:image" content="{{ site.url }}{{ page.cover }}">{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='twitter:image'/>{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='facebook:image'/>{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='og:image'/>{% endif %}
 <link rel="icon" type="image/x-icon" href="{{site.media.favicon}}" />
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.cover}}">
 {% if site.social.facebook %}<meta content='{{site.social.facebook}}' property='facebook:author'/>{% endif %}
 <meta content='{{page.description}}' property='facebook:description'/>
 <meta content='{{page.description}}' property='og:description'/>
@@ -23,9 +23,9 @@
 <meta content='index, follow' name='robots'/>
 {% if site.social.twitter %}<meta content='{{site.social.twitter}}' property='twitter:author'/>{% endif %}
 {% if site.social.twitter %}<meta content='{{site.social.twitter}}' name='twitter:site'/>{% endif %}
+<meta name="developer" content="https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll" />
 <link rel="stylesheet" href="/assets/css/bs.css"/>
 <link rel="stylesheet" href="/assets/css/alexey.css"/>
-<meta name="developer" content="https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll" />
 <style>img,iframe {max-width:100%; height:auto; border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px;}</style>
 <link rel="stylesheet" href="/assets/css/color.css" />
 {% if site.google.analystic %}
