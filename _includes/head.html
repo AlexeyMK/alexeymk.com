@@ -7,11 +7,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- seo -%}
 {%- feed_meta -%}
+<meta name="twitter:site"    content="@{{ site.social.twitter_username }}">
+<meta name="twitter:creator" content="@{{ site.social.twitter_username}}">
 {% if page.cover %}<meta name="twitter:image:src" content="{{page.cover}}">{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='twitter:image'/>{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='facebook:image'/>{% endif %}
 {% if page.cover %}<meta content='{{page.cover}}' name='og:image'/>{% endif %}
 <link rel="icon" type="image/x-icon" href="{{site.media.favicon}}" />
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.cover}}">
 {% if site.social.facebook %}<meta content='{{site.social.facebook}}' property='facebook:author'/>{% endif %}
 {% if page.description %}<meta content='{{page.description}}' property='facebook:description'/>{% endif %}
 {% if page.description %}<meta content='{{page.description}}' name='twitter:description'/>{% endif %}
