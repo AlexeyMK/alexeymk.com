@@ -9,8 +9,18 @@
 migration to 🚀  jekyll version 4 , web developer by 👩🏻‍🚀 [creativitas](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
 
 -----
+## Installing from Scratch on OSX:
+1. Ruby:
+`brew install asdf` (will need to add a line to ~.zshrc or equivalent)
+Use asdf to install Ruby 3.2 or newer.
+Then once you're using the appropriate ruby, you should be able to
+2. Jekyll
+`bundle install` everything
 
-Recipe: 
+
+
+
+Recipe:
  - 💎 Jekyll V.4.3.2
  - 🪐 Bootstrap v.5.3.2
  - ⚡️ Liquid template
@@ -22,7 +32,7 @@ Recipe:
 
 -----
 Implementation auto image
-``` 
+```
 {% include images.html
 img="https://alexeymk.com/assets/img/image.png"
 alt="Alt image"
@@ -36,7 +46,7 @@ Implementation on template lazy image plugin and script
 - `<img data-src="/assets/img/alexey.jpg" alt="my image" loading="lazy" class="img-fluid lazyload" / >`
 - `<img src="/assets/img/alexey.jpg" alt="my image" loading="eager" class="img-fluid" / >`
 -----
-💻 Test drive 
+💻 Test drive
 
 `git clone -b newversion https://github.com/AlexeyMK/alexeymk.com.git`
 
