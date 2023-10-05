@@ -2,6 +2,7 @@
 layout: post
 title: Confessions of a Deadbeat Open Source Maintainer
 published: true
+description: The year was 2013, Meteor was the hip new kid on the block and Coffeescript was a reasonable JS dialect choice. We were fresh out of college.  Meteor was hosting their first 'Summer Hackathon' in San Francisco on 10th and Minna, and we figured this was our shot.
 date: 2017-05-07 01:06:24
 tags:
 - reflection

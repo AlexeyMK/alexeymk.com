@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Hackathon - A retrospective - a talk'
 published: true
+description: in February about a hackathon we ostensibly threw.
 date: 2015-06-22 19:53:52
 tags:
 - hackathons

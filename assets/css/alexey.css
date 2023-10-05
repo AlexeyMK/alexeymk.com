@@ -1,18 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-  body,html {font-family: 'Poppins', sans-serif;}
-  h1,h2,h3,h4,h5,.navbar-brand{font-family: 'Roboto', sans-serif;}
+  body,html {font-family: 'Poppins', sans-serif; font-size: 18px;}
+  h1,h2,h3,h4,h5,.navbar-brand{font-family: 'Roboto', sans-serif; padding-bottom: 8px; padding-top: 15px;}
+  p,ul,li {padding-bottom: 8px;}
   a {color:black; text-decoration:none;}
   a.content {color:black; border-bottom: 1px dotted black;}
   .tag {font-size: 12px;}
-  img {border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px; width: 100%; height: auto;}  
+  img {border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}  
   .ser {border-radius: 12px 12px 12px 12px; }
   .nav-link:hover {text-decoration: underline;}  
   .header-img{width:400px; height:auto;}
    ::selection {color: white; background: black;}
-   blockquote{border-left:6px solid black;margin:1.5em 10px;padding:.5em 10px;quotes:"\201C""\201D""\2018""\2019"}
-   blockquote:before{color:black;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em}
-   blockquote p{display:inline}
+
+.subs {height: 250px;}
+
+blockquote {
+  border-left: 1em solid black;
+  padding-left: 1em;
+}
+blockquote p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+li blockquote,
+dt blockquote,
+dd blockquote{
+  margin-left: 0;
+  margin-right: 0;
+}
    table {
   border: 1px solid #ccc;
   border-collapse: collapse;
@@ -52,7 +68,7 @@ table th {
    }
    @media only screen and (max-width: 600px) {
  .header-img{width:200px; height:auto;}
-  img {border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px; width: 100%; height: auto;}  
+  img {border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}  
    .nav-fot {border-right: solid #adb5bd 1px; padding: 10px; text-align:center;}
    .nav-fots {padding: 10px; text-align:center;}
      table {

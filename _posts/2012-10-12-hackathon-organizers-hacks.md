@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'Hackathon Hacks for Organizers'
+description: "To that end, here are some hackathon hacks I've noticed or come up with over the past few years. If you're working on putting together your next hackathon, I hope they help!"
 published: true
 date: 2012-10-12 19:48:10
 tags:

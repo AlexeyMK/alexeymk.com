@@ -2,6 +2,7 @@
 layout: post
 title: ! Test Driven Interviewing
 published: true
+description: TDD forces you into the ideal mindset for nailing down (1) problem definitions. There's no better way to properly grok a problem than to have to think through all the fun ways an implementation could be slightly off.
 date: 2017-05-06 18:31:37
 tags:
 - interviews

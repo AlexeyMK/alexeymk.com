@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'FundersClub: getting Crowdfunding right'
+description: "If you can't get the top-tier companies, you can't get the companies that follow whatever top-tier companies do.  You end up with wanterpreneurs tricking Grandmas out of their paychecks. You've already lost."
 published: true
 date: 2012-08-12 21:26:23
 tags:

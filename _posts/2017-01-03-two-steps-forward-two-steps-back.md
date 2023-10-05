@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Two Steps Forward, Two Steps Back: 2016 in review'
 published: true
+description: "Here's how becoming sedentary and employed has turned out so far, relative to expectations."
 date: 2017-01-03 18:31:37
 tags:
 - reflection

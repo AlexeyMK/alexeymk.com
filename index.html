@@ -4,17 +4,15 @@ title: 👋 Hey everyone, I’m Alexey MK
 description : This is my website built with new version of jekyll
 cover: /assets/img/alexey.jpg
 ---
-<main class="container">
-<div class="row"> 
-<div class="col-md-12 p-3">
-<h3>{{site.postlist.title}}</h3>
-</div>
+<!-- change design on _layouts/start.html -->
+<!-- start loop article post -->
+<div class="row mt-3">
 {% for post in paginator.posts %}
 {% if post.published==true %}
 <div class="col-md-6 p-1">
 <div class="p-3 ">
 <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-{% if post.description %}<p>{{post.description}}</p>{% endif %}
+<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}</p>
 </div>
 </div>
 {% endif %}
@@ -26,4 +24,5 @@ cover: /assets/img/alexey.jpg
 {% if paginator.next_page %}<a href="{{ paginator.next_page_path }}">{{site.paginationpage.previous}}</a>{% endif %}
 </div>
 </div>
-</main>
+</div>
+<!-- end loop article post -->

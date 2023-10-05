@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'How PennApps Labs Came to Be'
+description: "Cobol on Rails was built in PHP and mySQL. It was the first serious web project that a few friends and I undertook.  "
 published: true
 date: 2012-08-26 21:38:18
 tags:

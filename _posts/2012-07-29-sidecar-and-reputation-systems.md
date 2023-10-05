@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sidecar and Digital Reputation Systems
+description: "Yes, if you're looking for Uber-like service at Taxi-like prices and aren't made uncomfortable by just how sketchy the whole thing feels."
 published: true
 date: 2012-07-29 23:23:57
 cover: /images/Sidecar.png

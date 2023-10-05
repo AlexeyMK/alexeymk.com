@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'Weekend Hack: A Markov Baby Name Generator'
+description: "a Markov Chain is a simple random process to generate text that looks sort of like other text."
 published: true
 date: 2012-07-15 18:00:11
 tags:

@@ -1,6 +1,6 @@
 title: Alexey MK
 description: Alexey needs a web presence
-url: 'https://alexeymk.com'
+#url: 'https://alexeymk.com'
 #baseurl: 'https://alexeymk.com'
 google: 
  siteverification: 
@@ -11,6 +11,8 @@ locale: en_US
 media: 
  favicon: /assets/img/alexey.webp
  cover: /assets/img/alexey.webp
+
+behiiv_id: f947b9d0-3ff1-4532-89f9-e4c1c24e61a5
 
 author: 
  name: Alexey MK
@@ -105,7 +107,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-loading-lazy
+#  - jekyll-loading-lazy
 
 markdown: kramdown
 highlighter: rouge

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'My $370 Adjustable Sit-Stand Desk Setup'
+description: " that results in an email asking where one buys such a thing. One buys such a thing on amazon."
 published: true
 date: 2012-07-22 21:54:14
 tags:

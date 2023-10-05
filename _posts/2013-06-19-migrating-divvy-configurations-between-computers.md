@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Migrating Divvy configurations between computers'
 published: true
+description: "I've been using Divvy the tiling tool for OSX (and windows) ever since I switched to using Macs full-time in 2010. It's great."
 date: 2013-06-19 03:27:28
 tags:
 - heads-up

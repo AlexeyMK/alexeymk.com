@@ -2,6 +2,7 @@
 layout: post
 title: Migrating from Posterous to Jekyll on GitHub Pages
 published: true
+description: "I may be a bit late to the Jekyll party, but with Posterous being acquired by twitter a few months ago, I figured why not try it out. Two weekends later I've migrated enough that I'm comfortable shipping, though I imagine a bunch of silly bugs will remain."
 date: 2012-07-01 23:30:00
 tags:
 - technical

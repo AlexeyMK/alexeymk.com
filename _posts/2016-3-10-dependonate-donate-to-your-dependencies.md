@@ -2,6 +2,7 @@
 layout: post
 title: "Dependonate: Donate to your dependencies"
 published: true
+description: 'Giving back to open source projects you benefit from is one of those obviously-good-in-theory-confusing-in-practice ideas, like eating healthy or being carbon-neutral.'
 date: 2016-3-10 20:51:31
 tags:
 - ideas

@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Houston Admin Talk at Meteor Devshop 10'
 published: true
+description: "I gave a talk at the latest Meteor Devshop a couple of weeks ago about Houston, the Django-Admin like tool that Greg, Geoff and I are working on for Meteor."
 date: 2013-12-19 19:15:34
 tags:
 - technical

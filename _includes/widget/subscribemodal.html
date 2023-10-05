@@ -7,10 +7,10 @@
 <div class="modal-body">
 <div class="text-center mt-3 mb-3">
 <h4 class="text-center p-1">{{site.subscribemodal.title}}</h4>
-<form action="https://airform.io/{{site.author.email}}" method="post">
-<input type="text" class="form-control col-md-12 mt-3 mb-3" placeholder="{{site.subscribemodal.placeholder}}" aria-label="email" aria-describedby="basic-addon2">
-<button class="btn btn-dark mb-3 mt-3" id="basic-addon2">{{site.subscribemodal.button}}</button>
-</form>
+<div class="col-md-10 mx-auto text-center">
+<iframe src="https://embeds.beehiiv.com/{{site.behiiv_id}}?slim=true" loading="lazy" data-test-id="beehiiv-embed" class="col-md-12"
+frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+</div>
 </div>
 </div>
 </div>

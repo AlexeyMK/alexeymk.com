@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Non-Technical Hiring, Lessons Learned
+description: "Our application form included several paragraph answers, forcing candidates to think and allowing me to evaluate their writing style.  This proved very helpful."
 published: true
 date: 2012-07-08 02:34:00
 tags:

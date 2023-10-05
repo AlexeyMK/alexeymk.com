@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Did I say Estonia? I meant Costa Rica'
 published: true
+description: "I'm putting Estonia on hold - still excited to go there, and hoping to do so in April or May, once it warms up again."
 date: 2014-08-01 11:27:40
 tags:
 - meta

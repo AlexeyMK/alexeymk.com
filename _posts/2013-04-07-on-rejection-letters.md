@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'The Art of Rejection'
+description: "At an event last week, I was introduced to the CEO of a post series-A startup I'd been following and found quite interesting. We spoke about his company for a few minutes, and he asked me to email him in case there were any opportunities for me as a freelancer to help."
 published: true
 date: 2013-04-07 23:11:47
 tags:

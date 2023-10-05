@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Statistical Significance on a Shoestring Budget'
 published: true
+description: 'Many startups experience a chicken-and-egg problem with growth: they want to run experiments to gain more volume, but lack the volume for experiments to be practical.'
 date: 2023-09-11 15:02:41
 tags:
 - growth-eng

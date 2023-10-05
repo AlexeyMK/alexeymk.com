@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Working Remotely Crossed the Chasm on May 12, 2020'
 published: true
+description: From academia to the Open Source movement, remote collaboration is not exactly novel. From Github to DuckDuckGo, remote-first successful businesses are no longer rare.
 date: 2020-05-12 22:55:46
 tags:
 - remote work

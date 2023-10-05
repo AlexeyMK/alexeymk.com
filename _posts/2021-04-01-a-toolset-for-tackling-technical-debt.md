@@ -2,6 +2,7 @@
 layout: post
 title: ! 'A toolset for tackling technical debt'
 published: true
+description: Not what you want to hear as the freshly-appointed Engineering Manager on a critical team. Leadership expects the team to deliver on key new features, but also, *there better not be any voluntary churn
 date: 2021-04-01 19:59:39
 tags:
 - engineering-management
