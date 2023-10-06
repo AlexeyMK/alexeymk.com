@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Two Steps Forward, Two Steps Back: 2016 in review'
 published: true
+description: "Here's how becoming sedentary and employed has turned out so far, relative to expectations."
 date: 2017-01-03 18:31:37
 tags:
 - reflection
@@ -11,7 +12,7 @@ tags:
 
 **2015** was mostly spent living out of a carry-on bag, traveling from Estonia and Berlin to Tokyo and Taipei helping run trips for, and building, [Hacker Paradise](http://hackerparadise.org).
 
-<img src="/images/bicycle_trip.jpg" style="max-width: 100%  !important;"/>
+<img src="/images/bicycle_trip.jpg" loading="eager" class="img-fluid"/>
 
 It was great. Wanderlust: satisfied.
 
@@ -25,7 +26,7 @@ Basically, stability.
 ### Engaged
 My partner Mari[^1] and I are (at long last) engaged! After 5 years of being together, we're back to living together and have a place in Bernal Heights that feels like our own. We're so domestic we even got an L-shaped couch and the kind of mattress they advertise on podcasts.
 
-<img src="/images/casper.png" />
+<img src="/images/casper.png" loading="eager" clas="img-fluid"/>
 
 There's something very warm and comforting in having a good sense of who you are going to spend the rest of your life with. Mari has been an anchor, making the disruption in other parts of my life that much more manageable.
 

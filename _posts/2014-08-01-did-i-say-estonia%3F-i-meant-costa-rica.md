@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Did I say Estonia? I meant Costa Rica'
 published: true
+description: "I'm putting Estonia on hold - still excited to go there, and hoping to do so in April or May, once it warms up again."
 date: 2014-08-01 11:27:40
 tags:
 - meta
@@ -17,7 +18,6 @@ Here's how it happened: [Casey Rosengren](https://twitter.com/CaseyRosengren), a
 
 In short: I'll be hacking by the pool in Costa Rica until November if you need me.
 
-<img src="http://www.hackerparadise.org/assets/img/portfolio/xfolio04.jpg.pagespeed.ic.7kj395nNtx.jpg"></img>
 
 PS. Care to join, either for the whole 12 weeks or for a shorter trip? We're [keeping a couple of spots open](http://hackerparadise.org).
 

@@ -1,0 +1,65 @@
+{% include head.html %}
+{% if page.url == "/" %}
+<!-- header -->
+<header class="container">
+<div class="row"> 
+<div class="col-md-4 p-3 p-md-5 text-center">
+<img class="img-fluid p-3 bg-light rounded-circle shadow-sm header-img" width="100%" height="100%" loading="lazy" alt="{{site.title}}" src="{{site.author.image}}"/>
+</div>
+<div class="col-md-8 p-3 p-md-5">
+<div class="row">
+<h1 class="col-md-12 mt-5">{{page.title}}</h1>
+<h2 class="lead col-md-12">{{page.description}}</h3>
+<div class=" col-md-8">
+<iframe src="https://embeds.beehiiv.com/{{site.behiiv_id}}?slim=true" 
+class="col-md-10" loading="lazy"
+data-test-id="beehiiv-embed" height="52" frameborder="0" 
+scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+</div>
+</div>
+</div>
+</div>
+</header> 
+<!-- header -->
+
+<!-- widget start -->
+<div class="container">
+<div class="row"> 
+<!-- popular post widget -->
+<div class="col-md-6 p-3">
+<h3 class="p-3">{{site.popularposttitle}}</h3>
+{% for post in site.popularpost %}
+<div class="p-3 ">
+<h4><a href="{{post.link}}">{{post.title}}</a></h4>
+<p>{{post.description}}</p>
+</div>
+<!-- popular post widget -->
+{% endfor %}
+</div>
+<!-- best post widget -->
+<div class="col-md-6 p-3">
+<h3 class="p-3">{{site.bestposttitle}}</h3>
+{% for post in site.bestpost %}
+<div class="p-3 ">
+<h4><a href="{{post.link}}">{{post.title}}</a></h4>
+<p>{{post.description}}</p>
+</div>
+{% endfor %}
+</div>
+<!-- best post widget -->
+</div>
+<!-- post list title -->
+<div class="col-md-12 p-3">
+<h3>{{site.postlist.title}}</h3>
+</div>
+<!-- post list title -->
+</div>
+<!-- widget start -->
+{% endif %}
+<!-- post -->
+<main class="container">
+{{content}}
+</main>
+<!-- post -->
+
+{% include footer.html %}

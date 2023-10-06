@@ -1,10 +1,9 @@
-<!-- _includes/image.html -->
-<!-- from https://superdevresources.com/image-caption-jekyll/ -->
-<div class="image-wrapper">
+<style>image-wrapper {padding: 0px;}</style>
+<div class="col-md-4 col-4 p-1 text-center mt-5">
     {% if include.url %}
     <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
     {% endif %}
-        <img src="{{ include.img }}" alt="{{ include.title }}" style="{{include.style}}">
+        <img src="{{ include.img }}"  loading="lazy" alt="{{ include.title }}" class="img-fluid" width="100%" style="{{include.style}}">
     {% if include.url %}
     </a>
     {% endif %}

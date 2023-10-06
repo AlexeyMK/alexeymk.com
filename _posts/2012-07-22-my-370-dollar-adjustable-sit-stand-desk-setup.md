@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'My $370 Adjustable Sit-Stand Desk Setup'
+description: " that results in an email asking where one buys such a thing. One buys such a thing on amazon."
 published: true
 date: 2012-07-22 21:54:14
 tags:
@@ -11,7 +12,8 @@ tags:
 
 Whenever a friend visits our HQ, I proudly show off my [combination sit/stand desk](http://www.amazon.com/WorkFit-S-Single-HD-Sit-Stand-Worstation/dp/B003WQ4GXQ/alexcom0ca-20). Often, that results in an email asking where one buys such a thing. One buys such a thing on amazon.
 
-<a href="http://www.amazon.com/WorkFit-S-Single-HD-Sit-Stand-Worstation/dp/B003WQ4GXQ/alexcom0ca-20"><img src="http://ecx.images-amazon.com/images/I/91EnHQnu6iL._AA1500_.jpg"></img></a>
+<a href="http://www.amazon.com/WorkFit-S-Single-HD-Sit-Stand-Worstation/dp/B003WQ4GXQ/alexcom0ca-20">
+<img data-src="http://ecx.images-amazon.com/images/I/91EnHQnu6iL._AA1500_.jpg" loading="lazy" class="lazyload"></a>
 
 Wait, why a standing desk?
 --------------------------
@@ -29,10 +31,12 @@ How I like it.
 - Overally, I'm pretty happy with the purchase, given the price point.
 - I'd be lying if I say that I've gotten myself standing most of the time. I'm writing this sitting down.  But I definitely stand more than I would otherwise; it really depends on my energy on a daily basis.  I've definitely still got room for improvement.
 
-<a href="http://www.amazon.com/WorkFit-S-Single-HD-Sit-Stand-Worstation/dp/B003WQ4GXQ/alexcom0ca-20"><img src="/images/standingdesk.jpg"></img></a>
+<a href="http://www.amazon.com/WorkFit-S-Single-HD-Sit-Stand-Worstation/dp/B003WQ4GXQ/alexcom0ca-20"><img data-src="/images/standingdesk.jpg" loading="lazy" class="lazyload"></a>
 
 So, that's my setup.  Feel free to [get one for yourself](http://www.amazon.com/WorkFit-S-Single-HD-Sit-Stand-Worstation/dp/B003WQ4GXQ/alexcom0ca-20).
 
 **PS**: A friend of mine is running [a kickstarter for a portable standing desk](http://www.kickstarter.com/projects/1886278358/ninja-standing-desk), for $150.  Seems pretty useful if you want to travel and have a standing work setup.
 
-<iframe width="640" height="480" src="http://www.kickstarter.com/projects/1886278358/ninja-standing-desk/widget/video.html" frameborder="0"> </iframe>
+<div class="ratio ratio-16x9 mb-5">
+<iframe data-src="http://www.kickstarter.com/projects/1886278358/ninja-standing-desk/widget/video.html" loading="lazy" class="lazyload" frameborder="0"> </iframe>
+</div>

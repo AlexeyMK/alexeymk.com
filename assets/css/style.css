@@ -1,0 +1,16 @@
+
+blockquote {
+  border-left: 1em solid rgba(21, 25, 25, 0.8);
+  padding-left: 1em;
+}
+blockquote p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+li blockquote,
+dt blockquote,
+dd blockquote{
+  margin-left: 0;
+  margin-right: 0;
+}

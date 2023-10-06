@@ -2,6 +2,7 @@
 layout: post
 title: ! Lies, Damned Lies, and Front-end Tracking
 published: true
+description: I'm here to warn you about the dangers of front-end user tracking. Not because Google is tracking you, but because it doesn't track you quite well enough.
 date: 2020-07-14 19:31:22
 tags:
 - growth
@@ -19,7 +20,7 @@ The year was 2019. Opendoor was signing my paychecks.
 
 We were launching our shiny new homepage.
 
-![](https://paper-attachments.dropbox.com/s_797F39BD41EFDEC54D5CBA97D7296FCBDAF1FBE1044BD81BCD0D8F34808AEF50_1593573820734_image.png)
+![shiny new homepage](https://paper-attachments.dropbox.com/s_797F39BD41EFDEC54D5CBA97D7296FCBDAF1FBE1044BD81BCD0D8F34808AEF50_1593573820734_image.png){:loading="eager"}
 
 We had spent a month migrating our landing pages from the Rails monolith to a shiny new Next.JS app. The new site was way faster and would therefore convert better, saving us millions of dollars annually in Facebook and Google ad costs.
 
@@ -41,7 +42,8 @@ How did we measure bounce rates? We dug in.
 
 
 ### How bounces work
- ![](https://cdn.shopify.com/s/files/1/2017/9247/products/Bebop-8-in-1-bouncy-castle-with-kids_600x.jpg?v=1553009477)
+ ![bounces work](https://cdn.shopify.com/s/files/1/2017/9247/products/Bebop-8-in-1-bouncy-castle-with-kids_600x.jpg?v=1553009477){:loading="eager"}
+
  When the homepage loads, the front-end tracking code records a 'page view' event. If the 'page view' event was recorded, but then nothing else happens, analytics will consider that user to have "bounced".
 
 It turned out that the old site was so slow that many folks left before their 'page view' ever got recorded. In other words, the old site was dramatically under-reporting bounces.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Being safe with mongodb
+description: "A quick public service announcement about MongoDB, for those of us new to NoSQL land"
 published: true
 date: 2012-08-05 23:45:08
 tags:
@@ -20,6 +21,7 @@ Unfortunately, this also means you're going to spend more time tracking down bug
 
 **Here's the fix**: set [`safe=True` in your Mongo connection object](http://www.mongodb.org/display/DOCS/Connections).  In django non-rel, this means setting
 
+```py
     DATABASES = {
       'default': {
         ...
@@ -28,6 +30,8 @@ Unfortunately, this also means you're going to spend more time tracking down bug
         },
       },
     }
+
+```
 
 in settings.py.
 

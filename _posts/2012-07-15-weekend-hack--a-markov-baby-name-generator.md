@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ! 'Weekend Hack: A Markov Baby Name Generator'
+description: "a Markov Chain is a simple random process to generate text that looks sort of like other text."
 published: true
 date: 2012-07-15 18:00:11
 tags:
@@ -22,7 +23,7 @@ Read [the wikipedia entry](http://en.wikipedia.org/wiki/Markov_chain) for a more
 
 For example: as we're generating baby names, say we start with the letter "C".  What should be our next letter?  Well, what kind of letters usually come after a "C" in names?  Let's look through our [list of existing names](https://github.com/AlexeyMK/markov-baby-names/blob/master/boys.txt) and see what usually comes next.
 
-<img src="/images/letters_after_c.png"></img>
+![A Markov Baby Name Generator](/images/letters_after_c.png){:loading="eager"}
 
 Great.  Let's pick the next character at random from within this list, weighing each possibility by how often it appears.  If we get 'end of word', we're done.
 
