@@ -1,12 +1,11 @@
 {% include headpost.html %}
-<style></style>
 <main class="container">
 <div class="row mt-3"> 
 <div class="col-md-9 mt-5 p-1 mx-auto">
 <h1><a href="{{page.url}}">{{page.title}}</a></h1>
 </div> 
 <div class="col-md-10 mx-auto">
-{% if page.cover %}<img class="img-fluid shadow-sm" width="100%" alt="{{page.title}}" loading="lazy" src="https://wsrv.nl/?url={{page.cover}}&w=1400&output=webp"/>{% endif %}
+{% if page.cover %}<img class="img-fluid" style="border-radius:0px;" width="100%" alt="{{page.title}}" loading="lazy" src="https://wsrv.nl/?url={{page.cover}}&w=1400&output=webp"/>{% endif %}
 </div>
 <div class="col-md-9 mx-auto">
 <p class="tag text-secondary"><i>{{ page.date | date: "%-d %B %Y" }}</i></p>

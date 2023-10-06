@@ -6,12 +6,15 @@
   a {color:black; text-decoration:none;}
   a.content {color:black; border-bottom: 1px dotted black;}
   .tag {font-size: 12px;}
-  img {border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}  
+  img {  -ms-interpolation-mode: bicubic; vertical-align: middle; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto; border-radius: 0px;}  
   .ser {border-radius: 12px 12px 12px 12px; }
   .nav-link:hover {text-decoration: underline;}  
   .header-img{width:400px; height:auto;}
    ::selection {color: white; background: black;}
-
+   .image-caption {font-size: 14px;}
+.img img {
+  display: block;
+}
 .subs {height: 250px;}
 
 blockquote {
@@ -68,7 +71,7 @@ table th {
    }
    @media only screen and (max-width: 600px) {
  .header-img{width:200px; height:auto;}
-  img {border-radius: 12px 12px 12px 12px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}  
+  img {border-radius: 0px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}  
    .nav-fot {border-right: solid #adb5bd 1px; padding: 10px; text-align:center;}
    .nav-fots {padding: 10px; text-align:center;}
      table {
