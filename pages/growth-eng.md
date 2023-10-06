@@ -6,7 +6,7 @@ cover: /assets/img/carton.jpg
 permalink: /growth-eng
 ---
 
-<div class="row p-0">
+<div style="display: flex; justify-content: center;">
 {% include image.html
     img="https://www.logo-designer.co/storage/2020/10/2020-masterclass-new-logo-design-identity-by-gretel-3.png"
     caption="Head of Growth Eng, 2020-2023"
@@ -32,7 +32,7 @@ permalink: /growth-eng
 …all kinds of things, if we trust Aline! Here are some common problems I help with:
 
 ### Scenario 1: Going 0 to 1 on Growth Engineering
-![https://giphy.com/gifs/fo84j6rpbL0yui7qBd](//wsrv.nl/?url=https://media.giphy.com/media/fo84j6rpbL0yui7qBd/giphy.gif&w=250&output=webp){:class="float-end me-3 mb-5"}
+![https://giphy.com/gifs/fo84j6rpbL0yui7qBd](//wsrv.nl/?url=https://media.giphy.com/media/fo84j6rpbL0yui7qBd/giphy.gif&h=250&w=300&output=webp){:class="float-end me-3 mb-5" :style="max-height: 250px;" .right}
 
 Your company just raised a significant round, and promoted / hired somebody to be “Head of Growth.” The Head of Growth is now in charge of scaling up customer acquisition and given staffing, including some engineering headcount.
 
@@ -40,7 +40,7 @@ But - it’s your first rodeo.  You may have worked with engineering and product
 
 ### Scenario 2: Going from PM-lead to writer’s room-style culture & ideation.
 
-![Credit to https://www.elenaverna.com/](//wsrv.nl/?url=https://softr-prod.imgix.net/applications/fa8b801a-eef1-4c03-8f34-4f8b3ffcea3e/assets/08fd73b2-4e71-4508-b4f0-b519a0b68dbd.png&w=300&output=webp){:class="float-start me-3"}
+![Credit to https://www.elenaverna.com/](//wsrv.nl/?url=https://softr-prod.imgix.net/applications/fa8b801a-eef1-4c03-8f34-4f8b3ffcea3e/assets/08fd73b2-4e71-4508-b4f0-b519a0b68dbd.png&w=300&output=webp){:style="height: 400px; width:300px;" .left class="float-start me-3"}
 You run a Growth org. You have an engineering team. The eng team cranks through the assigned tasks at what feels like a reasonable cadence, but the team’s impact is stagnating or falling. Metrics like win rate and average win size are plateauing.
 
 What’s going on?  Your PM seems exhausted - “we’re cranking pretty hard as is, I’m exhausted from all of the irons in the fire”!
@@ -49,7 +49,7 @@ What you may have is a cultural mismatch. The engineers think their job is to co
 
 
 ### Scenario 3: Balancing velocity and quality
-![credit to https://mltshp.com/p/1JG5B](//wsrv.nl/?url=https://paper-attachments.dropboxusercontent.com/s_831C31F966824C5BD0B2C12A337E8C68773B001AB8D1BC1BB944D1A9E68F632F_1677565823740_1JG5B.webp&w=400&output=webp){:class="float-end me-3"}
+![credit to https://mltshp.com/p/1JG5B](//wsrv.nl/?url=https://paper-attachments.dropboxusercontent.com/s_831C31F966824C5BD0B2C12A337E8C68773B001AB8D1BC1BB944D1A9E68F632F_1677565823740_1JG5B.webp&w=440&output=webp){:style="height: 300px; width:400px;" class="float-end me-3"}
 
 
 You have a functioning Growth org that produces solid results quarter after quarter. The problem is scaling, and engineering is the bottleneck.  You are pretty confident that you could easily put more engineers to high-impact work, but staffing is getting in the way.
@@ -58,7 +58,7 @@ Balancing the quality culture of the Engineering team and the scrappy culture of
 
 
 ### Scenario 4: Growth Tech Audit
-![](//wsrv.nl/?url=https://paper-attachments.dropboxusercontent.com/s_831C31F966824C5BD0B2C12A337E8C68773B001AB8D1BC1BB944D1A9E68F632F_1678427260171_image.png&w=360&output=webp){:class="float-start me-3"}
+![](//wsrv.nl/?url=https://paper-attachments.dropboxusercontent.com/s_831C31F966824C5BD0B2C12A337E8C68773B001AB8D1BC1BB944D1A9E68F632F_1678427260171_image.png&w=360&output=webp){:class="float-start me-3" style="height: 300px; width:440px;}
 In the era of ad blockers and state-by-state privacy laws being introduced multiple times a year, it’s surprisingly tricky to be confident that your performance marketing pixel is doing everything it can to help optimize your advertising spend.  What events are important? Are they firing? Server or client side? In which geos?
 
 At this point, I’ve had to set up (and fix) the marketing pixel setup often enough to

@@ -23,7 +23,7 @@ Consider an imaginary startup in turn considering funding a checkout optimizatio
 
 Being well acquainted with [power analysis](https://artifacts.reforge.com/artifacts/growth-team-swing-size-calculator-at-masterclass), this startup gets its Minimal Detectable Effect - IE, how big of a swing would it need to.
 
-![](/images/shoestring_2.png){:loading='eager'}
+![](/images/shoestring_2.png)
 
 Plugging their numbers into a [swing size calculator](https://docs.google.com/spreadsheets/d/13kgzaDt1NXH8m1LUuUqHltB1i0vTJ2OUBoGbI_hjzHg/edit#gid=0), they learn that nothing less than a 20% win be detectable today.
 
@@ -88,7 +88,7 @@ To get more power for top of funnel experiments, you can either (a) avoid custom
 
 
 ### Run tests for longer: 7 days becomes 2-3 weeks
-![Swing Size Calculator](/images/shoestring_7.png){:loading='eager'}
+![Swing Size Calculator](/images/shoestring_7.png)
 
 If you have more traffic, you get a larger sample size, which means you can detect smaller wins easier.
 
@@ -98,7 +98,7 @@ If you often find yourself shipping tests earlier than planned, consider switchi
 
 
 ### Get Comfortable with False Positives: p<0.05 becomes p<0.2
-![](/images/shoestring_8.png){:loading='eager'}
+![](/images/shoestring_8.png)
 
 Another tolerable trade-off: in a world where a false positive is harmless, get comfortable setting your Type 1 Error tolerance (IE, how often can I live with a false positive) from its traditional `a=0.05` (a 5% false positive) as high as `a=.2` (a 20% false positive rate)
 
@@ -108,7 +108,7 @@ Another tolerable trade-off: in a world where a false positive is harmless, get 
 ### Buy Traffic
 [hat-tip to [Taylor Adams](https://www.linkedin.com/in/tayloradams/)]
 
-![](/images/shoestring_9.webp){:loading='eager'}
+![](/images/shoestring_9.webp)
 
 If the budget is available, you can always ask the paid marketing team to increase their spend during your experiment. A quick traffic boost can get you the numbers you need.
 
@@ -119,7 +119,7 @@ If the budget is available, you can always ask the paid marketing team to increa
 When you're an order of magnitude (>2x) away from stat-sig, there’s still a few (more aggressive) things to try:
 
 ### Target a Proxy Metric
-![](/images/shoestring_10.png){:loading='eager'}
+![](/images/shoestring_10.png)
 
 At Opendoor, our team’s job was to optimize conversion for people selling us their houses.  However, a house sale actually closing took months and was not a common event, especially compared to a SAAS or eCommerce setup.  Instead, we found a number of proxy metrics (offer viewed, etc) that we could target instead.
 
@@ -134,7 +134,7 @@ To ensure the proxy metric doesn’t steer you astray, you can:
 ### Run your Tests on the Paid Layer
 [Hat-tip to [Julian](http://julian.com) - I can’t for the life of me find the original quote, but [here’s a good guide](https://www.julian.com/guide/startup/landing-pages)]
 
-![](/images/shoestring_11.jpeg){:loading='eager'}
+![hat](/images/shoestring_11.jpeg)
 
 If you want to experiment with several headlines or images on your landing pages but don’t have enough traffic, you can test those very same headlines or images on paid marketing ads. The ones that perform best at the paid traffic level are reasonable candidates to do well on your marketing page.
 
@@ -142,7 +142,7 @@ If you want to experiment with several headlines or images on your landing pages
 
 
 ### Go Qualitative with Surveys, Paid Feedback and Session Recording
-![image credit: https://uxtools.co/blog/17-tools-that-will-streamline-your-ux-research/](/images/shoestring_12.webp){:loading='eager'}
+![image credit: https://uxtools.co/blog/17-tools-that-will-streamline-your-ux-research/](/images/shoestring_12.webp)
 
 If you want to gain intuition for what users want - just ask them, or look for yourself!
 
@@ -170,7 +170,7 @@ Ideally, many of these approaches are often used during design, as a precursor t
 
 
 ### YOLO - Just Make the Change
-![](/images/shoestring_13.png){:loading='eager'}
+![yolo](/images/shoestring_13.png)
 
 Ultimately, the simplest thing you can always do is just go ahead and make whatever change it is you believe in.  So long as you are right often enough, you should start to see conversion starting to tick up over time.
 

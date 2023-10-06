@@ -1,9 +1,9 @@
 <style>image-wrapper {padding: 0px;}</style>
-<div class="col-md-4 col-4 p-1 text-center mt-5">
+<div class="image-wrapper text-center">
     {% if include.url %}
     <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
     {% endif %}
-        <img src="{{ include.img }}"  loading="lazy" alt="{{ include.title }}" class="img-fluid" width="100%" style="{{include.style}}">
+        <img src="{{ include.img }}"  loading="lazy" alt="{{ include.title }}" class="img-fluid" style="{{include.style}}">
     {% if include.url %}
     </a>
     {% endif %}
