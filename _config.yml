@@ -2,61 +2,59 @@ title: Alexey MK
 description: Alexey needs a web presence
 url: 'https://alexeymk.com'
 #baseurl: 'https://alexeymk.com'
-google: 
- siteverification: 
+google:
+ siteverification:
  analystic: UA-177075467-9
- tagmanager: GTM-NLNNZZOP
+ tagmanager: GTM-T3ZC4Q3W
 lang: en
 locale: en_US
-media: 
+media:
  favicon: /assets/img/alexey.webp
  cover: /assets/img/alexey.webp
 
-behiiv_id: f947b9d0-3ff1-4532-89f9-e4c1c24e61a5
-
-author: 
+author:
  name: Alexey MK
  image: /assets/img/alexey.webp
- about: About Alexey MK - Starting, scaling, and optimizing a Software Engineering Organization focused on Growth 
+ about: About Alexey MK - Starting, scaling, and optimizing a Software Engineering Organization focused on Growth
  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  email: alexey@alexeymk.com
 
 popularposttitle: Popular Post
-popularpost: 
+popularpost:
  - title: Statistical Significance on a Shoestring Budget
    description: This guide helps companies determine if (and how) they could staff a Growth team to start running experiments. First, we’ll diagnose what is achievable with the amount of traffic currently available. Then, we’ll dig into what techniques might be available to increase experimental power.
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
 
 bestposttitle: Best Article
-bestpost: 
+bestpost:
  - title: Hamtips, or why I still run the Technical Phone Screen as the Hiring Manager
    description: This guide helps companies determine if (and how) they could staff a Growth team to start running experiments. First, we’ll diagnose what is achievable with the amount of traffic currently available. Then, we’ll dig into what techniques might be available to increase experimental power.
    link: /2021/09/15/hamtips.html
 
-postlist: 
+postlist:
  title: Lastest Update
  button: Explore all post
  limit: 6
 
-paginationpage: 
+paginationpage:
  next: More Post
  previous: Older Post
 
 footernavtitle: Menu
-footernav1: 
+footernav1:
  nav: Home
  link: /
-footernav2: 
+footernav2:
  nav: About
  link: /about
-footernav3: 
+footernav3:
  nav: Growth
  link: /growth-eng
-footernav4: 
+footernav4:
  nav: Contact
  link: mailto:alexey@alexeymk.com
 
-subscribes: 
+subscribes:
  title: Subscribe Now
  text: Subscribe so you don't miss the latest updates about Growth.
  placeholder: example@email.com
@@ -76,13 +74,13 @@ sharemodal:
  facebook: facebook
 
 social: #max 5 social
- facebook: 
+ facebook:
  twitter: https://twitter.com/alexeymk
  twitter_username: alexeymk
  rss: /feed.xml
- linked: 
- youtube: 
-# instagram: 
+ linked:
+ youtube:
+# instagram:
 
 
 paginate: 6
@@ -98,7 +96,7 @@ defaults:
     values:
       layout: "default"
       permalink: /:year/:month/:title:output_ext.html
-      permalink: 
+      permalink:
   - scope:
       path: ""
     values:
@@ -107,7 +105,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-#  - jekyll-loading-lazy
+  - jekyll-loading-lazy
 
 markdown: kramdown
 highlighter: rouge
