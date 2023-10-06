@@ -16,9 +16,7 @@ Use asdf to install Ruby 3.2 or newer.
 Then once you're using the appropriate ruby, you should be able to
 2. Jekyll
 `bundle install` everything
-
-
-
+then `bundle exec jekyll run`
 
 Recipe:
  - 💎 Jekyll V.4.3.2
