@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-  body,html {font-family: 'Poppins', sans-serif; font-size: 18px;}
-  h1,h2,h3,h4,h5,.navbar-brand{font-family: 'Roboto', sans-serif; padding-bottom: 8px; padding-top: 15px;}
-  p,ul,li {padding-bottom: 8px;}
-  a {color:black; text-decoration:none;}
-  a.content {color:black; border-bottom: 1px dotted black;}
-  .tag {font-size: 12px;}
-  img {  -ms-interpolation-mode: bicubic; vertical-align: middle; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto; border-radius: 0px;}
-  .ser {border-radius: 12px 12px 12px 12px; }
-  .nav-link:hover {text-decoration: underline;}
-  .header-img{width:400px; height:auto;}
-   ::selection {color: white; background: black;}
-   .image-caption {font-size: 14px;}
+
+body,html {font-family: 'Poppins', sans-serif; font-size: 18px;}
+h1,h2,h3,h4,h5,.navbar-brand{font-family: 'Roboto', sans-serif; padding-bottom: 8px; padding-top: 15px;}
+p,ul,li {padding-bottom: 8px;}
+a {color:black; text-decoration:none;}
+a.content {color:black; border-bottom: 1px dotted black;}
+.tag {font-size: 12px;}
+img {  -ms-interpolation-mode: bicubic; vertical-align: middle; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto; border-radius: 0px;}
+.ser {border-radius: 12px 12px 12px 12px; }
+.nav-link:hover {text-decoration: underline;}
+.header-img{width:400px; height:auto;}
+::selection {color: white; background: black;}
+.image-caption {font-size: 14px;}
 .img img {
   display: block;
 }
 .subs {height: 250px;}
 
--- overwrite minimalistic style so non-header links are more obvious
+/* overwrite minimalistic style so non-header links are more obvious */
 *:not(h1,h2,h3,h4) > a {
   border-bottom: 1px dashed #ad4346
 }
@@ -37,7 +38,7 @@ dd blockquote{
   margin-left: 0;
   margin-right: 0;
 }
-   table {
+table {
   border: 1px solid #ccc;
   border-collapse: collapse;
   margin: 10px;
@@ -71,17 +72,17 @@ table th {
   text-transform: uppercase;
 }
 
-   @media screen and (min-width: 800px) {
-   .nav-fot,.nav-fots {border-bottom: solid #adb5bd 1px; margin-top: 25px;}
-   }
-   @media only screen and (max-width: 600px) {
- .header-img{width:200px; height:auto;}
+@media screen and (min-width: 800px) {
+  .nav-fot,.nav-fots {border-bottom: solid #adb5bd 1px; margin-top: 25px;}
+}
+@media only screen and (max-width: 600px) {
+  .header-img{width:200px; height:auto;}
   img {border-radius: 0px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}
-   .nav-fot {border-right: solid #adb5bd 1px; padding: 10px; text-align:center;}
-   .nav-fots {padding: 10px; text-align:center;}
-     table {
+  .nav-fot {border-right: solid #adb5bd 1px; padding: 10px; text-align:center;}
+  .nav-fots {padding: 10px; text-align:center;}
+  table {
     border: 0;
-  font-size: 14px;
+    font-size: 14px;
   }
 
   table caption {

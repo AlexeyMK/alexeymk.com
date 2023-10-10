@@ -8,6 +8,7 @@ google:
  tagmanager: GTM-T3ZC4Q3W
 lang: en
 locale: en_US
+timezone: 'America/Los_Angeles'
 media:
  favicon: /assets/img/alexey.webp
  cover: /assets/img/alexey.webp
