@@ -1,7 +1,7 @@
 {% include head.html %}
 {% if page.url == "/" %}
-<!-- header -->
 <header class="container">
+<!-- header -->
   <div class="row">
     <div class="col-md-4 p-3 p-md-5 text-center">
       <img class="img-fluid p-3 bg-light rounded-circle shadow-sm header-img" width="100%" height="100%" loading="lazy" alt="{{site.title}}" src="{{site.author.image}}"/>
@@ -9,8 +9,15 @@
     <div class="col-md-8 p-3 p-md-5">
       <div class="row">
         <h1 class="col-md-12 mt-5">{{page.title}}</h1>
-        <h2 class="lead col-md-12">{{page.description}}</h3>
-        <div class=" col-md-8">
+        <h2 class="lead col-md-12">{{page.description}}</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <a href="/about">About</a> | <a href="/growth-eng">Growth Advising</a>
+        </div>
+      </div>
+      <div class="row pt-2">
+        <div class="col-md-8 w-100">
           <iframe src="https://embeds.beehiiv.com/{{site.beehiiv_id}}?slim=true"
                   class="col-md-10" loading="lazy"
                                     data-test-id="beehiiv-embed" height="52" frameborder="0"
