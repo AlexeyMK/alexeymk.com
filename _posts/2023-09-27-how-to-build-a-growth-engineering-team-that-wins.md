@@ -3,8 +3,10 @@ layout: post
 title: 'How to Build a Growth Engineering team that Wins'
 description: "A dedicated growth engineering team can have a significant impact on a business's trajectory. If executed properly, this team will consistently drive target metrics to increase by 10% or more every quarter."
 published: true
+hidden_from_pagination: false
 cover: http://alexeymk-com.pages.dev/assets/img/blog/dedic.png
 date: 2023-09-27 16:00:29
+excerpt: "Hello World"
 tags:
  - growth-eng
 ---
@@ -16,7 +18,7 @@ A dedicated growth engineering team can have a significant impact on a business'
 However, the desired impact of growth engineering teams often goes unrealized often due to:
 
 - Operating at the same speed as the core engineering team
-- Getting caught up in mundane tasks  
+- Getting caught up in mundane tasks
 - Being gridlocked by dependencies
 - Experiencing a general lack of inspiration
 
@@ -28,7 +30,7 @@ The success of a growth engineering team comes down to prioritization, hiring, t
 2. Setting the culture
 3. Transitioning core product engineers to growth
 4. Hiring growth engineers
-5. Training 
+5. Training
 
 
 ### 1. Getting started: Growth Engineer #1
@@ -50,9 +52,9 @@ A growth engineering team at a growth-stage company should feel appropriately we
 
 **Growth engineers follow the 30/90 rule, focusing on impact over code craft**.  Only about 30% of the code a growth engineer will write remains in production after a year. In contrast, core engineers design their code with the expectation that 90% will be operational a year later.  Having most of your code get deleted can be disheartening for engineers who take pride in the elegance and reusability of their code contributions.  To stay motivated, Growth engineers instead take pride in the business impact their work delivers, i.e.  “I shipped 14 experiments last quarter, resulting in 6 winners and an incremental $3 million in annual revenue.”
 
-**Growth engineers are comfortable wearing product hats**. Meticulous design specs or multiple rounds of back and forth are too slow.  Growth engineers must make many small product decisions independently to move quickly.  
+**Growth engineers are comfortable wearing product hats**. Meticulous design specs or multiple rounds of back and forth are too slow.  Growth engineers must make many small product decisions independently to move quickly.
 
-Growth engineers are comfortable wearing analytics hats. Being curious about user behavior, engineers should be able to answer most of their own questions about their customers by digging into the analytics themselves.  
+Growth engineers are comfortable wearing analytics hats. Being curious about user behavior, engineers should be able to answer most of their own questions about their customers by digging into the analytics themselves.
 
 **Growth engineers are comfortable with ownership.** A practical Growth engineer can act as a “Mini PM” often able to own their projects from design to implementation, going live, and post-launch analysis.
 
@@ -75,7 +77,7 @@ In practice, the way these differences often manifest themselves as follows:
 
 3. **Former Core Engineers are often blocked** because they’ve become accustomed to working with core designers that are meticulous and pixel-perfect about their work, and so are less comfortable making small decisions independently.
 
-Not all hope is lost, however.  Over time, Core Product Engineers can become more comfortable working in a growth engineering work-style.  Be prepared to be patient & invest in training.  
+Not all hope is lost, however.  Over time, Core Product Engineers can become more comfortable working in a growth engineering work-style.  Be prepared to be patient & invest in training.
 
 The first & highest leverage way you can teach Growth Engineering is by seeding the team with engineers that have worked in a high-functioning growth organization before. Following somebody setting a positive example is far easier than simply hearing “get it done” over and over.
 
@@ -84,7 +86,7 @@ The first & highest leverage way you can teach Growth Engineering is by seeding 
 
 When hiring engineers for Growth Engineering, staying away from the traditional “Software Engineer at FAANG/high-status company” background.  Former founders, new grads and bootcamp career-switchers are all groups that have not yet been tainted by “complexity is beautiful” culture that prevails at many bigger companies. These folks tend to take to Growth engineering much more naturally and enthusiastically.
 
-During the interview process, competent coding is as important as ever, but algorithmic questions, a la “invert this binary tree” type questions are best worth avoiding, since they optimize for an ability that won’t be used nearly as much.  Being able to distinguish between O(nlogn) and O(n^2) runtimes is less important in an organization that tries to get away with hardcoding as much as possible on the front-end anyway.  
+During the interview process, competent coding is as important as ever, but algorithmic questions, a la “invert this binary tree” type questions are best worth avoiding, since they optimize for an ability that won’t be used nearly as much.  Being able to distinguish between O(nlogn) and O(n^2) runtimes is less important in an organization that tries to get away with hardcoding as much as possible on the front-end anyway.
 
 An engineer describing themselves as “wanting to be more than just an engineer” or curious about product management during an interview is likely to have the right attitude to pickup the broad set of skills required for success.
 
@@ -94,7 +96,7 @@ An engineer describing themselves as “wanting to be more than just an engineer
 Getting an engineering team to get comfortable working on growth takes some time. Don’t try to incorporate all of these processes all at once.
 
 **Beginner Growth Team Patterns**
-Start every quarter with a brainstorm, giving engineers enough context to come up with ideas and get more bought into the team’s goals.  Every quarter, have every engineer pick one project to own from start to finish.  Anytime engineers ask for clarification on specs or designs, have them make a recommendation before giving them an answer.  Take every opportunity to publicly praise your engineers for the behaviors you want to see - autonomy, curiosity, scope cutting, and being involved in winning experiments.  
+Start every quarter with a brainstorm, giving engineers enough context to come up with ideas and get more bought into the team’s goals.  Every quarter, have every engineer pick one project to own from start to finish.  Anytime engineers ask for clarification on specs or designs, have them make a recommendation before giving them an answer.  Take every opportunity to publicly praise your engineers for the behaviors you want to see - autonomy, curiosity, scope cutting, and being involved in winning experiments.
 
 Once your engineers have gotten their feet wet with ideation and leadership, you can move on to fancier practices.
 

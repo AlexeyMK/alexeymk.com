@@ -45,7 +45,7 @@ postlist:
 
 paginationpage:
  next: _
- previous: More Posts
+ previous: More
 
 footernavtitle: Menu
 footernav1:
@@ -59,7 +59,7 @@ footernav3:
  link: /growth-eng
 footernav4:
  nav: Contact
- link: mailto:alexey@alexeymk.com
+ link: mailto:alexey+contact-on-website@alexeymk.com
 
 sharemodal:
  button: Share article
