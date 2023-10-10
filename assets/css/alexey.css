@@ -6,9 +6,9 @@
   a {color:black; text-decoration:none;}
   a.content {color:black; border-bottom: 1px dotted black;}
   .tag {font-size: 12px;}
-  img {  -ms-interpolation-mode: bicubic; vertical-align: middle; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto; border-radius: 0px;}  
+  img {  -ms-interpolation-mode: bicubic; vertical-align: middle; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto; border-radius: 0px;}
   .ser {border-radius: 12px 12px 12px 12px; }
-  .nav-link:hover {text-decoration: underline;}  
+  .nav-link:hover {text-decoration: underline;}
   .header-img{width:400px; height:auto;}
    ::selection {color: white; background: black;}
    .image-caption {font-size: 14px;}
@@ -16,6 +16,11 @@
   display: block;
 }
 .subs {height: 250px;}
+
+-- overwrite minimalistic style so non-header links are more obvious
+*:not(h1,h2,h3,h4) > a {
+  border-bottom: 1px dashed #ad4346
+}
 
 blockquote {
   border-left: 1em solid black;
@@ -71,7 +76,7 @@ table th {
    }
    @media only screen and (max-width: 600px) {
  .header-img{width:200px; height:auto;}
-  img {border-radius: 0px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}  
+  img {border-radius: 0px; margin-top: 5px; margin-bottom:5px; max-width: 100%; height: auto;}
    .nav-fot {border-right: solid #adb5bd 1px; padding: 10px; text-align:center;}
    .nav-fots {padding: 10px; text-align:center;}
      table {
@@ -82,7 +87,7 @@ table th {
   table caption {
     font-size: 1.0em;
   }
-  
+
   table thead {
     border: none;
     clip: rect(0 0 0 0);
@@ -93,27 +98,27 @@ table th {
     position: absolute;
     width: 1px;
   }
-  
+
   table tr {
     border-bottom: 3px solid #ddd;
     display: block;
     margin-bottom: .625em;
   }
-  
+
   table td {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .6em;
     text-align: right;
   }
-  
+
   table td::before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   table td:last-child {
     border-bottom: 0;
   }
