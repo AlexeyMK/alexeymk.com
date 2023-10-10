@@ -23,26 +23,29 @@ author:
  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  email: alexey@alexeymk.com
 
-popularposttitle: Popular Post
+popularposttitle: Featured Essays
 popularpost:
- - title: Statistical Significance on a Shoestring Budget
-   description: This guide helps companies determine if (and how) they could staff a Growth team to start running experiments. First, we’ll diagnose what is achievable with the amount of traffic currently available. Then, we’ll dig into what techniques might be available to increase experimental power.
+ - title: Stat Sig on a Shoestring Budget
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
-
-bestposttitle: Best Article
-bestpost:
- - title: Hamtips, or why I still run the Technical Phone Screen as the Hiring Manager
-   description: This guide helps companies determine if (and how) they could staff a Growth team to start running experiments. First, we’ll diagnose what is achievable with the amount of traffic currently available. Then, we’ll dig into what techniques might be available to increase experimental power.
-   link: /2021/09/15/hamtips.html
+   description: Techniques for running A/B tests with limited traffic
+ - title: Build a Growth Engineering Team That Wins
+   link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
+   description: Starting, hiring, training, and setting culture for your Growth Engineering team. Co-authored with Elena Verna
+ - title: Lies, Damned Lies, and Front-end Tracking
+   link: /2020/07/14/lies-damn-list-and-front-end-tracking.html
+   description: Front-end analytics can be deceptive. Here's what you should do instead.
+ - title: Product Engineers Can't Hack it on Growth
+   link: /2023/03/03/why-core-product-engineers-cant-hack-growth.html
+   description: "Why so many growth engineers coming from product don't seem to enjoy their job"
 
 postlist:
- title: Lastest Update
+ title: Latest Articles
  button: Explore all post
- limit: 6
+ limit: 8
 
 paginationpage:
- next: More Post
- previous: Older Post
+ next: _
+ previous: More Posts
 
 footernavtitle: Menu
 footernav1:
@@ -57,17 +60,6 @@ footernav3:
 footernav4:
  nav: Contact
  link: mailto:alexey@alexeymk.com
-
-subscribes:
- title: Subscribe Now
- text: Subscribe so you don't miss the latest updates about Growth.
- placeholder: example@email.com
- button: Subscribe
-
-subscribemodal:
- title: Input Your Email
- placeholder: example@email.com
- button: Subscribe Now
 
 sharemodal:
  button: Share article
