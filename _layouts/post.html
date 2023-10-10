@@ -1,9 +1,9 @@
 {% include headpost.html %}
 <main class="container">
-<div class="row mt-3"> 
+<div class="row mt-3">
 <div class="col-md-9 mt-5 p-1 mx-auto">
 <h1><a href="{{page.url}}">{{page.title}}</a></h1>
-</div> 
+</div>
 <div class="col-md-10 mx-auto">
 {% if page.cover %}<img class="img-fluid" style="border-radius:0px;" width="100%" alt="{{page.title}}" loading="lazy" src="https://wsrv.nl/?url={{page.cover}}&w=1400&output=webp"/>{% endif %}
 </div>
@@ -11,7 +11,7 @@
 <p class="tag text-secondary"><i>{{ page.date | date: "%-d %B %Y" }}</i></p>
 <div class="content">
 {{content}}
-<p class="tag">Tags: 
+<p class="tag">Tags:
 {% if page.tags %}
 {% for tag in page.tags %}
 {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -21,14 +21,11 @@
 </p>
 </div>
 <div class="p-3 text-center">
-<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#shareModal">
-{{site.sharemodal.button}}
-</button>
 </div>
-{% include hardcode/otherpost.html %}  
+{% include hardcode/otherpost.html %}
 </div>
 </div>
 </main>
-{% include widget/subscribemodal.html %}  
-{% include widget/share.html %}  
+{% include widget/subscribemodal.html %}
+{% include widget/share.html %}
 {% include footer.html %}
