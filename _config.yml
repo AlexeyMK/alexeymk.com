@@ -77,7 +77,7 @@ social: #max 5 social
 # instagram:
 
 
-paginate: 6
+paginate: 10
 paginate_path: '/:num/'
 
 collections:

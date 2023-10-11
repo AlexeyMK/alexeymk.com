@@ -6,6 +6,7 @@ published: true
 date: 2010-11-02 11:33:00
 tags:
 - technical
+- code
 ---
 <p><strong>TL; DR</strong>: want to auto-generate .h files from .c files? Type <a href="#sol">this</a> into vim.</p>
 <p><strong>C sucks.</strong> <em>[Disclaimer: OK, I don't like C; I'm a python/functional languages guy. You may love it. Whatever.]</em></p>
@@ -39,7 +40,7 @@ main.c:3: note: previous implicit declaration of ‘getFirstChar’ was here
 <li><strong>Declare the method headers at the top of the file/create a header file</strong>
 <div class="CodeRay">
   <div class="code"><pre>int main(int argc, char** argv);
-char getFirstChar(); 
+char getFirstChar();
 ...
 #include &quot;main.h&quot;</pre></div>
 </div>
