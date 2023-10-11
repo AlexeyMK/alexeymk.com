@@ -2,6 +2,7 @@
 layout: post
 title: ! 'The last 10 months'
 published: true
+hidden: true
 date: 2013-10-20 16:25:18
 description: "2013 hasn't been a great year for new content on this blog. Let me try to change that."
 tags:

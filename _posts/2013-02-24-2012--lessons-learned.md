@@ -3,6 +3,7 @@ layout: post
 title: ! 'Start-ups are hard: Lessons learned in 2012'
 description: "Fourteen months ago, in my last semester of college, I began working on a start-up idea with a few folks I had met through school. The company we started is off to a good start."
 published: true
+hidden: true
 date: 2013-02-24 17:45:51
 tags:
 - advice
