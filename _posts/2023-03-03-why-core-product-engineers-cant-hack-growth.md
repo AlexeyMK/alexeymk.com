@@ -3,6 +3,7 @@ layout: post
 title: "Why Core Product Engineers can't Hack it on Growth"
 description: "Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team."
 published: true
+hidden: true # already a featued essay
 cover: https://alexeymk-com.pages.dev/assets/img/blog/coreproduct.png
 date: 2023-03-03 16:00:29
 tags:
@@ -13,7 +14,7 @@ tags:
 
 Rut row. You’d think the transition from Core Product to Growth would go smoothly; this is rarely the case. Growth Engineers require a fundamentally different skillset and mindset to be successful. Let me explain.
 
-  
+
 
 **A Product Engineer is a Formula 1 Racing Engineer.**
 
@@ -21,7 +22,7 @@ Rut row. You’d think the transition from Core Product to Growth would go smoot
 
 The car is their baby. The job is to spend an inordinate amount of time tweaking and improving a vehicle that can go 100 laps as speedily as possible.
 
-  
+
 
 **A Growth Engineer is a Redbull Flugtag Prototyper**
 

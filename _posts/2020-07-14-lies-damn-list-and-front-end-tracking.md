@@ -2,6 +2,7 @@
 layout: post
 title: ! Lies, Damned Lies, and Front-end Tracking
 published: true
+hidden: true # already a featued essay
 description: I'm here to warn you about the dangers of front-end user tracking. Not because Google is tracking you, but because it doesn't track you quite well enough.
 date: 2020-07-14 19:31:22
 tags:
