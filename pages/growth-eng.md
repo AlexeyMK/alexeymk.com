@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Growth Eng Alexey MK
-description : This is my website built with new version of jekyll
-cover: /assets/img/carton.jpg
+title: "Engineering Growth: How Alexey can Help"
 permalink: /growth-eng
 ---
 
