@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About Alexey
-cover: https://alexeymk-com.pages.dev/assets/img/alx.jpg
 permalink: /about
 ---
 Last updated April 2023.*

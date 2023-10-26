@@ -11,7 +11,7 @@ tags:
  - growth-eng
 ---
 
-published at Elena’s blog
+_Note: Co-written with [Elena Verna](https://elenaverna.substack.com/), and [originally published](https://elenaverna.substack.com/p/how-to-build-a-growth-engineering) on her blog._
 
 A dedicated growth engineering team can have a significant impact on a business's trajectory. If executed properly, this team will consistently drive target metrics to increase by 10% or more every quarter.
 

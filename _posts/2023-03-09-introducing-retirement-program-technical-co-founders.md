@@ -3,7 +3,7 @@ layout: post
 title: 'Introducing: A Retirement Program for Technical Co-Founders'
 description: Exhausted from running your startup? Burnt out, losing friends and hair, gaining weight and wrinkles?
 published: true
-cover: https://alexeymk-com.pages.dev/assets/img/blog/gwt.png
+cover: /assets/img/blog/gwt.png
 date: 2023-03-09 16:00:29
 tags:
  - growth-eng
@@ -25,6 +25,6 @@ Circa-2018 Alexey: “Great! I moved our funnel conversion by 10% last week thro
 
 Good luck with that Circa-2018 Alexey! And best of all, if you end up wanting to get back in the co-founder saddle, that’s always an option.
 
-  
+
 
 Growth Engineering™️ - order today and we’ll throw in a generous salary + benefits package!

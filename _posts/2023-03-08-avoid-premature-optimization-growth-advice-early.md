@@ -3,7 +3,7 @@ layout: post
 title: 'Avoid Premature Optimization: Growth Advice for Early Stage Founders'
 description: Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team.
 published: true
-cover: https://alexeymk-com.pages.dev/assets/img/blog/avoidpremature.png
+cover: /assets/img/blog/avoidpremature.png
 date: 2023-03-08 16:00:29
 tags:
  - growth-eng
@@ -17,7 +17,7 @@ But, this is a platitude they’ll have already heard; it sounds broadly right, 
 
 As such, here are some details: An early stage company, whether focused on consumers, small businesses or enterprises, largely goes through three phases. Let’s talk through them using a Growth lens.
 
-  
+
 
 The world of a company, through a Growth lens 
 ----------------------------------------------
@@ -28,7 +28,7 @@ Here’s your business viewed as a funnel. To rely on a simpler version of [AAA
 2.  **Activation -** getting customers to actually try the product. In some cases this means purchasing, in others, simply registering, or hopping on a call with sales. The rate of people going from **aware** to **active** is your activation success metric.
 3.  **Revenue & Retention** - getting customers to pay, pay more, and keep paying. By far the easiest way to do this is have a great product.
 
-  
+
 
 An 👀, below, represents 10% of a founder’s attention.
 
@@ -64,11 +64,11 @@ Phase 2: Figuring out the Market
 
 *   Keep working on your product. New customer segments will want new features, and the minute you stop working on your product is roughly when companies start declining.
 
-  
+
 
 **Your goal**, at this stage, is to find your **first** repeatable customer acquisition channel, and scale it to some reasonable number (say $1M in annual revenue, though the numbers vary across industries and locations).
 
-  
+
 
 _Note: a number of hard-tech or enterprise-focused companies may often swap the first two phases, first figuring out “can we actually sell this effectively” before starting to build. This is a less fun, but no less credible, way of building certain kinds of companies._
 
