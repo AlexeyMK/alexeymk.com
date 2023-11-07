@@ -4,21 +4,21 @@ url: 'https://alexeymk.com'
 #baseurl: 'https://alexeymk.com'
 google:
  siteverification:
- analystic: UA-177075467-9
+ analystic: G-82F5K9G4DY
  tagmanager: GTM-T3ZC4Q3W
 lang: en
 locale: en_US
 timezone: 'America/Los_Angeles'
 media:
- favicon: /assets/img/alexey.webp
- cover: /assets/img/alexey.webp
+ favicon: /images/alexey.webp
+ cover: /images/alexey.webp
 
 # this is specifically the ID of the form embed
 beehiiv_id: e6e4a431-4ee3-491e-ad72-a3b738eaa350
 
 author:
  name: Alexey MK
- image: /assets/img/alexey.webp
+ image: /images/alexey.webp
  email: alexey@alexeymk.com
 
 popularposttitle: Growth Engineering Guides
