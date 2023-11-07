@@ -1,38 +1,39 @@
 {% include headpost.html %}
 <main class="container">
-<div class="row mt-3">
-<div class="col-md-9 mt-5 p-1 mx-auto">
-<h1><a href="{{page.url}}">{{page.title}}</a></h1>
-</div>
-<div class="col-md-10 mx-auto">
-  {% if page.cover %}
-    {% if site.url contains 'localhost' %}
+  <div class="row mt-3">
+    <div class="col-md-9 mt-5 p-1 mx-auto">
+      <h1><a href="{{page.url}}">{{page.title}}</a></h1>
+    </div>
+    <div class="col-md-10 mx-auto">
+      {% if page.cover %}
+      {% if site.url contains 'localhost' %}
       {% assign cover_url = site.url | append: page.cover %}
-    {% else %}
+      {% else %}
       {% assign cover_url = "https://wsrv.nl/?url=" | append: site.url | append: page.cover %}
-    {% endif %}
+      {% endif %}
 
-    <img class="img-fluid" style="border-radius:0px;" width="100%" alt="{{page.title}}" loading="lazy" src="{{ cover_url }}"/>
-  {% endif %}
-</div>
-<div class="col-md-9 mx-auto">
-<p class="tag text-secondary"><i>{{ page.date | date: "%-d %B %Y" }}</i></p>
-<div class="content">
-{{content}}
-<p class="tag">Tags:
-{% if page.tags %}
-{% for tag in page.tags %}
-{% capture tag_name %}{{ tag }}{% endcapture %}
-<a href="{{site.baseurl}}/tags.html#{{tag}}" class="p-1 me-1">#{{ tag_name }}</a>
-{% endfor %}
-{% endif %}
-</p>
-</div>
-<div class="p-3 text-center">
-</div>
-{% include hardcode/otherpost.html %}
-</div>
-</div>
+      <img class="img-fluid" style="border-radius:0px;" width="100%" alt="{{page.title}}" loading="lazy" src="{{ cover_url }}"/>
+      {% endif %}
+    </div>
+    <div class="col-md-9 mx-auto">
+      <p class="tag text-secondary"><i>{{ page.date | date: "%-d %B %Y" }}</i></p>
+      {% include widget/subscribe.html %}
+      <div class="content">
+        {{content}}
+        <p class="tag">Tags:
+        {% if page.tags %}
+        {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="{{site.baseurl}}/tags.html#{{tag}}" class="p-1 me-1">#{{ tag_name }}</a>
+        {% endfor %}
+        {% endif %}
+        </p>
+      </div>
+      <div class="p-3 text-center">
+      </div>
+      {% include hardcode/otherpost.html %}
+    </div>
+  </div>
 </main>
 {% include widget/subscribemodal.html %}
 {% include widget/share.html %}
