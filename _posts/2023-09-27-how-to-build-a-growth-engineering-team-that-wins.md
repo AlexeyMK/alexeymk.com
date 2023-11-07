@@ -4,7 +4,7 @@ title: 'How to Build a Growth Engineering team that Wins'
 description: "A dedicated growth engineering team can have a significant impact on a business's trajectory. If executed properly, this team will consistently drive target metrics to increase by 10% or more every quarter."
 published: true
 hidden: true # already a featued essay
-cover: "/assets/img/blog/dedic.png"
+cover: "/images/blog/dedic.png"
 date: 2023-09-27 16:00:29
 excerpt: "Hello World"
 tags:

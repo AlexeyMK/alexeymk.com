@@ -4,13 +4,13 @@ title: "Why Core Product Engineers can't Hack it on Growth"
 description: "Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team."
 published: true
 hidden: true # already a featued essay
-cover: /assets/img/blog/coreproduct.png
+cover: /images/blog/coreproduct.png
 date: 2023-03-03 16:00:29
 tags:
  - growth-eng
 ---
 
-“You're doing great so far!" The engineer beamed - coming from a manager, this was good news. "For next quarter, I’m assigning you to the newly-formed growth pod.”
+> “You're doing great so far!" The engineer beamed - coming from a manager, this was good news. "For next quarter, I’m assigning you to the newly-formed growth pod.”
 
 Rut row. You’d think the transition from Core Product to Growth would go smoothly; this is rarely the case. Growth Engineers require a fundamentally different skillset and mindset to be successful. Let me explain.
 
@@ -18,7 +18,7 @@ Rut row. You’d think the transition from Core Product to Growth would go smoot
 
 **A Product Engineer is a Formula 1 Racing Engineer.**
 
-![Why Core Product Engineers can't Hack it on Growth](/assets/img/blog/f1.jpg){:loading="eager"}
+![Why Core Product Engineers can't Hack it on Growth](/images/blog/f1.jpg){:loading="eager"}
 
 The car is their baby. The job is to spend an inordinate amount of time tweaking and improving a vehicle that can go 100 laps as speedily as possible.
 
@@ -27,7 +27,7 @@ The car is their baby. The job is to spend an inordinate amount of time tweaking
 **A Growth Engineer is a Redbull Flugtag Prototyper**
 
 
-![Why Core Product Engineers can't Hack it on Growth](/assets/img/blog/redbull.jpg){:loading="eager"}
+![Why Core Product Engineers can't Hack it on Growth](/images/blog/redbull.jpg){:loading="eager"}
 
 The car is going to go off a pier and into the water. Then it will probably sink. The job is to make 100 prototype cars that won’t even make it one lap. Flugtag is mostly a marketing stunt, and they’re comfortable and aligned with that.
 
