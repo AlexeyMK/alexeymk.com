@@ -23,9 +23,9 @@ author:
 
 popularposttitle: Growth Engineering Guides
 popularpost:
- - title: Stat Sig on a Shoestring
+ - title: Getting to Statistical Signifiance
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
-   description: No traffic, no problem! Updating your setup will let you keep experimenting.
+   description: No traffic, no problem! Updating your setup so you can keep experimenting.
  - title: Hiring, Training, and Culture
    link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
    description: Starting, hiring, training, and setting culture for your Growth Engineering team. Co-authored with Elena Verna
