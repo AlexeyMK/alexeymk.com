@@ -23,18 +23,18 @@ author:
 
 popularposttitle: Growth Engineering Guides
 popularpost:
- - title: Getting to Statistical Signifiance
+ - title: Statistical Significance On a Budget
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
    description: No traffic, no problem! Updating your setup so you can keep experimenting.
- - title: Hiring, Training, and Culture
+ - title: Hiring, Training, and Culture for Growth Eng
    link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
-   description: Starting, hiring, training, and setting culture for your Growth Engineering team. Co-authored with Elena Verna
+   description: A Growth Engineering organization is a whole different beast. Co-authored with Elena Verna
  - title: Front-end Analytics Gotchas
    link: /2020/07/14/lies-damn-list-and-front-end-tracking.html
    description: "\"The slower your website, the better it converts\" and other lies your front-end analytics will tell you."
- - title: Lifecyle Marketing Tooling
+ - title: Lifecyle Marketing Tech Stack
    link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
-   description: How to select, implement and scaling marketing communication tooling, from 0 to IPO.
+   description: How to select, implement and scale marketing communication tooling, from 0 to IPO.
 
 postlist:
  title: Latest Articles
