@@ -10,7 +10,7 @@ description : I help companies execute Growth Engineering through a combination 
   <div class="col-md-6 p-1">
     <div class="p-3">
       <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-      <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}</p>
+      <p>{{ post.description | post.excerpt | strip_html | truncate: 156 }}</p>
     </div>
   </div>
   {% endfor %}

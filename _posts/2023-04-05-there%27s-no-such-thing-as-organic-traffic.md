@@ -2,7 +2,7 @@
 layout: post
 title: ! "There's no such thing as Organic Traffic"
 published: true
-description: I too would rather live in a world where this was still a thing. But this was probably not what happened.
+description: I too would rather live in a world where this was still a thing.
 date: 2023-04-04 16:00:29
 tags:
 - growth-eng
