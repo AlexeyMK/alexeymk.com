@@ -23,18 +23,28 @@ author:
 
 popularposttitle: Growth Engineering Guides
 popularpost:
+ - title: "How to Prioritize (using RICE and DRICE)"
+   link: https://www.lennysnewsletter.com/p/introducing-drice-a-modern-prioritization
+   coauthor: "Written with Darius Contractor. Published on Lenny's Newsletter"
+   description: "Prioritization, done right, is one of the highest-leverage ways a PM can help their team"
+ - title: Hiring, Training, and Culture for Growth Eng
+   link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
+   coauthor: "Co-authored with Elevna Verna"
+   description: Building a Growth Engineering Organization requires a different skillset.
+ - title: Lifecycle Marketing Tech Stack
+   link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
+   coauthor: Written with Tatteo Tittarelli. Published with HyperGrowth Partners.
+   description: How to select, implement and scale marketing communication tooling, from 0 to IPO.
+ - title: DNA of a Great Growth Engineer
+   link: https://www.youtube.com/watch?v=fFZBZJrnUIg
+   coauthor: Talk given at Reforge
+   description: Great Growth Engineers have a particlar set of skills. Skills they have acquired as quickly as possible.
  - title: Statistical Significance On a Budget
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
    description: No traffic, no problem! Updating your setup so you can keep experimenting.
- - title: Hiring, Training, and Culture for Growth Eng
-   link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
-   description: A Growth Engineering organization is a whole different beast. Co-authored with Elena Verna
  - title: Front-end Analytics Gotchas
    link: /2020/07/14/lies-damn-list-and-front-end-tracking.html
    description: "\"The slower your website, the better it converts\" and other lies your front-end analytics will tell you."
- - title: Lifecycle Marketing Tech Stack
-   link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
-   description: How to select, implement and scale marketing communication tooling, from 0 to IPO.
 
 postlist:
  title: Latest Articles

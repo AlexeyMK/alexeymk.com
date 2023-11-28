@@ -38,6 +38,7 @@
     {% for post in site.popularpost %}
     <div class="col-md-6">
       <h4><a href="{{post.link}}">{{post.title}}</a></h4>
+      {% if post.coauthor %} <p class="fst-italic">{{post.coauthor}}</p> {% endif %}
       <p>{{post.description}}</p>
     </div>
     <!-- popular post widget -->
