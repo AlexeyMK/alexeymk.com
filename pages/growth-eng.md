@@ -22,12 +22,14 @@ permalink: /growth-eng
 %}
 </div>
 
-
 > Alexey has been an invaluable advisor to interviewing.io. As growth has become more of a focus for us and as our team grew and needed a bit of process (especially around having a good way to elicit ideas), he's stepped in and done everything from audit our funnel to recommend meeting structure and approaches to product prioritization to mentor members of the product team. He's also been a great sounding board and source of advice for me. Anyone would be lucky to have Alexey in their corner.
 >
 > \- Aline Lerner, Founder and CEO, interviewing.io
 
+<a type="button" class="btn btn-success btn-lg btn-block" href="mailto:alexey+consult@alexeymk.com">Get in touch with Alexey directly</a>
+
 …all kinds of things, if we trust Aline! Here are some common problems I help with:
+
 
 ### Scenario 1: Going 0 to 1 on Growth Engineering
 ![https://giphy.com/gifs/fo84j6rpbL0yui7qBd](//wsrv.nl/?url=https://media.giphy.com/media/fo84j6rpbL0yui7qBd/giphy.gif&h=250&w=300&output=webp){:class="float-end me-3 mb-5" :style="max-height: 250px;" .right}
