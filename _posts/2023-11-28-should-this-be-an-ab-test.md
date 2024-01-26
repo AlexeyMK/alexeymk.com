@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Should this be an A/B Test?'
-description: "Before you A/B test, explore / its aptness with these questions four"
+description: "Before you A/B test, explore its aptness with these four questions."
 published: true
 cover: "/images/should-this-be-ab-test-flowchart.jpeg"
 date: 2023-11-26 16:00:29
@@ -21,7 +21,7 @@ When is an A/B test appropriate to roll out out your product feature?  Opinions 
 >
 > -- 1 Thessalonians 5:21, New Testament, King James Bible
 
-Read enough online advice and you’ll either end up Steve Jobs telling you to test nothing, or God telling you test everything.  Choosing between God and Steve Jobs as a higher authority for tech advice is tricky.
+Read enough online advice and you’ll either end up with Steve Jobs telling you to test nothing, or God telling you test everything.  Choosing between God and Steve Jobs as a higher authority for tech advice is tricky.
 
 Luckily, you won’t have to - they’re both wrong! As with most things, there is a right time and place for A/B testing. It depends.
 
@@ -34,7 +34,7 @@ Testing is not a substitute for vision or strategy.  “Should we be selling SAA
 
 Similarly, fixing a typo or other “obviously good, obviously tiny” fixes don’t need to be A/B tested. Test setup has a small but non-trivial cost. Don’t waste your time on tiny changes - just do it.
 
-**A good A/B test** will help answer the “how exactly” of executing a high level strategy - IE, you know you want to sell sassy t-shirts, but should they cost $20 or $30, or should your models be male or female.  The work required to get a test ready to run should take somewhere between a few days and a couple of months; any more than that, and you’re making a strategic investment and should treat it accordingly.
+**A good A/B test** will help answer the “how exactly” of executing a high-level strategy - IE, you know you want to sell sassy t-shirts, but should they cost $20 or $30, or should your models be male or female.  The work required to get a test ready to run should take somewhere between a few days and a couple of months; any more than that, and you’re making a strategic investment and should treat it accordingly.
 
 
 ## Question 2: Is it ready for prime time?
@@ -56,7 +56,7 @@ The bigger the swing you’re taking, the more product development is warranted.
 
 There’s no point running a test if you don’t have enough traffic to be able to identify a winner.
 
-Before running an A/B test, [run a Power Analysis](https://www.reforge.com/artifacts/growth-team-swing-size-calculator-at-masterclass) & see what level of fidelity you can measure with at your current size.  You can still sometimes find ways to squeeze more significance (see [my guide on the topic](https://alexeymk.com/2023/09/11/statistical-significance-on-a-shoestring-budget)).
+Before running an A/B test, [run a Power Analysis](https://www.reforge.com/artifacts/growth-team-swing-size-calculator-at-masterclass) and see what level of fidelity you can measure with at your current size.  You can still sometimes find ways to squeeze more significance (see [my guide on the topic](https://alexeymk.com/2023/09/11/statistical-significance-on-a-shoestring-budget)).
 
 If you don’t have enough numbers to detect a reasonable win (5%) in a reasonable time period (2 weeks), don’t bother running a test - just ship the idea if it’s good or skip it if it’s risky.
 
@@ -67,9 +67,9 @@ If you don’t have enough numbers to detect a reasonable win (5%) in a reasonab
 
 Before running an A/B test, decide whether you are running a Rollout or an Experiment.
 
-A **Rollout** is an controlled release of a new feature, using a feature flag & A/B test to ensure a gradual pace and to ensure no harm is being caused by the change. Rollouts are common for infrastructural changes, core product feature releases, and brand updates, and are typically used by infrastructure or core product teams.   If an A/B test result is neutral, the new feature will be released.
+A **Rollout** is an controlled release of a new feature, using a feature flag & A/B test to ensure a gradual pace and to ensure no harm is being caused by the change. Rollouts are common for infrastructural changes, core product feature releases, and brand updates – and are typically used by infrastructure or core product teams.  If an A/B test result is neutral, the new feature will be released.
 
-An **Experiment**, on the other hand, is an attempt to learn in order to optimize some specific business metric, and is more commonly used by Growth Engineering and Performance Marketing teams. The new variant will only be released if if an A/B test is statistically significant.
+An **Experiment**, on the other hand, is an attempt to learn in order to optimize some specific business metric, and is more commonly used by Growth Engineering and Performance Marketing teams. The new variant will only be released if an A/B test is statistically significant.
 
 Both Rollouts and Experiments have their place, but conflating the two is dangerous. Pick one ahead of time, to avoid the “good enough” trap.
 
@@ -116,7 +116,7 @@ Teams quantify and report their impact by tallying up the impact of experiment w
 
 Shipping non-stat-sig-winners raises a team’s false positive rate. This makes tallying less trustworthy: before, we knew every experiment deserved inclusion with a 95% likelihood; now, it’s more of a crapshoot.
 
-Engineers are in demand throughout the company. Any team that can’t quantify its impact is likely to have staff distributed to teams that can provably put them to good use.
+Engineers are in demand throughout the company. Any team that can’t quantify its impact is likely to have staff distributed to teams that can probably put them to good use.
 
 ### Avoiding the nightmare
 Decide upfront what you’ll do if the test is not a stat-sig winner, and don’t reverse that decision, no matter how tempting.
