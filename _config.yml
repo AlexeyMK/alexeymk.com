@@ -29,7 +29,7 @@ popularpost:
    description: "Prioritization, done right, is one of the highest-leverage ways a PM can help their team"
  - title: Hiring, Training, and Culture for Growth Eng
    link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
-   coauthor: "Co-authored with Elevna Verna"
+   coauthor: "Co-authored with Elena Verna"
    description: Building a Growth Engineering Organization requires a different skillset.
  - title: Lifecycle Marketing Tech Stack
    link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
@@ -39,7 +39,7 @@ popularpost:
    link: https://www.youtube.com/watch?v=fFZBZJrnUIg
    coauthor: Talk given at Reforge
    description: Great Growth Engineers have a particlar set of skills. Skills they have acquired as quickly as possible.
- - title: Statistical Significance On a Budget
+ - title: Statistical Significance on a Budget
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
    description: No traffic, no problem! Updating your setup so you can keep experimenting.
  - title: Front-end Analytics Gotchas
@@ -72,7 +72,7 @@ footernav4:
 sharemodal:
  button: Share article
  title: Share this article
- description: In you liked this article share it with your friends. They will thank you later.
+ description: If you liked this article share it with your friends. They will thank you later.
  email: email
  twitter: tweet
  facebook: facebook
