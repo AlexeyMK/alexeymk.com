@@ -9,7 +9,7 @@ tags:
  - growth-engineering
 ---
 
-On April 23rd, I’ll be teaching the first ever [Growth Engineering Course](https://www.reforge.com/courses/growth-engineering/) on Reforge.
+On April 23rd, I’ll be teaching the first ever [Growth Engineering Course](https://www.reforge.com/courses/growth-engineering/?utm_id=growth_engineering&utm_medium=expert&utm_source=alexey_blog&utm_campaign=why_i_created_course) on Reforge.
 
 Here’s why I created the course, the topics it'll cover, and how you can snag a spot.
 
@@ -64,4 +64,4 @@ The course will be less useful to:
 
 Ultimately, this is the first-ever run of the course, so I’ll be super involved and looking forward to your feedback.  Come shape the content that Growth Engineers will go through for (hopefully) years to come.
 
-Since this is a first run, seats are limited, so [be sure to sign up](https://www.reforge.com/courses/growth-engineering) while you can.
+Since this is a first run, seats are limited, so [be sure to sign up](https://www.reforge.com/courses/growth-engineering/?utm_id=growth_engineering&utm_medium=expert&utm_source=alexey_blog&utm_campaign=why_i_created_course) while you can.
