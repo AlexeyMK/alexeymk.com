@@ -17,7 +17,7 @@ Here’s why I created the course, the topics it'll cover, and how you can snag 
 
 When I first became an Engineering Manager, I was automatically enrolled into manager training. There was no question about it: Engineering Management is not Engineering. New managers are ramped as quickly as possible.
 
-When I first became a Growth Engineer,  Iwas automatically enrolled into absolutely nothing. In retrospect, this seems strange. [Growth Engineering is quite different from the rest of Software Engineering](https://www.linkedin.com/pulse/why-core-product-engineers-cant-hack-growth-alexey-komissarouk/).  How was I supposed to pick things up?
+When I first became a Growth Engineer,  I was automatically enrolled into absolutely nothing. In retrospect, this seems strange. [Growth Engineering is quite different from the rest of Software Engineering](https://www.linkedin.com/pulse/why-core-product-engineers-cant-hack-growth-alexey-komissarouk/).  How was I supposed to pick things up?
 
 ![](/images/experimentation-is-hard.png)
 
