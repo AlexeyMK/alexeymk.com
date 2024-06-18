@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "When is it time to replace Landing Page Builder"
-description: "Later than you'd think"
+title: "When is it time to replace Landing Page Builder?"
+description: "Later than you'd think: Landing Page Builders like Instapage or Unbounce are the Kallax of MarTech tools"
 published: true
 cover: /images/kallax.avif
 date: 2024-06-17 01:00:29
