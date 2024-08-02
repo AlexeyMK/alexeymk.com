@@ -1,13 +1,13 @@
 ---
-layout: post
-title: ! 'Did I say Estonia? I meant Costa Rica'
-published: true
-description: "I'm putting Estonia on hold - still excited to go there, and hoping to do so in April or May, once it warms up again."
 date: 2014-08-01 11:27:40
+description: I'm putting Estonia on hold - still excited to go there, and hoping to
+  do so in April or May, once it warms up again.
+layout: post
+published: true
 tags:
-- meta
-- nomad
-- hackerparadise
+- remote-work
+- reflections
+title: Did I say Estonia? I meant Costa Rica
 ---
 
 I'm putting [Estonia](/2014/07/03/when-visas-turn-into-pumpkins.html) on hold - still excited to go there, and hoping to do so in April or May, once it warms up again.
@@ -20,5 +20,3 @@ In short: I'll be hacking by the pool in Costa Rica until November if you need m
 
 
 PS. Care to join, either for the whole 12 weeks or for a shorter trip? We're [keeping a couple of spots open](http://hackerparadise.org).
-
-

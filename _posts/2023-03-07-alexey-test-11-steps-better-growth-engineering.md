@@ -1,12 +1,16 @@
 ---
-layout: post
-title: 'The Alexey Test: 11 steps to better Growth Engineering'
-description: Growth Engineering is a growing profession these days. But before you accept a shiny new job as a Growth Engineer, you should figure out the state of the Growth org.
-published: true
 cover: /images/thealexey.jpg
 date: 2023-03-07 16:00:29
+description: Growth Engineering is a growing profession these days. But before you
+  accept a shiny new job as a Growth Engineer, you should figure out the state of
+  the Growth org.
+layout: post
+published: true
 tags:
- - growth-eng
+- growth-engineering
+- engineering-management
+- advice-for-engineers
+title: 'The Alexey Test: 11 steps to better Growth Engineering'
 ---
 
 Inspired by the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/).

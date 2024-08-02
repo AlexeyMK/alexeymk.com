@@ -1,13 +1,14 @@
 ---
-layout: post
-title: 'Should this be an A/B Test?'
-description: "Before you A/B test, explore / its aptness with these questions four"
-published: true
-cover: "/images/should-this-be-ab-test-flowchart.jpeg"
+cover: /images/should-this-be-ab-test-flowchart.jpeg
 date: 2023-11-26 16:00:29
+description: Before you A/B test, explore / its aptness with these questions four
+layout: post
+published: true
 tags:
- - experimentation
- - growth
+- experimentation
+- growth
+- product-management
+title: Should this be an A/B Test?
 ---
 
 When is an A/B test appropriate to roll out out your product feature?  Opinions are split:
@@ -120,4 +121,3 @@ Engineers are in demand throughout the company. Any team that can’t quantify i
 
 ### Avoiding the nightmare
 Decide upfront what you’ll do if the test is not a stat-sig winner, and don’t reverse that decision, no matter how tempting.
-

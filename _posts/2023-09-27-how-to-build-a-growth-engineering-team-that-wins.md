@@ -1,14 +1,19 @@
 ---
-layout: post
-title: 'How to Build a Growth Engineering team that Wins'
-description: "A dedicated growth engineering team can have a significant impact on a business's trajectory. If executed properly, this team will consistently drive target metrics to increase by 10% or more every quarter."
-published: true
-hidden: true # already a featued essay
-cover: "/images/blog/dedic.png"
+cover: /images/blog/dedic.png
 date: 2023-09-27 16:00:29
-excerpt: "Hello World"
+description: A dedicated growth engineering team can have a significant impact on
+  a business's trajectory. If executed properly, this team will consistently drive
+  target metrics to increase by 10% or more every quarter.
+excerpt: Hello World
+hidden: true
+layout: post
+published: true
 tags:
- - growth-eng
+- growth-engineering
+- engineering-management
+- growth
+- culture
+title: How to Build a Growth Engineering team that Wins
 ---
 
 _Note: Co-written with [Elena Verna](https://elenaverna.substack.com/), and [originally published](https://elenaverna.substack.com/p/how-to-build-a-growth-engineering) on her blog._

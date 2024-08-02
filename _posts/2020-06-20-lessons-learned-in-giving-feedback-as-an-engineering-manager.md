@@ -1,12 +1,13 @@
 ---
-layout: post
-title: ! 'Lessons Learned: Giving Feedback as an Engineering Manager'
-published: true
-description: Earlier in the year, I became the Engineering Manager on a team responsible for half of the outages at our 2,000 person company. After each incident, the on-call engineer would write-up a doc and schedule a meeting.
 date: 2020-06-20 14:23:09
+description: Earlier in the year, I became the Engineering Manager on a team responsible
+  for half of the outages at our 2,000 person company. After each incident, the on-call
+  engineer would write-up a doc and schedule a meeting.
+layout: post
+published: true
 tags:
 - engineering-management
-- advice
+title: 'Lessons Learned: Giving Feedback as an Engineering Manager'
 ---
 
 “Alexey, do you feel the points you bring up during our post-mortems are productive?" my tech lead asked at our 1:1.

@@ -1,12 +1,12 @@
 ---
-layout: post
-title: ! 'Steam'
-published: false
 date: 2013-07-07 20:51:31
-description: "For a start-up, running out of money is not as easy as it used to be."
+description: For a start-up, running out of money is not as easy as it used to be.
+layout: post
+published: false
 tags:
-- enterpreneurship
 - reflections
+- entrepreneurship
+title: Steam
 ---
 
 For a start-up, running out of money is not as easy as it used to be.

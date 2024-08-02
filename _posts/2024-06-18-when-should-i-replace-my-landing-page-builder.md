@@ -1,13 +1,15 @@
 ---
-layout: post
-title: "When is it time to replace Landing Page Builder?"
-description: "Later than you'd think: Landing Page Builders like Instapage or Unbounce are the Kallax of MarTech tools"
-published: true
 cover: /images/kallax.avif
 date: 2024-06-17 01:00:29
+description: 'Later than you''d think: Landing Page Builders like Instapage or Unbounce
+  are the Kallax of MarTech tools'
+layout: post
+published: true
 tags:
- - growth-engineering
- - landing-pages
+- growth-engineering
+- martech
+- product-management
+title: When is it time to replace Landing Page Builder?
 ---
 
 “The fundraise has closed,” said the VP of Engineering, “we can now fund a dedicated Growth Engineering team.  Can we get rid of our janky landing page builder now?  I’d feel a lot more comfortable with a real engineering team owning the website.”

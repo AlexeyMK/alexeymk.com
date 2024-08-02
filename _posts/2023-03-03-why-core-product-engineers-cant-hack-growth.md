@@ -1,13 +1,16 @@
 ---
-layout: post
-title: "Why Core Product Engineers can't Hack it on Growth"
-description: "Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team."
-published: true
-hidden: true # already a featued essay
 cover: /images/blog/coreproduct.png
 date: 2023-03-03 16:00:29
+description: Early-stage founders often ask what I could do for them, and how they
+  might go about spinning up a growth team.
+hidden: true
+layout: post
+published: true
 tags:
- - growth-eng
+- growth-engineering
+- engineering-management
+- growth
+title: Why Core Product Engineers can't Hack it on Growth
 ---
 
 > “You're doing great so far!" The engineer beamed - coming from a manager, this was good news. "For next quarter, I’m assigning you to the newly-formed growth pod.”
@@ -43,5 +46,3 @@ Meanwhile, a strong growth engineering team embraces the “growth” part of th
 Be deliberate when you assemble your Growth Engineering team. How you recruit, interview, manage, and incentivize your engineers will make all the difference.
 
 Figuring out how to spin up, or fix up your Growth Engineering team? I’m [writing a book](https://tinyletter.com/engineering-growth) about it, and [happy to chat](https://alexeymk.com/growth-eng).
-
-

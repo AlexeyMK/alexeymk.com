@@ -1,13 +1,16 @@
 ---
-layout: post
-title: ! 'Flystein saved me over 1000 dollars on flight costs and all they got was this blog post'
-published: true
-description: "I spent about half an hour on Skyscanner and Google Flights, and couldn’t find flights for less than about $3,000. Which is a lot. At roughly the same time, Vlad from Flystein reached out and offered to help Hacker Paradise participants book flights. So I tried the service out."
 date: 2015-10-05 20:53:30
+description: I spent about half an hour on Skyscanner and Google Flights, and couldn’t
+  find flights for less than about $3,000. Which is a lot. At roughly the same time,
+  Vlad from Flystein reached out and offered to help Hacker Paradise participants
+  book flights. So I tried the service out.
+layout: post
+published: true
 tags:
- - nomads
- - flights
- - advice
+- review
+- personal-productivity
+title: Flystein saved me over 1000 dollars on flight costs and all they got was this
+  blog post
 ---
 
 I found myself planning a series of flights for [Hacker Paradise](http://www.hackerparadise.org/), flying from Tel Aviv –> New York –> San Francisco –> Tokyo –> Tel Aviv with a few days of flexibility for when to take each flight. I spent about half an hour on Skyscanner and Google Flights, and couldn’t find flights for less than about $3,000. Which is a lot. At roughly the same time, Vlad from Flystein reached out and offered to help Hacker Paradise participants book flights. So I tried the service out.

@@ -1,12 +1,15 @@
 ---
-layout: post
-title: 'Introducing: A Retirement Program for Technical Co-Founders'
-description: Exhausted from running your startup? Burnt out, losing friends and hair, gaining weight and wrinkles?
-published: true
 cover: /images/blog/gwt.png
 date: 2023-03-09 16:00:29
+description: Exhausted from running your startup? Burnt out, losing friends and hair,
+  gaining weight and wrinkles?
+layout: post
+published: true
 tags:
- - growth-eng
+- growth-engineering
+- career-development
+- humor
+title: 'Introducing: A Retirement Program for Technical Co-Founders'
 ---
 
 Exhausted from running your startup? Burnt out, losing friends and hair, gaining weight and wrinkles?

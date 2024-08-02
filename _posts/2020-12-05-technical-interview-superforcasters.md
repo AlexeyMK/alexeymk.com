@@ -1,13 +1,16 @@
 ---
-layout: post
-title: ! 'Technical Interview Superforcasters'
-published: true
-description: The new VP wants us to double engineering’s headcount in the next six months. If we have a chance in hell to hit the hiring target, you seriously need to reconsider how fussy you’ve become.
 date: 2020-12-05 12:24:03
+description: The new VP wants us to double engineering’s headcount in the next six
+  months. If we have a chance in hell to hit the hiring target, you seriously need
+  to reconsider how fussy you’ve become.
+layout: post
+published: true
 tags:
+- technical-interviews
 - engineering-management
-- recruiting
+title: Technical Interview Superforcasters
 ---
+
 _Originally published as a [guest blog post](https://blog.interviewing.io/technical-phone-screen-superforecasters/) on [interviewing.io](https://interviewing.io/). Thanks [Aline](https://twitter.com/alinelernerLLC)!_
 
 “The new VP wants us to double engineering’s headcount in the next six months. If we have a chance in hell to hit the hiring target, you seriously need to reconsider how fussy you’ve become.”

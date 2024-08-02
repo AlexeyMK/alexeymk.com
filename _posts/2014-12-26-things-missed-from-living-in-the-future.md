@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Things I miss about living in the future.
 published: false
 tags:
-- reflection
+- reflections
+- personal-productivity
+title: Things I miss about living in the future.
 ---
 
 Things I miss about living in the Future

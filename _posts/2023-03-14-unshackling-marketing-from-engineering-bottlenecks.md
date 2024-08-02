@@ -1,12 +1,17 @@
 ---
-layout: post
-title: 'Unshackling Marketing from Engineering Bottlenecks: A Primer'
-description: We've had these new landing pages mocked up for the last two months! All of our research says the new pages will be a huge conversion lift. Can you talk to the engineering team and see what the holdup is?
-published: true
 cover: /images/blog/unshaking.jpg
 date: 2023-03-14 16:00:29
+description: We've had these new landing pages mocked up for the last two months!
+  All of our research says the new pages will be a huge conversion lift. Can you talk
+  to the engineering team and see what the holdup is?
+layout: post
+published: true
 tags:
- - growth-eng
+- martech
+- growth-engineering
+- growth
+- performance-marketing
+title: 'Unshackling Marketing from Engineering Bottlenecks: A Primer'
 ---
 
 "We've had these new landing pages mocked up for the last two months! All of our research says the new pages will be a huge conversion lift. Can you talk to the engineering team and see what the holdup is?" The marketing director was frustrated, and rightly so.

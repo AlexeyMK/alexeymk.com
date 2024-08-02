@@ -1,12 +1,12 @@
 ---
-layout: post
-title: ! 'Hackathon - A retrospective - a talk'
-published: true
-description: in February about a hackathon we ostensibly threw.
 date: 2015-06-22 19:53:52
+description: in February about a hackathon we ostensibly threw.
+layout: post
+published: true
 tags:
+- talk
 - hackathons
-- talks
+title: Hackathon - A retrospective - a talk
 ---
 
 [Nick Meyer](https://twitter.com/nickemeyer) and I gave a talk at [HackCon II](http://hackcon.io) in February about a hackathon we ostensibly threw.

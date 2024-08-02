@@ -1,15 +1,13 @@
 ---
-layout: post
-title: ! 'Weekend Hack: A Markov Baby Name Generator'
-description: "a Markov Chain is a simple random process to generate text that looks sort of like other text."
-published: true
 date: 2012-07-15 18:00:11
+description: a Markov Chain is a simple random process to generate text that looks
+  sort of like other text.
+layout: post
+published: true
 tags:
-- hack
 - technical
-- parody
+title: 'Weekend Hack: A Markov Baby Name Generator'
 ---
-
 
 My weekend hack is a [Markov Chain](http://en.wikipedia.org/wiki/Markov_chain) baby name generator.  [@MarkovBaby](http://twitter.com/markovbaby) will come up with a new baby name once an hour and tweets it out.
 

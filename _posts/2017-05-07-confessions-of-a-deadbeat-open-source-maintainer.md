@@ -1,13 +1,17 @@
 ---
-layout: post
-title: Confessions of a Deadbeat Open Source Maintainer
-published: true
-excerpt: Create an open source project, they said. It’ll be great for your resume, they said.
-description: The year was 2013, Meteor was the hip new kid on the block and Coffeescript was a reasonable JS dialect choice. We were fresh out of college.  Meteor was hosting their first 'Summer Hackathon' in San Francisco on 10th and Minna, and we figured this was our shot.
 date: 2017-05-07 01:06:24
+description: The year was 2013, Meteor was the hip new kid on the block and Coffeescript
+  was a reasonable JS dialect choice. We were fresh out of college.  Meteor was hosting
+  their first 'Summer Hackathon' in San Francisco on 10th and Minna, and we figured
+  this was our shot.
+excerpt: Create an open source project, they said. It’ll be great for your resume,
+  they said.
+layout: post
+published: true
 tags:
-- reflection
-- open source
+- open-source
+- reflections
+title: Confessions of a Deadbeat Open Source Maintainer
 ---
 
 ![a user sums it up](/images/abandoned-project.gif "source: https://github.com/gterrono/houston/issues/294#issuecomment-238914107"){:loading="eager"}

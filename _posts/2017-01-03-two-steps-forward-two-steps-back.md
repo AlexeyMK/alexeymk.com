@@ -1,12 +1,14 @@
 ---
-layout: post
-title: ! 'Two Steps Forward, Two Steps Back: 2016 in review'
-published: true
-hidden: true
-description: "Here's how becoming sedentary and employed has turned out so far, relative to expectations."
 date: 2017-01-03 18:31:37
+description: Here's how becoming sedentary and employed has turned out so far, relative
+  to expectations.
+hidden: true
+layout: post
+published: true
 tags:
-- reflection
+- reflections
+- career-development
+title: 'Two Steps Forward, Two Steps Back: 2016 in review'
 ---
 
 2015 and 2016 could not have been more different.

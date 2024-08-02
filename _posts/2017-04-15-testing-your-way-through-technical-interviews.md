@@ -1,13 +1,15 @@
 ---
-layout: post
-title: ! Test Driven Interviewing
-published: true
-description: TDD forces you into the ideal mindset for nailing down (1) problem definitions. There's no better way to properly grok a problem than to have to think through all the fun ways an implementation could be slightly off.
 date: 2017-05-06 18:31:37
+description: TDD forces you into the ideal mindset for nailing down (1) problem definitions.
+  There's no better way to properly grok a problem than to have to think through all
+  the fun ways an implementation could be slightly off.
+layout: post
+published: true
 tags:
-- interviews
-- technical
-- advice
+- technical-interviews
+- advice-for-engineers
+- engineering-management
+title: Test Driven Interviewing
 ---
 
 For most[^tdd] engineering tasks, I prefer to avoid TDD, or Test Driven Development.

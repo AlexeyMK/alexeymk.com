@@ -1,13 +1,13 @@
 ---
-layout: post
-title: ! 'My $370 Adjustable Sit-Stand Desk Setup'
-description: " that results in an email asking where one buys such a thing. One buys such a thing on amazon."
-published: true
 date: 2012-07-22 21:54:14
+description: ' that results in an email asking where one buys such a thing. One buys
+  such a thing on amazon.'
+layout: post
+published: true
 tags:
-- cool products
-- advice
-- quick post
+- review
+- personal-productivity
+title: My $370 Adjustable Sit-Stand Desk Setup
 ---
 
 Whenever a friend visits our HQ, I proudly show off my [combination sit/stand desk](http://www.amazon.com/WorkFit-S-Single-HD-Sit-Stand-Worstation/dp/B003WQ4GXQ/alexcom0ca-20). Often, that results in an email asking where one buys such a thing. One buys such a thing on amazon.

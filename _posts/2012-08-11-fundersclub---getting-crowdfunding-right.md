@@ -1,11 +1,14 @@
 ---
-layout: post
-title: ! 'FundersClub: getting Crowdfunding right'
-description: "If you can't get the top-tier companies, you can't get the companies that follow whatever top-tier companies do.  You end up with wanterpreneurs tricking Grandmas out of their paychecks. You've already lost."
-published: true
 date: 2012-08-12 21:26:23
+description: If you can't get the top-tier companies, you can't get the companies
+  that follow whatever top-tier companies do.  You end up with wanterpreneurs tricking
+  Grandmas out of their paychecks. You've already lost.
+layout: post
+published: true
 tags:
-- cool products
+- review
+- entrepreneurship
+title: 'FundersClub: getting Crowdfunding right'
 ---
 
 _Warning: Boris and Alex are friends and former classmates. I am utterly biased._

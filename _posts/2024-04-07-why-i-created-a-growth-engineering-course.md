@@ -1,12 +1,12 @@
 ---
-layout: post
-title: "Why I'm teaching Growth Engineering at Reforge"
-description: "Somebody should teach Growth to Engineers. I'll do it."
-published: true
 cover: /images/growth-eng-detour.png
 date: 2024-04-07 01:00:29
+description: Somebody should teach Growth to Engineers. I'll do it.
+layout: post
+published: true
 tags:
- - growth-engineering
+- growth-engineering
+title: Why I'm teaching Growth Engineering at Reforge
 ---
 
 On April 23rd, I’ll be teaching the first ever [Growth Engineering Course](https://www.reforge.com/courses/growth-engineering/?utm_id=growth_engineering&utm_medium=expert&utm_source=alexey_blog&utm_campaign=why_i_created_course) on Reforge.

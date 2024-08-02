@@ -1,12 +1,13 @@
 ---
-layout: post
-title: ! 'Hackathon Hacks for Organizers'
-description: "To that end, here are some hackathon hacks I've noticed or come up with over the past few years. If you're working on putting together your next hackathon, I hope they help!"
-published: true
 date: 2012-10-12 19:48:10
+description: To that end, here are some hackathon hacks I've noticed or come up with
+  over the past few years. If you're working on putting together your next hackathon,
+  I hope they help!
+layout: post
+published: true
 tags:
 - hackathons
-- advice
+title: Hackathon Hacks for Organizers
 ---
 
 Hackathons are [a thing](http://www.wired.com/magazine/2012/02/ff_hackathons/) now. Over the past two years I've had the benefit of participating, helping organize, watching demos for, and (soon) judging more than 15 hackathons.  One of my favorite things about the hackathon community has been how quickly best practices have spread from organizer to organizer.
@@ -127,4 +128,3 @@ Multi-tiered demoing needs to be done in a way that recognizes the work hackers 
 - A couple of minor fixes. Thanks to DJ, Ayaka, Jennifer and Jonathan!
 - See the [HN Commentary](http://news.ycombinator.com/item?id=4681304), for discussion on Multi-Tier Voting and charging attendees; in particular, Greg (from AngelHack)'s post on his experience [fund-raising for grown-up (non-college) hackathon](http://news.ycombinator.com/item?id=4682191).
 - Check out [my other hackathon posts](/tag/hackathons), and are curious about advice on fundraising and timing, and lots of other goodness.
-

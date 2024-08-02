@@ -1,14 +1,14 @@
 ---
-layout: post
-title: Sidecar and Digital Reputation Systems
-description: "Yes, if you're looking for Uber-like service at Taxi-like prices and aren't made uncomfortable by just how sketchy the whole thing feels."
-published: true
-date: 2012-07-29 23:23:57
 cover: /images/Sidecar.png
+date: 2012-07-29 23:23:57
+description: Yes, if you're looking for Uber-like service at Taxi-like prices and
+  aren't made uncomfortable by just how sketchy the whole thing feels.
+layout: post
+published: true
 tags:
-- cool products
 - review
-- behavioral economics
+- reflections
+title: Sidecar and Digital Reputation Systems
 ---
 
 For the past few months I've been using [Sidecar](side.cr) whenever I'm in SF.  The service is a sort of Uber meets [Gypsy cabs](http://en.wikipedia.org/wiki/Illegal_taxicab_operation), allowing ordering on-demand **everyday drivers**, who will give you a ride across town at a price comparable or slightly cheaper than a Taxi.

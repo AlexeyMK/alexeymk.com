@@ -1,14 +1,18 @@
 ---
-layout: post
-title: 'Avoid Premature Optimization: Growth Advice for Early Stage Founders'
-description: Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team.
-published: true
 cover: /images/blog/avoidpremature.png
 date: 2023-03-08 16:00:29
+description: Early-stage founders often ask what I could do for them, and how they
+  might go about spinning up a growth team.
+layout: post
+published: true
 tags:
- - growth-eng
- - experimentation
+- product-management
+- startups
+- entrepreneurship
+- growth
+title: 'Avoid Premature Optimization: Growth Advice for Early Stage Founders'
 ---
+
 Early-stage founders often ask what I could do for them, and how they might go about spinning up a growth team.
 
 And the answer is, don’t do it. You’re too early. Growth is still **the founder’s job.** 

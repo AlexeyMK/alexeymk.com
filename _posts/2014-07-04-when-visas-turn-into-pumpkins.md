@@ -1,12 +1,12 @@
 ---
-layout: post
-title: ! 'When visas turn into pumpkins'
-published: true
-description: "My US work visa runs out in a month, so I'm leaving for about a year to go travel. I start on August 2014."
 date: 2014-07-04 01:06:24
+description: My US work visa runs out in a month, so I'm leaving for about a year
+  to go travel. I start on August 2014.
+layout: post
+published: true
 tags:
-- meta
-- reflection
+- reflections
+title: When visas turn into pumpkins
 ---
 
 **TL;DR**: My US work visa runs out in a month, so I'm leaving for about a year to go travel. I start on August 2014.

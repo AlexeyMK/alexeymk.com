@@ -1,12 +1,13 @@
 ---
-layout: post
-title: ! "There's no such thing as Organic Traffic"
-published: true
-description: I too would rather live in a world where this was still a thing.
 date: 2023-04-04 16:00:29
+description: I too would rather live in a world where this was still a thing.
+layout: post
+published: true
 tags:
-- growth-eng
-- attribution
+- growth
+- analytics
+- performance-marketing
+title: There's no such thing as Organic Traffic
 ---
 
 From a recent investor update:

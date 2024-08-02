@@ -1,12 +1,13 @@
 ---
-layout: post
-title: Being safe with mongodb
-description: "A quick public service announcement about MongoDB, for those of us new to NoSQL land"
-published: true
 date: 2012-08-05 23:45:08
+description: A quick public service announcement about MongoDB, for those of us new
+  to NoSQL land
+layout: post
+published: true
 tags:
 - technical
-- advice
+- advice-for-engineers
+title: Being safe with mongodb
 ---
 
 A quick public service announcement about MongoDB, for those of us new to NoSQL land:

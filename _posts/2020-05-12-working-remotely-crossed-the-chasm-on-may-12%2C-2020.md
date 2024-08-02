@@ -1,12 +1,14 @@
 ---
-layout: post
-title: ! 'Working Remotely Crossed the Chasm on May 12, 2020'
-published: true
-description: From academia to the Open Source movement, remote collaboration is not exactly novel. From Github to DuckDuckGo, remote-first successful businesses are no longer rare.
 date: 2020-05-12 22:55:46
+description: From academia to the Open Source movement, remote collaboration is not
+  exactly novel. From Github to DuckDuckGo, remote-first successful businesses are
+  no longer rare.
+layout: post
+published: true
 tags:
-- remote work
-- productivity
+- remote-work
+- culture
+title: Working Remotely Crossed the Chasm on May 12, 2020
 ---
 
 **2013** Marissa Mayer [bans work-from-home](https://www.forbes.com/sites/jennagoudreau/2013/02/25/back-to-the-stone-age-new-yahoo-ceo-marissa-mayer-bans-working-from-home/#f12c67216672) at Yahoo <br />
@@ -100,4 +102,3 @@ That's true. They will.
 The move to remote-as-mainstream-option will take a good decade or two. The inflection point, however, was today, on May 12, 2020.
 
 I for one look forward to kids asking what it was like when I had to **leave** for work **every day**.
-
