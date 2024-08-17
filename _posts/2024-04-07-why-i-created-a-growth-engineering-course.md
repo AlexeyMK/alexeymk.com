@@ -6,6 +6,7 @@ layout: post
 published: true
 tags:
 - growth-engineering
+- teaching
 title: Why I'm teaching Growth Engineering at Reforge
 ---
 
