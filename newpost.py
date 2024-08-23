@@ -16,7 +16,9 @@ def generate_jekyll_post(title):
     # Create the content for the new post
     content = f"""---
 layout: post
+cover: /images/todo.webp
 title: "{title}"
+description: ""
 published: true
 date: {datetime_str}
 tags:
