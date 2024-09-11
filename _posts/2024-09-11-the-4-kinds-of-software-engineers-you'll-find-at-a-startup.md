@@ -36,3 +36,4 @@ Discover you’re secretly a Growth Engineer?
 
 [Sign up](https://embeds.beehiiv.com/e6e4a431-4ee3-491e-ad72-a3b738eaa350) for the newsletter, or come join my [upcoming Growth Engineering course](http://course.alexeymk.com) live on Reforge.
 
+Thanks to Trevor & Josiah for contributing ideas.
