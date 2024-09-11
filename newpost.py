@@ -36,7 +36,7 @@ Write your post content here.
     print(f"New Jekyll post created: {filename}")
 
 # Example usage
-generate_jekyll_post("My New Blog Post")
+# generate_jekyll_post("My New Blog Post")
 
 import sys
 
