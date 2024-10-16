@@ -17,7 +17,28 @@
     </div>
     <div class="col-md-9 mx-auto">
       <p class="tag text-secondary"><i>{{ page.date | date: "%-d %B %Y" }}</i></p>
-      {% include widget/subscribe.html %}
+
+<!-- quick course launch modal hack. TODO AMK, remove when I get a chance  - meanwhile, hiding via JS.-->
+<div id="course-launch-notification" class=" alert alert-warning text-center" role="alert" style="margin: 20px 0;">
+	<h4 class="text-center p-1 mt-3">🧑‍🎓 Reforge Course on Growth Engineering Starts Oct 30</h4>
+	<p class="p-1 text-center">Finally, a Growth course for engineers, by engineers. <br />Over 4 weeks, we'll dig into growth fundamentals, psychology, stats & analytics, design patterns, and growth engineering leadership.
+</p>
+  <a href="https://www.reforge.com/courses/growth-engineering/details?utm_id=growth_engineering_alexey&utm_medium=social&utm_source=alexey-blog-callout&utm_campaign=courses_creators_Q340" class="btn btn-primary" role="button">Learn more on Reforge</a>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var today = new Date();
+    var cutoffDate = new Date("2024-10-30");
+
+    if (today > cutoffDate) {
+      var notification = document.getElementById("course-launch-notification");
+      if (notification) {
+        notification.style.display = "none";
+      }
+    }
+  });
+</script>
       <div class="content">
         {{content}}
         <p class="tag">Tags:
@@ -35,6 +56,7 @@
     </div>
   </div>
 </main>
+{% include widget/subscribe.html %}
 {% include widget/subscribemodal.html %}
 {% include widget/share.html %}
 {% include footer.html %}
