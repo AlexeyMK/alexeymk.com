@@ -118,19 +118,19 @@ description: I help companies execute Growth Engineering through a combination o
         <div class="package">
             <h3>MarTech Audit and Roadmap</h3>
             <p>Comprehensive assessment of your current martech and growth tech stack, processes, and team structure. Includes a detailed roadmap for improving your Growth Engineering capabilities and ongoing implementation support.</p>
-            <a href="/growth-eng/#audit" class="cta">Get an Audit →</a>
+            <a href="#" class="cta" data-tally-open="wMMlAk?focus=audit" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Get an Audit →</a>
         </div>
         
         <div class="package">
             <h3>Growth Engineering Advising</h3>
             <p>Hands-on mentorship for Growth EM and PMs ramping up to guide your team through growth challenges. Includes weekly strategy sessions, technical guidance, and executive alignment to ensure your growth initiatives succeed.</p>
-            <a href="/growth-eng#advising" class="cta">Book Advisory →</a>
+            <a href="#" class="cta" data-tally-open="wMMlAk?focus=advisory" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Book Advisory →</a>
         </div>
         
         <div class="package">
             <h3>Tailored Growth Workshops</h3>
             <p>Level up your Growth Engineers through a tailored version of the Growth Eng course that is focused on the industry, stage and maturity of your team.  Customized to address your most pressing growth challenges and opportunities.</p>
-            <a href="/growth-eng#course" class="cta">Schedule Training →</a>
+            <a href="#" class="cta" data-tally-open="wMMlAk?focus=training" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Schedule Training →</a>
         </div>
     </div>
 </section>
