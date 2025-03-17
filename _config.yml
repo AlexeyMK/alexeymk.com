@@ -21,6 +21,49 @@ author:
  image: /images/alexey.webp
  email: alexey@alexeymk.com
 
+# Featured content for homepage
+featured_content_title: Articles and Talks
+featured_articles:
+ - title: "How to Prioritize (using RICE and DRICE)"
+   link: https://www.lennysnewsletter.com/p/introducing-drice-a-modern-prioritization
+   coauthor: "Written with Darius Contractor · Lenny's Newsletter"
+   description: "Prioritization, done right, is one of the highest-leverage ways a PM can help their team"
+   image: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F068e3d6c-37e5-409b-91bb-89e7132dc8aa_1456x816.png
+   type: article
+ - title: Hiring, Training, and Culture for Growth Eng
+   link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
+   coauthor: "Co-authored with Elena Verna"
+   description: Building a Growth Engineering Organization requires a different skillset.
+   image: /images/blog/gwt.png
+   type: article
+ - title: Lifecycle Marketing Tech Stack
+   link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
+   coauthor: With Tatteo Tittarelli · HyperGrowth Partners
+   description: How to select, implement and scale marketing communication tooling, from 0 to IPO.
+   image: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d15c3e2-60cb-475d-a5a8-3d22dd56b339_1456x816.png
+   type: article
+ - title: Statistical Significance on a Budget
+   link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
+   coauthor: Personal Blog
+   description: No traffic, no problem! Updating your setup so you can keep experimenting.
+   image: /images/shoestring_flowchart.jpeg
+   type: article
+ - title: Front-end Analytics Gotchas
+   link: /2020/07/14/lies-damn-list-and-front-end-tracking.html
+   coauthor: Personal Blog
+   description: "\"The slower your website, the better it converts\" and other lies your front-end analytics will tell you."
+   image: /images/lies-damn-list-and-front-end-tracking.jpg
+   type: article
+
+featured_talks:
+ - title: DNA of a Great Growth Engineer
+   link: https://www.youtube.com/watch?v=fFZBZJrnUIg
+   coauthor: Talk given at Reforge Growth Series
+   description: Great Growth Engineers have a particular set of skills that makes them uniquely effective.
+   image: https://i.ytimg.com/vi/fFZBZJrnUIg/maxresdefault.jpg
+   type: talk
+
+# Keep for backward compatibility
 popularposttitle: Growth Engineering Guides
 popularpost:
  - title: "How to Prioritize (using RICE and DRICE)"
@@ -85,6 +128,51 @@ social: #max 5 social
  linked:
  youtube:
 # instagram:
+
+# Company logos for homepage
+advised_companies:
+ - name: Dropbox
+   logo: /images/logos/Dropbox.png
+ - name: Anthropic
+   logo: /images/logos/Anthropic.png
+ - name: ClickUp
+   logo: /images/logos/ClickUp.png
+ - name: Eppo
+   logo: /images/logos/Eppo.jpeg
+ - name: Levels Health
+   logo: /images/logos/LevelsHealth.png
+ - name: The Real Real
+   logo: /images/logos/TRR.svg
+ - name: MasterClass
+   logo: /images/logos/MasterClass.jpeg
+
+student_companies:
+ - name: LinkedIn
+   logo: /images/logos/LinkedIn.png
+ - name: Google
+   logo: /images/logos/Google.png
+ - name: Microsoft
+   logo: /images/logos/Microsoft.png
+ - name: Coinbase
+   logo: /images/logos/Coinbase.png
+ - name: Plaid
+   logo: /images/logos/Plaid.png
+ - name: Mercury
+   logo: /images/logos/Mercury.png
+ - name: Whatnot
+   logo: /images/logos/Whatnot.png
+ - name: Instacart
+   logo: /images/logos/Instacart.png
+ - name: DoorDash
+   logo: /images/logos/DoorDash.png
+ - name: Patreon
+   logo: /images/logos/Patreon.png
+ - name: Zapier
+   logo: /images/logos/Zapier.png
+ - name: Faire
+   logo: /images/logos/Faire.png
+ - name: Supabase
+   logo: /images/logos/Supabase.png
 
 
 paginate: 10

@@ -3,12 +3,12 @@ layout: default
 title: About Alexey
 permalink: /about
 ---
-Last updated April 2023.*
+Last updated March 2025.*
 
-These days, I'm living in Tokyo and [helping start-ups scale up their Growth Engineering practice](/growth-eng).
+These days, I'm living in Tokyo and [doing Growth Eng Advising start-ups scale up their Growth Engineering practice](/growth-eng).
 
 #### Growth Engineering Leader
-I spent the last 7 years running Growth Engineering teams, most recently as Head of Growth Engineering at [MasterClass](https://www.masterclass.com), and a Growth EM at [Opendoor](https://www.opendoor.com).  I spent the years as a contract developer, helping clients such as Dropbox, Pebble, Boomerang, and Binti prototype and build out new lines of business.
+I spent the last 7 years running Growth Engineering teams, most recently as Head of Growth Engineering at [MasterClass](https://www.masterclass.com), and a Growth EM at [Opendoor](https://www.opendoor.com).  I also teach the [Growth Engineering Course](https://course.aleeymk.com) at Reforge and have worked with over a dozen Growth Engineering clients.
 
 #### Founder
 In 2014, I co-founded a [boutique work+travel company, Hacker Paradise](http://hackerparadise.org). The "forever workation" retreat company has been going strong [for almost 10 years now](https://edition.cnn.com/travel/article/workation-digital-nomad-retreats/index.html).
@@ -16,6 +16,8 @@ In 2014, I co-founded a [boutique work+travel company, Hacker Paradise](http://h
 #### Engineer
 
 I've long been forward to saying something like "I've been coding for over 20 years."  Well, I have. I got into programming when I was 15, starting out by recreasing GameBoy games in Visual Basic. I've worked as an engineer at Meta and Dropbox, but my proudest technical accomplishments are probably the initial scheduling feature on [Boomerang](https://www.boomerangapp.com/meeting-scheduling/) and authoring the [Houston Admin](https://github.com/gterrono/houston), a (once-popular) zero-config admin for Meteor.
+
+I've also spend a few years as a contract developer, helping clients such as Dropbox, Pebble, Boomerang, and Binti prototype and build out new lines of business.
 
 #### Organizer
 

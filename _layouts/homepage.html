@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/homepage.css">
+    {%- feed_meta -%}
+    {% if site.google.analystic %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google.analystic}}"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{site.google.analystic}}');
+    </script>{% endif %}
+</head>
+<body>
+    <div class="container">
+        {{ content }}
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© {% if site.time %}{{ site.time | date: '%Y' }}{% else %}2025{% endif %} Alexey Komissarouk. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
