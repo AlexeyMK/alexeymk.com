@@ -26,39 +26,36 @@ featured_content_title: Articles and Talks
 featured_articles:
  - title: "How to Prioritize (using RICE and DRICE)"
    link: https://www.lennysnewsletter.com/p/introducing-drice-a-modern-prioritization
-   coauthor: "Written with Darius Contractor · Lenny's Newsletter"
-   description: "Prioritization, done right, is one of the highest-leverage ways a PM can help their team"
-   image: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F068e3d6c-37e5-409b-91bb-89e7132dc8aa_1456x816.png
+   coauthor: Darius Contractor
+   description: "Published on Lenny's Newsletter."
+   image: /images/logos/lenny.png
    type: article
  - title: Hiring, Training, and Culture for Growth Eng
    link: /2023/09/27/how-to-build-a-growth-engineering-team-that-wins.html
-   coauthor: "Co-authored with Elena Verna"
+   coauthor: Elena Verna
    description: Building a Growth Engineering Organization requires a different skillset.
-   image: /images/blog/gwt.png
+   image: /images/logos/elena.png
    type: article
- - title: Lifecycle Marketing Tech Stack
+ - title: Picking your Lifecycle Marketing Tech Stack
    link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
-   coauthor: With Tatteo Tittarelli · HyperGrowth Partners
-   description: How to select, implement and scale marketing communication tooling, from 0 to IPO.
-   image: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d15c3e2-60cb-475d-a5a8-3d22dd56b339_1456x816.png
+   coauthor: Tatteo Tittarelli
+   description: How to select, implement and scale marketing communication tooling, from 0 to IPO. Written for G Cabane's HyperGrowth Partners.
+   image: /images/logos/gcabane.png
    type: article
- - title: Statistical Significance on a Budget
+ - title: Stat Sig on a Budget
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
-   coauthor: Personal Blog
    description: No traffic, no problem! Updating your setup so you can keep experimenting.
    image: /images/shoestring_flowchart.jpeg
    type: article
  - title: Front-end Analytics Gotchas
    link: /2020/07/14/lies-damn-list-and-front-end-tracking.html
-   coauthor: Personal Blog
    description: "\"The slower your website, the better it converts\" and other lies your front-end analytics will tell you."
-   image: /images/lies-damn-list-and-front-end-tracking.jpg
+   image: /images/logos/damnedlies.png
    type: article
 
 featured_talks:
  - title: DNA of a Great Growth Engineer
    link: https://www.youtube.com/watch?v=fFZBZJrnUIg
-   coauthor: Talk given at Reforge Growth Series
    description: Great Growth Engineers have a particular set of skills that makes them uniquely effective.
    image: https://i.ytimg.com/vi/fFZBZJrnUIg/maxresdefault.jpg
    type: talk
@@ -176,7 +173,7 @@ student_companies:
 
 
 paginate: 10
-paginate_path: '/:num/'
+paginate_path: '/blog/page:num/'
 
 collections:
   services:
@@ -188,7 +185,6 @@ defaults:
     values:
       layout: "default"
       permalink: /:year/:month/:title:output_ext.html
-      permalink:
   - scope:
       path: ""
     values:

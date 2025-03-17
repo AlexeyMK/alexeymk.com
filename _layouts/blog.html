@@ -1,0 +1,39 @@
+{% include head.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 p-3 p-md-5">
+      <h1 class="mb-4">{{ page.title }}</h1>
+      <p class="lead mb-5">{{ page.description }}</p>
+    </div>
+  </div>
+</div>
+
+<!-- Blog Posts List - Explicitly sorted newest first -->
+<main class="container">
+  <div class="row">
+    {% assign all_posts = site.posts | sort: 'date' | reverse %}
+    <div class="col-12 mb-4">
+      <p>{{ all_posts.size }} total posts</p>
+    </div>
+    
+    {% for post in all_posts %}
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h4 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <div class="text-muted small mb-2">{{ post.date | date: "%B %d, %Y" }}</div>
+          {% if post.description %}
+          <p class="card-text">{{ post.description }}</p>
+          {% else %}
+          <p class="card-text">{{ post.content | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+          <a href="{{ post.url }}" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</main>
+
+{% include footer.html %}

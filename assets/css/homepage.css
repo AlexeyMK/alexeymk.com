@@ -254,14 +254,27 @@ h2 {
     margin-bottom: 30px;
 }
 
-.article-card {
-    display: flex;
-    flex-direction: column;
+.article-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
     transition: transform 0.2s;
 }
 
-.article-card:hover {
+.article-card-link:hover {
     transform: translateY(-4px);
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    padding-bottom: 16px;
 }
 
 .article-image {
@@ -269,15 +282,15 @@ h2 {
     aspect-ratio: 16/9;
     position: relative;
     overflow: hidden;
-    border-radius: 4px;
     margin-bottom: 15px;
 }
 
 .article-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* Changed from cover to contain */
     transition: transform 0.5s;
+    background-color: #f5f5f7; /* Light background for transparent images */
 }
 
 .article-card:hover .article-image img {
@@ -302,9 +315,11 @@ h2 {
 
 .article-metadata {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
     margin-bottom: 8px;
+    flex-wrap: wrap;
+    padding: 0 16px;
 }
 
 .article-type {
@@ -330,19 +345,33 @@ h2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.3;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: #1e293b;
     transition: color 0.2s;
+    padding: 0 16px;
 }
 
-.article-card:hover .article-title {
+.article-card-link:hover .article-title {
     color: #3498db;
 }
 
 .article-coauthor {
-    font-size: 14px;
+    font-size: 13px;
     color: #64748b;
-    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.article-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #64748b;
+    margin-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0 16px;
 }
 
 .article-link {
@@ -350,10 +379,10 @@ h2 {
     font-size: 14px;
     font-weight: 600;
     color: #3498db;
-    text-decoration: none;
     transition: color 0.2s;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    padding: 8px 16px 0;
 }
 
 .article-link:after {
@@ -362,11 +391,11 @@ h2 {
     transition: transform 0.2s;
 }
 
-.article-link:hover {
+.article-card-link:hover .article-link {
     color: #2980b9;
 }
 
-.article-link:hover:after {
+.article-card-link:hover .article-link:after {
     transform: translateX(3px);
 }
 

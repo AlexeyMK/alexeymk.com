@@ -22,7 +22,7 @@ description: I help companies execute Growth Engineering through a combination o
         <div class="cta-secondary hero-links">
             <a href="/about">About Me</a>
             <span class="cta-divider">|</span>
-            <a href="#blog">Articles & Talks</a>
+            <a href="/blog/">Articles & Talks</a>
             <span class="cta-divider">|</span>
             <a href="/growth-eng">Growth Eng Course</a>
             <span class="cta-divider">|</span>
@@ -46,44 +46,54 @@ description: I help companies execute Growth Engineering through a combination o
 </section>
 
 <!-- Articles and Talks - Substack Style -->
-<section class="articles" id="blog">
+<section class="articles">
     <h2>{{ site.featured_content_title }}</h2>
     <div class="articles-grid">
         {% for article in site.featured_articles %}
-        <div class="article-card">
-            <div class="article-image">
-                <img src="{{ article.image }}" alt="{{ article.title }}">
+        <a href="{{ article.link }}" class="article-card-link">
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="{{ article.image }}" alt="{{ article.title }}">
+                </div>
+                <div class="article-metadata">
+                    <span class="article-type article-type-article">Article</span>
+                    {% if article.coauthor %}
+                    <span class="article-coauthor">with {{ article.coauthor }}</span>
+                    {% endif %}
+                </div>
+                <div class="article-title">{{ article.title }}</div>
+                {% if article.description %}
+                <div class="article-description">{{ article.description }}</div>
+                {% endif %}
+                <div class="article-link">Read Article</div>
             </div>
-            <div class="article-metadata">
-                <span class="article-type article-type-article">Article</span>
-            </div>
-            <div class="article-title">{{ article.title }}</div>
-            {% if article.coauthor %}
-            <div class="article-coauthor">{{ article.coauthor }}</div>
-            {% endif %}
-            <a href="{{ article.link }}" class="article-link">Read Article</a>
-        </div>
+        </a>
         {% endfor %}
         
         {% for talk in site.featured_talks %}
-        <div class="article-card">
-            <div class="article-image">
-                <img src="{{ talk.image }}" alt="{{ talk.title }}">
-                <div class="video-indicator">▶</div>
+        <a href="{{ talk.link }}" class="article-card-link">
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="{{ talk.image }}" alt="{{ talk.title }}">
+                    <div class="video-indicator">▶</div>
+                </div>
+                <div class="article-metadata">
+                    <span class="article-type article-type-talk">Talk</span>
+                    {% if talk.coauthor %}
+                    <span class="article-coauthor">with {{ talk.coauthor }}</span>
+                    {% endif %}
+                </div>
+                <div class="article-title">{{ talk.title }}</div>
+                {% if talk.description %}
+                <div class="article-description">{{ talk.description }}</div>
+                {% endif %}
+                <div class="article-link">Watch Talk</div>
             </div>
-            <div class="article-metadata">
-                <span class="article-type article-type-talk">Talk</span>
-            </div>
-            <div class="article-title">{{ talk.title }}</div>
-            {% if talk.coauthor %}
-            <div class="article-coauthor">{{ talk.coauthor }}</div>
-            {% endif %}
-            <a href="{{ talk.link }}" class="article-link">Watch Talk</a>
-        </div>
+        </a>
         {% endfor %}
     </div>
     <div class="articles-footer">
-        <a href="/" class="view-all">View All Articles</a>
+        <a href="/blog/" class="view-all">View All Articles</a>
         <iframe src="https://embeds.beehiiv.com/{{ site.beehiiv_id }}?slim=true" 
                 style="max-width: 400px; height: 52px; border: none;" frameborder="0" 
                 scrolling="no"></iframe>
