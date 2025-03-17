@@ -29,7 +29,7 @@ description: I help companies execute Growth Engineering through a combination o
             <a href="mailto:alexey+contact-on-website@alexeymk.com">Contact</a>
         </div>
         <div class="hero-cta">
-            <a href="mailto:alexey+consult@alexeymk.com" class="cta-primary">Work With Me</a>
+            <a href="/growth-eng" class="cta-primary">Work With Me</a>
         </div>
         
     </div>
@@ -37,7 +37,7 @@ description: I help companies execute Growth Engineering through a combination o
 
 <!-- Companies I've Advised - Above the fold -->
 <section class="logos">
-    <h2>Companies I've Advised</h2>
+    <h2>Companies I've Helped</h2>
     <div class="logo-row">
         {% for company in site.advised_companies %}
         <img src="{{ company.logo }}" alt="{{ company.name }}" class="logo">
@@ -95,37 +95,14 @@ description: I help companies execute Growth Engineering through a combination o
     <div class="articles-footer">
         <a href="/blog/" class="view-all">View All Articles</a>
         <iframe src="https://embeds.beehiiv.com/{{ site.beehiiv_id }}?slim=true" 
-                style="max-width: 400px; height: 52px; border: none;" frameborder="0" 
+                style="max-width: 600px; height: 52px; border: none;" frameborder="0" 
                 scrolling="no"></iframe>
-    </div>
-</section>
-
-<!-- Packages Section -->
-<section class="packages">
-    <h2>How I Can Help</h2>
-    
-    <div class="package">
-        <h3>Growth Engineering Strategy & Setup</h3>
-        <p>For companies going 0 to 1 on Growth Engineering. I'll help align your team structure, establish processes, and set up the technical infrastructure you need for effective experimentation and data-driven decision making.</p>
-        <a href="/growth-eng" class="cta">Learn More</a>
-    </div>
-    
-    <div class="package">
-        <h3>Growth Team Transformation</h3>
-        <p>Transform your existing growth team from PM-led to a collaborative writer's room style culture. Improve ideation processes, rebalance responsibilities, and unlock higher levels of innovation and impact from your entire team.</p>
-        <a href="/growth-eng" class="cta">Learn More</a>
-    </div>
-    
-    <div class="package">
-        <h3>Growth Tech Audit</h3>
-        <p>Get an expert review of your marketing and growth technology stack. Identify issues with tracking, analytics, experimentation infrastructure, and martech integrations to ensure you're getting accurate data and optimizing efficiently.</p>
-        <a href="/growth-eng" class="cta">Learn More</a>
     </div>
 </section>
 
 <!-- Companies With Students Section -->
 <section class="logos">
-    <h2>Companies With Students in My Courses</h2>
+    <h2>Past Growth Eng Students</h2>
     <div class="logo-row">
         {% for company in site.student_companies %}
         <img src="{{ company.logo }}" alt="{{ company.name }}" class="logo">
@@ -133,31 +110,27 @@ description: I help companies execute Growth Engineering through a combination o
     </div>
 </section>
 
-<!-- Testimonials Section -->
-<section class="testimonials">
-    <h2>What Others Say</h2>
-    <div class="testimonials-grid">
-        <div class="testimonial-card">
-            <p>"Alexey has been an invaluable advisor to interviewing.io. As growth has become more of a focus for us and as our team grew and needed a bit of process, he's stepped in and done everything from audit our funnel to recommend meeting structure and approaches to product prioritization to mentor members of the product team."</p>
-            <p><strong>- Aline Lerner, Founder and CEO, interviewing.io</strong></p>
+<!-- Packages Section -->
+<section class="packages">
+    <h2>How I Can Help</h2>
+    
+    <div class="packages-grid">
+        <div class="package">
+            <h3>MarTech Audit and Roadmap</h3>
+            <p>Comprehensive assessment of your current martech and growth tech stack, processes, and team structure. Includes a detailed roadmap for improving your Growth Engineering capabilities and ongoing implementation support.</p>
+            <a href="/growth-eng/#audit" class="cta">Get an Audit →</a>
         </div>
-        <div class="testimonial-card">
-            <p>"Alexey is an exceptional Head of Growth Engineering who knows growth tech inside and out, from experimentation to martech, lifecycle, and analytics. He is highly autonomous but welcomes guidance, always striving to improve processes and people."</p>
-            <p><strong>- Mandar Bapaye, MasterClass CTO</strong></p>
+        
+        <div class="package">
+            <h3>Growth Engineering Advising</h3>
+            <p>Hands-on mentorship for Growth EM and PMs ramping up to guide your team through growth challenges. Includes weekly strategy sessions, technical guidance, and executive alignment to ensure your growth initiatives succeed.</p>
+            <a href="/growth-eng#advising" class="cta">Book Advisory →</a>
         </div>
-    </div>
-</section>
-
-<!-- Final CTA -->
-<section class="final-cta">
-    <div class="cta-container">
-        <a href="mailto:alexey+consult@alexeymk.com" class="cta-primary">Get in Touch</a>
-        <div class="cta-secondary">
-            <a href="/">Blog</a>
-            <span class="cta-divider">•</span>
-            <a href="/about">About</a>
-            <span class="cta-divider">•</span>
-            <a href="/growth-eng">Services</a>
+        
+        <div class="package">
+            <h3>Tailored Growth Workshops</h3>
+            <p>Level up your Growth Engineers through a tailored version of the Growth Eng course that is focused on the industry, stage and maturity of your team.  Customized to address your most pressing growth challenges and opportunities.</p>
+            <a href="/growth-eng#course" class="cta">Schedule Training →</a>
         </div>
     </div>
 </section>
