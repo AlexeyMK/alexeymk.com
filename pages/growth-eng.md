@@ -13,8 +13,6 @@ Happy to help! Please read through the kinds of things I can help with below, an
   <a href="#" class="cta-button" data-tally-open="wMMlAk?focus=general" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Schedule a Consultation</a>
 </div>
 
-## Growth Engineering Experience
-
 <div class="experience-logos">
   <div class="experience-card">
     <div class="logo-container">
@@ -31,13 +29,35 @@ Happy to help! Please read through the kinds of things I can help with below, an
     <div class="role">Head of Growth Eng</div>
     <div class="years">2020-2023</div>
   </div>
-  
+
   <div class="experience-card">
     <div class="logo-container">
       <img src="/images/logos/reforge.png" alt="Reforge">
     </div>
     <div class="role">Growth Eng Partner</div>
     <div class="years">since 2024</div>
+  </div>
+</div>
+
+## Advisory Packages {#packages}
+
+<div class="packages-container">
+  <div class="package-card">
+    <h3>MarTech Audit and Roadmap</h3>
+    <p>Comprehensive assessment of your current martech and growth tech stack, processes, and team structure. Includes a detailed roadmap for improving your Growth Engineering capabilities and ongoing implementation support.</p>
+    <a href="#" class="cta-button" data-tally-open="wMMlAk?focus=audit" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Get an Audit →</a>
+  </div>
+
+  <div class="package-card">
+    <h3>Growth Engineering Advising</h3>
+    <p>Hands-on mentorship for Growth EM and PMs ramping up to guide your team through growth challenges. Includes weekly strategy sessions, technical guidance, and executive alignment to ensure your growth initiatives succeed.</p>
+    <a href="#" class="cta-button" data-tally-open="wMMlAk?focus=advisory" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Book Advisory →</a>
+  </div>
+
+  <div class="package-card">
+    <h3>Tailored Growth Workshops</h3>
+    <p>Level up your Growth Engineers through a tailored version of the Growth Eng course that is focused on the industry, stage and maturity of your team. Customized to address your most pressing growth challenges and opportunities.</p>
+    <a href="#" class="cta-button" data-tally-open="wMMlAk?focus=training" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Schedule Training →</a>
   </div>
 </div>
 
@@ -53,19 +73,19 @@ Happy to help! Please read through the kinds of things I can help with below, an
     <img src="//wsrv.nl/?url=https://media.giphy.com/media/fo84j6rpbL0yui7qBd/giphy.gif&h=250&w=300&output=webp" alt="Growth Engineering Setup">
     <p>I'll help you structure your Growth Engineering team from the ground up, establish the right processes, and set up the technical infrastructure needed for effective experimentation and data-driven decision making.</p>
   </div>
-  
+
   <div class="service-card">
     <h3>Writer's Room-Style Culture & Ideation</h3>
     <img src="//wsrv.nl/?url=https://softr-prod.imgix.net/applications/fa8b801a-eef1-4c03-8f34-4f8b3ffcea3e/assets/08fd73b2-4e71-4508-b4f0-b519a0b68dbd.png&w=300&output=webp" alt="Writer's Room Culture">
     <p>Transform your existing growth team from PM-led to a collaborative culture where engineers actively contribute to ideation. Learn how to reallocate responsibilities and unlock higher levels of innovation and impact.</p>
   </div>
-  
+
   <div class="service-card">
     <h3>Balancing Velocity and Quality</h3>
     <img src="//wsrv.nl/?url=https://paper-attachments.dropboxusercontent.com/s_831C31F966824C5BD0B2C12A337E8C68773B001AB8D1BC1BB944D1A9E68F632F_1677565823740_1JG5B.webp&w=440&output=webp" alt="Velocity and Quality Balance">
     <p>Discover how to maintain high engineering standards while delivering rapid experiments. Create the right balance between the quality culture of Engineering and the scrappy culture of Growth.</p>
   </div>
-  
+
   <div class="service-card">
     <h3>Growth Tech Audit</h3>
     <img src="//wsrv.nl/?url=https://paper-attachments.dropboxusercontent.com/s_831C31F966824C5BD0B2C12A337E8C68773B001AB8D1BC1BB944D1A9E68F632F_1678427260171_image.png&w=360&output=webp" alt="Growth Tech Audit">
@@ -73,35 +93,13 @@ Happy to help! Please read through the kinds of things I can help with below, an
   </div>
 </div>
 
-## Companies I've Worked with 
+## Companies I've Worked with
 
 <div class="logos">
   <div class="logo-row">
     {% for company in site.advised_companies limit:9 %}
     <img src="{{ company.logo }}" alt="{{ company.name }}" class="logo">
     {% endfor %}
-  </div>
-</div>
-
-## Advisory Packages {#packages}
-
-<div class="packages-container">
-  <div class="package-card">
-    <h3>MarTech Audit and Roadmap</h3>
-    <p>Comprehensive assessment of your current martech and growth tech stack, processes, and team structure. Includes a detailed roadmap for improving your Growth Engineering capabilities and ongoing implementation support.</p>
-    <a href="#" class="cta-button" data-tally-open="wMMlAk?focus=audit" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Get an Audit →</a>
-  </div>
-  
-  <div class="package-card">
-    <h3>Growth Engineering Advising</h3>
-    <p>Hands-on mentorship for Growth EM and PMs ramping up to guide your team through growth challenges. Includes weekly strategy sessions, technical guidance, and executive alignment to ensure your growth initiatives succeed.</p>
-    <a href="#" class="cta-button" data-tally-open="wMMlAk?focus=advisory" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Book Advisory →</a>
-  </div>
-  
-  <div class="package-card">
-    <h3>Tailored Growth Workshops</h3>
-    <p>Level up your Growth Engineers through a tailored version of the Growth Eng course that is focused on the industry, stage and maturity of your team. Customized to address your most pressing growth challenges and opportunities.</p>
-    <a href="#" class="cta-button" data-tally-open="wMMlAk?focus=training" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="0">Schedule Training →</a>
   </div>
 </div>
 
