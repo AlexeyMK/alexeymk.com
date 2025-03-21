@@ -15,7 +15,7 @@ In 2014, I co-founded a [boutique work+travel company, Hacker Paradise](http://h
 
 #### Engineer
 
-I've long been forward to saying something like "I've been coding for over 20 years."  Well, I have. I got into programming when I was 15, starting out by recreasing GameBoy games in Visual Basic. I've worked as an engineer at Meta and Dropbox, but my proudest technical accomplishments are probably the initial scheduling feature on [Boomerang](https://www.boomerangapp.com/meeting-scheduling/) and authoring the [Houston Admin](https://github.com/gterrono/houston), a (once-popular) zero-config admin for Meteor.
+I've long been forward to saying something like "I've been coding for over 20 years."  Well, I have. I got into programming when I was 15, starting out by recreating GameBoy games in Visual Basic. I've worked as an engineer at Meta and Dropbox, but my proudest technical accomplishments are probably the initial scheduling feature on [Boomerang](https://www.boomerangapp.com/meeting-scheduling/) and authoring the [Houston Admin](https://github.com/gterrono/houston), a (once-popular) zero-config admin for Meteor.
 
 I've also spend a few years as a contract developer, helping clients such as Dropbox, Pebble, Boomerang, and Binti prototype and build out new lines of business.
 
