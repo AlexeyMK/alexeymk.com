@@ -36,12 +36,19 @@ featured_articles:
    description: Building a Growth Engineering Organization requires a different skillset.
    image: /images/logos/elena.png
    type: article
- - title: Picking your Lifecycle Marketing Tech Stack
-   link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
-   coauthor: Tatteo Tittarelli
-   description: How to select, implement and scale marketing communication tooling, from 0 to IPO. Written for G Cabane's HyperGrowth Partners.
-   image: /images/logos/gcabane.png
+ - title: "What is Growth Engineering? (and what it isn't)"
+   coauthor: Gergely Orosz
+   description: "Published on Lenny's Newsletter."
+   link: https://newsletter.pragmaticengineer.com/p/what-is-growth-engineering
+   description: Most fast-growing companies have Growth Engineers. What do they do?
+   image: /images/logos/pragmaticengineer.png
    type: article
+   #- title: Picking your Lifecycle Marketing Tech Stack
+   #link: https://playbooks.hypergrowthpartners.com/p/picking-your-lifecycle-marketing
+   #coauthor: Tatteo Tittarelli
+   #description: How to select, implement and scale marketing communication tooling, from 0 to IPO. Written for G Cabane's HyperGrowth Partners.
+   #image: /images/logos/gcabane.png
+   #type: article
  - title: Stat Sig on a Budget
    link: /2023/09/11/statistical-significance-on-a-shoestring-budget.html
    description: No traffic, no problem! Updating your setup so you can keep experimenting.
@@ -63,6 +70,9 @@ featured_talks:
 # Keep for backward compatibility
 popularposttitle: Growth Engineering Guides
 popularpost:
+ - title: "What is Growth Engineering?"
+   link: https://newsletter.pragmaticengineer.com/p/what-is-growth-engineering
+   description: "Understanding what Growth Engineering is (and isn't) - published on The Pragmatic Engineer"
  - title: "How to Prioritize (using RICE and DRICE)"
    link: https://www.lennysnewsletter.com/p/introducing-drice-a-modern-prioritization
    coauthor: "Written with Darius Contractor. Published on Lenny's Newsletter"
