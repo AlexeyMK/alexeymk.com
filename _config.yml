@@ -194,7 +194,7 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-      permalink: /:year/:month/:title:output_ext.html
+      permalink: /:year/:month/:day/:title.html
   - scope:
       path: ""
     values:
