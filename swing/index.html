@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/B Test Power Analysis Calculator</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .results {
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .description {
+            margin-top: 30px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+            border-left: 4px solid #3498db;
+        }
+        .error {
+            color: #e74c3c;
+            font-size: 14px;
+            margin-top: 5px;
+            display: none;
+        }
+        .recommendation-card {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 12px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+        }
+        .recommendation-quality {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .excellent {
+            color: #27ae60;
+        }
+        .good {
+            color: #f39c12;
+        }
+        .limited {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>A/B Test Power Analysis Calculator</h1>
+
+    <div class="description">
+        <p>This calculator helps determine the minimum detectable effect (MDE) for your A/B tests based on traffic, conversion rate, and experiment duration.</p>
+        <p> See <a href=https://docs.google.com/spreadsheets/d/13kgzaDt1NXH8m1LUuUqHltB1i0vTJ2OUBoGbI_hjzHg/edit?gid=0#gid=0">Alexey's Swing Size Calculator</a> for earlier version</p>
+        <p><strong>Key features:</strong></p>
+        <ul>
+            <li><strong>One-sided tests:</strong> Use when you only care about detecting improvements (recommended for most A/B tests)</li>
+            <li><strong>95% power recommended:</strong> Higher power means you're less likely to miss real effects</li>
+            <li><strong>Both analysis methods:</strong> Shows results for both Frequentist (fixed sample) and Sequential (optional stopping) approaches</li>
+            <li><strong>MDE is shown as relative lift:</strong> The percentage increase/decrease relative to your baseline conversion rate</li>
+            <li><strong>Color coding:</strong> Green (<5% lift), Yellow (5-10% lift), Red (>10% lift)</li>
+            <li><strong>Experiment recommendations:</strong> Get specific test design suggestions optimized for your traffic and conversion rate</li>
+        </ul>
+        <p><em>Note: Sequential testing requires larger MDEs due to more conservative statistical thresholds to account for multiple looks at the data.</em></p>
+    </div>
+
+    <div class="form-container">
+        <div class="form-group">
+            <label for="weekly-traffic">Weekly Traffic (visitors)</label>
+            <input type="number" id="weekly-traffic" min="1" value="50000" placeholder="e.g., 10000">
+            <div id="traffic-error" class="error">Please enter a valid number of visitors</div>
+        </div>
+
+        <div class="form-group">
+            <label for="conversion-rate">Baseline Conversion Rate (%)</label>
+            <input type="number" id="conversion-rate" min="0.001" value="5" max="100" step="0.001" placeholder="e.g., 5.0">
+            <div id="conversion-error" class="error">Please enter a valid conversion rate between 0.001% and 100%</div>
+        </div>
+
+        <div class="form-group">
+            <label for="power-level">Statistical Power</label>
+            <select id="power-level">
+                <option value="0.95">95% (Recommended)</option>
+                <option value="0.9">90%</option>
+                <option value="0.8">80%</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="test-type">Test Type</label>
+            <select id="test-type">
+                <option value="one-sided">One-sided (Detect only improvements)</option>
+                <option value="two-sided">Two-sided (Detect any change)</option>
+            </select>
+        </div>
+
+        <div id="recommended-designs" style="display: none; margin-top: 30px; border: 1px solid #3498db; padding: 15px; border-radius: 4px; background-color: #ebf5fb;">
+            <h3>Recommended Test Design</h3>
+            <div id="design-options"></div>
+        </div>
+
+        <button id="calculate-btn">Calculate MDE</button>
+    </div>
+
+    <div class="results" id="results" style="display: none;">
+        <h2>Power Analysis Results</h2>
+        <p>Based on your inputs, here are the minimum detectable effects (MDE) you can expect to measure:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Experiment Duration</th>
+                    <th>80% Confidence</th>
+                    <th>90% Confidence</th>
+                    <th>95% Confidence</th>
+                </tr>
+            </thead>
+            <tbody id="results-table">
+                <!-- Results will be populated here -->
+            </tbody>
+        </table>
+
+        <div class="interpretation" id="interpretation">
+            <!-- Interpretation will be populated here -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const calculateBtn = document.getElementById('calculate-btn');
+            const resultsDiv = document.getElementById('results');
+            const resultsTable = document.getElementById('results-table');
+            const interpretationDiv = document.getElementById('interpretation');
+
+            calculateBtn.addEventListener('click', () => {
+                // Get input values
+                const weeklyTraffic = parseFloat(document.getElementById('weekly-traffic').value);
+                const conversionRate = parseFloat(document.getElementById('conversion-rate').value) / 100; // Convert from percentage to decimal
+                const powerLevel = parseFloat(document.getElementById('power-level').value);
+                const testType = document.getElementById('test-type').value;
+
+                // Set parameters based on inputs
+                const isOneSided = testType === 'one-sided';
+
+                // Validate inputs
+                let isValid = true;
+
+                if (isNaN(weeklyTraffic) || weeklyTraffic <= 0) {
+                    document.getElementById('traffic-error').style.display = 'block';
+                    isValid = false;
+                } else {
+                    document.getElementById('traffic-error').style.display = 'none';
+                }
+
+                if (isNaN(conversionRate) || conversionRate <= 0 || conversionRate > 1) {
+                    document.getElementById('conversion-error').style.display = 'block';
+                    isValid = false;
+                } else {
+                    document.getElementById('conversion-error').style.display = 'none';
+                }
+
+                if (!isValid) return;
+
+                // Calculate MDEs for different durations and confidence levels
+                const durations = [1, 2, 4]; // weeks
+                const confidenceLevels = [0.8, 0.9, 0.95];
+
+                resultsTable.innerHTML = '';
+
+                durations.forEach(duration => {
+                    const totalVisitors = weeklyTraffic * duration;
+                    const visitorsPerVariant = totalVisitors / 2; // Split evenly between control and variant
+
+                    const row = document.createElement('tr');
+                    const durationCell = document.createElement('td');
+                    durationCell.textContent = `${duration} week${duration > 1 ? 's' : ''}`;
+                    row.appendChild(durationCell);
+
+                    confidenceLevels.forEach(confidenceLevel => {
+                        // Calculate both frequentist and sequential MDEs
+                        const freqMDE = calculateMDE(visitorsPerVariant, conversionRate, powerLevel, confidenceLevel, isOneSided, false);
+                        const seqMDE = calculateMDE(visitorsPerVariant, conversionRate, powerLevel, confidenceLevel, isOneSided, true);
+
+                        const cell = document.createElement('td');
+                        cell.innerHTML = `<div>Freq: <strong>${(freqMDE * 100).toFixed(2)}%</strong></div>
+                                         <div>Seq: <strong>${(seqMDE * 100).toFixed(2)}%</strong></div>`;
+
+                        // Color code based on the frequentist MDE size (as it's more conservative)
+                        if (freqMDE < 0.05) {
+                            cell.style.backgroundColor = '#d5f5e3'; // Green for good MDE (under 5%)
+                        } else if (freqMDE < 0.1) {
+                            cell.style.backgroundColor = '#fcf3cf'; // Yellow for okay MDE (5-10%)
+                        } else {
+                            cell.style.backgroundColor = '#fadbd8'; // Red for large MDE (over 10%)
+                        }
+
+                        row.appendChild(cell);
+                    });
+
+                    resultsTable.appendChild(row);
+                });
+
+                // Calculate baseline MDE for interpretation
+                const baselineMDE = calculateMDE(weeklyTraffic / 2, conversionRate, powerLevel, 0.95, isOneSided, false);
+
+                // Calculate and display recommendations
+                const recommendations = recommendTestDesigns(weeklyTraffic, conversionRate, isOneSided);
+                displayRecommendedDesigns(recommendations);
+
+                let interpretationText = `<h3>Interpretation</h3>
+                <p>With your weekly traffic of ${weeklyTraffic.toLocaleString()} visitors and baseline conversion rate of ${(conversionRate * 100).toFixed(2)}%:</p>
+                <p><strong>Test type:</strong> ${isOneSided ? 'One-sided (detecting improvements only)' : 'Two-sided (detecting any change)'}</p>
+                <p>We've provided both Frequentist and Sequential analysis results:</p>
+                <ul>
+                <li><strong>Frequentist:</strong> Assumes a fixed sample size with no interim analyses</li>
+                <li><strong>Sequential:</strong> Accounts for multiple looks at the data (requires larger effects to maintain statistical validity)</li>
+                </ul>
+                <ul>`;
+
+                if (baselineMDE < 0.05) {
+                    interpretationText += `<li>You have good statistical power for detecting small changes (${(baselineMDE * 100).toFixed(2)}% lift or greater) in a 1-week experiment.</li>`;
+                    interpretationText += `<li>Consider running shorter experiments to iterate quickly.</li>`;
+                    interpretationText += `<li>Remember that the MDE represents the smallest relative change (percent lift) you can detect with the specified statistical power and confidence.</li>`;
+                } else if (baselineMDE < 0.1) {
+                    interpretationText += `<li>You can detect moderate changes (${(baselineMDE * 100).toFixed(2)}% lift or greater) in a 1-week experiment.</li>`;
+                    interpretationText += `<li>Consider running 2-week experiments for better statistical power.</li>`;
+                    interpretationText += `<li>Remember that the MDE represents the smallest relative change (percent lift) you can detect with the specified statistical power and confidence.</li>`;
+                } else {
+                    interpretationText += `<li>You'll need longer experiment durations to detect smaller changes.</li>`;
+                    interpretationText += `<li>With your current traffic, you can reliably detect only large changes (${(baselineMDE * 100).toFixed(2)}% lift or greater) in a 1-week experiment.</li>`;
+                    interpretationText += `<li>Remember that the MDE represents the smallest relative change (percent lift) you can detect with the specified statistical power and confidence.</li>`;
+                }
+
+                interpretationText += `<li>A relative MDE of 5% means you can detect a change from ${(conversionRate * 100).toFixed(2)}% to ${((conversionRate * 1.05) * 100).toFixed(2)}% conversion rate.</li>`;
+                interpretationText += `<li>Experiment at 95% confidence and 95% power to ensure reliable results.</li>`;
+                interpretationText += `</ul>`;
+
+                interpretationDiv.innerHTML = interpretationText;
+
+                // Show results
+                resultsDiv.style.display = 'block';
+            });
+
+            // Function to calculate MDE (Minimum Detectable Effect)
+            function calculateMDE(sampleSize, baseRate, power, confidenceLevel, isOneSided = true, isSequential = false) {
+                // Z-scores for confidence level (alpha)
+                let zAlpha;
+
+                if (isSequential) {
+                    // More conservative thresholds for sequential testing
+                    if (isOneSided) {
+                        // One-sided test with sequential correction
+                        if (confidenceLevel === 0.8) zAlpha = 1.5; // More conservative than standard 0.84
+                        else if (confidenceLevel === 0.9) zAlpha = 1.9; // More conservative than standard 1.28
+                        else if (confidenceLevel === 0.95) zAlpha = 2.24; // More conservative than standard 1.645
+                        else zAlpha = 2.24; // Default to 95% confidence
+                    } else {
+                        // Two-sided test with sequential correction
+                        if (confidenceLevel === 0.8) zAlpha = 1.9; // More conservative than standard 1.28
+                        else if (confidenceLevel === 0.9) zAlpha = 2.24; // More conservative than standard 1.645
+                        else if (confidenceLevel === 0.95) zAlpha = 2.58; // More conservative than standard 1.96
+                        else zAlpha = 2.58; // Default to 95% confidence
+                    }
+                } else {
+                    // Standard thresholds for fixed-sample tests
+                    if (isOneSided) {
+                        if (confidenceLevel === 0.8) zAlpha = 0.84;
+                        else if (confidenceLevel === 0.9) zAlpha = 1.28;
+                        else if (confidenceLevel === 0.95) zAlpha = 1.645;
+                        else zAlpha = 1.645; // Default to 95% confidence
+                    } else {
+                        if (confidenceLevel === 0.8) zAlpha = 1.28;
+                        else if (confidenceLevel === 0.9) zAlpha = 1.645;
+                        else if (confidenceLevel === 0.95) zAlpha = 1.96;
+                        else zAlpha = 1.96; // Default to 95% confidence
+                    }
+                }
+
+                // Z-score for power (1-beta)
+                let zBeta;
+                if (power === 0.8) zBeta = 0.84;
+                else if (power === 0.9) zBeta = 1.28;
+                else if (power === 0.95) zBeta = 1.645;
+                else zBeta = 1.645; // Default to 95% power
+
+                // Standard error calculation for two proportions
+                const p = baseRate;
+                const se = Math.sqrt(2 * p * (1 - p) / sampleSize);
+
+                // Calculate absolute MDE (percentage point difference)
+                const absoluteMDE = (zAlpha + zBeta) * se;
+
+                // Calculate relative MDE (percent change from baseline)
+                const relativeMDE = absoluteMDE / baseRate;
+
+                // Return relative MDE (as a decimal)
+                return relativeMDE;
+            }
+
+            // Function to recommend test designs
+            function recommendTestDesigns(weeklyTraffic, conversionRate, isOneSided) {
+                // Parameters for recommendations
+                const power = 0.95; // Fixed power at 95%
+
+                // Test configurations in order of preference
+                const testConfigs = [
+                    { variants: 3, weeks: 1, confidence: 0.95, sequential: true },  // Initial config
+                    { variants: 2, weeks: 1, confidence: 0.95, sequential: true },  // 1. Down to 2 variants
+                    { variants: 2, weeks: 2, confidence: 0.95, sequential: true },  // 2. Run for 2 weeks
+                    { variants: 2, weeks: 2, confidence: 0.95, sequential: false }, // 3. Switch to frequentist
+                    { variants: 2, weeks: 2, confidence: 0.9, sequential: false },  // 4. 95% to 90% confidence
+                    { variants: 2, weeks: 4, confidence: 0.9, sequential: false },  // 5. Run for 4 weeks
+                    { variants: 2, weeks: 4, confidence: 0.8, sequential: false }   // 6. 90% to 80% confidence
+                ];
+
+                // Evaluate each configuration
+                const configurations = [];
+
+                testConfigs.forEach(config => {
+                    // Calculate total sample size per variant
+                    const totalTraffic = weeklyTraffic * config.weeks;
+                    const trafficPerVariant = totalTraffic / config.variants;
+
+                    // Calculate MDE
+                    const mde = calculateMDE(trafficPerVariant, conversionRate, power, config.confidence, isOneSided, config.sequential);
+
+                    // Add result to configurations
+                    configurations.push({
+                        ...config,
+                        mde: mde,
+                        mdePct: (mde * 100).toFixed(2) + "%"
+                    });
+                });
+
+                // Filter configurations to find good options
+                const recommended = [];
+
+                // First try to find a config with MDE < 5%
+                const bestOption = configurations.find(c => c.mde < 0.05);
+                if (bestOption) {
+                    recommended.push({
+                        ...bestOption,
+                        quality: "Excellent"
+                    });
+                }
+
+                // Then, find a good option (5-10%)
+                const goodOption = configurations.find(c => c.mde < 0.1);
+                  if (goodOption && goodOption != bestOption) {
+                      recommended.push({
+                          ...goodOption,
+                          quality: "Good"
+                      });
+                  }
+
+                // Now the limited option:
+                // If still no options, include the best available option
+                if (recommended.length === 0) {
+                    // Sort by MDE and take the best one
+                    recommended.push({
+                        ...configurations[0],
+                        quality: "Limited"
+                    });
+                } else {
+                  // if there are better options, just find something above 10%
+                  const badOptions = configurations.filter(c => c.mde > 0.1)
+                  if (badOptions) {
+                    const bestBadOption = badOptions.toSorted((x, y) => x.mde - y.mde)[0]
+                    recommended.push({
+                        ...bestBadOption,
+                        quality: "Limited"
+                    });
+                  }
+                }
+
+                // Sort recommendations by MDE
+                recommended.sort((a, b) => a.mde - b.mde);
+
+                return recommended.slice(0, 3); // Return at most 3 recommendations
+            }
+
+            // Function to display recommended test designs
+            function displayRecommendedDesigns(recommendations) {
+                const recommendedDesignsDiv = document.getElementById('recommended-designs');
+                const designOptionsDiv = document.getElementById('design-options');
+
+                // Clear previous recommendations
+                designOptionsDiv.innerHTML = '';
+
+                if (recommendations.length === 0) {
+                    recommendedDesignsDiv.style.display = 'none';
+                    return;
+                }
+
+                // Display each recommendation
+                recommendations.forEach((rec, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'recommendation-card';
+
+                    // Quality indicator
+                    const qualityDiv = document.createElement('div');
+                    qualityDiv.className = 'recommendation-quality';
+
+                    let qualityClass = '';
+                    if (rec.quality.includes('Excellent')) qualityClass = 'excellent';
+                    else if (rec.quality.includes('Good')) qualityClass = 'good';
+                    else qualityClass = 'limited';
+
+                    qualityDiv.classList.add(qualityClass);
+                    qualityDiv.textContent = `Option ${index + 1}: ${rec.quality} (${rec.mdePct} MDE)`;
+                    card.appendChild(qualityDiv);
+
+                    // Configuration details
+                    const details = document.createElement('div');
+                    details.innerHTML = `
+                        <p><strong>Configuration:</strong> ${rec.variants} variants, ${rec.weeks} week${rec.weeks > 1 ? 's' : ''},
+                        ${rec.confidence * 100}% confidence, ${rec.sequential ? 'sequential' : 'frequentist'} analysis</p>
+                        <p>With this setup, you can detect a minimum relative change of ${rec.mdePct} with 95% power.</p>
+                    `;
+                    card.appendChild(details);
+
+                    designOptionsDiv.appendChild(card);
+                });
+
+                // Show recommendations section
+                recommendedDesignsDiv.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
