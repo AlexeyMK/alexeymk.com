@@ -407,23 +407,13 @@
                   }
 
                 // Now the limited option:
-                // If still no options, include the best available option
-                if (recommended.length === 0) {
-                    // Sort by MDE and take the best one
-                    recommended.push({
-                        ...configurations[0],
-                        quality: "Limited"
-                    });
-                } else {
-                  // if there are better options, just find something above 10%
-                  const badOptions = configurations.filter(c => c.mde > 0.1)
-                  if (badOptions) {
-                    const bestBadOption = badOptions.toSorted((x, y) => x.mde - y.mde)[0]
-                    recommended.push({
-                        ...bestBadOption,
-                        quality: "Limited"
-                    });
-                  }
+                const badOptions = configurations.filter(c => c.mde > 0.1)
+              if (badOptions.length > 0) {
+                  const bestBadOption = badOptions.toSorted((x, y) => x.mde - y.mde)[0]
+                  recommended.push({
+                      ...bestBadOption,
+                      quality: "Limited"
+                  });
                 }
 
                 // Sort recommendations by MDE
