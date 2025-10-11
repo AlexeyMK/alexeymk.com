@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scarcity Experiment Test</title>
+    <script src="/assets/js/experiment.js"></script>
+</head>
+<body>
+    <h1>Scarcity Experiment Test</h1>
+    
+    <div>
+        <h2>Current Variant: <span id="variant"></span></h2>
+        <button onclick="testVariant()">Show Current Variant</button>
+        <button onclick="resetAndReload()">Reset & Reload</button>
+        
+        <h3>Force Variant via URL:</h3>
+        <button onclick="forceVariant('control')">Force Control</button>
+        <button onclick="forceVariant('treatment')">Force Treatment</button>
+        
+        <p>Or use these URLs directly:</p>
+        <ul>
+            <li><a href="/?experiment_scarcity_cta=control">Homepage - Control</a></li>
+            <li><a href="/?experiment_scarcity_cta=treatment">Homepage - Treatment</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        function testVariant() {
+            const variant = Experiment.getVariant('scarcity_cta');
+            document.getElementById('variant').textContent = variant;
+            console.log('Current variant:', variant);
+        }
+        
+        function resetAndReload() {
+            localStorage.removeItem('experiment_scarcity_cta');
+            location.reload();
+        }
+        
+        function forceVariant(variant) {
+            window.location.href = '/?experiment_scarcity_cta=' + variant;
+        }
+        
+        // Show variant on load
+        window.onload = testVariant;
+    </script>
+</body>
+</html>

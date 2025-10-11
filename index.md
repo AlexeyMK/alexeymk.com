@@ -35,6 +35,20 @@ description: I help companies execute Growth Engineering through a combination o
     </div>
 </section>
 
+<!-- Scarcity Experiment: Update CTA button text above the fold -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.Experiment && Experiment.getVariant('scarcity_cta') === 'treatment') {
+    const heroCTA = document.querySelector('.hero-cta .cta-primary');
+    if (heroCTA) {
+      const month = new Date().getMonth() + 1;
+      const quarter = month >= 10 ? 'Q4' : month >= 7 ? 'Q3' : month >= 4 ? 'Q2' : 'Q1';
+      heroCTA.textContent = `Limited ${quarter} spots`;
+    }
+  }
+});
+</script>
+
 <!-- Companies I've Advised - Above the fold -->
 <section class="logos">
     <h2>Companies I've Helped</h2>
