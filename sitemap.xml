@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <priority>1.0</priority>
+  </url>
+  {% for page in site.pages %}
+  {% unless page.url contains 'sitemap' or page.url contains 'feed' or page.url contains 'robots' %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <priority>0.5</priority>
+  </url>
+  {% endunless %}
+  {% endfor %}
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
+</urlset>
