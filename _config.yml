@@ -1,5 +1,5 @@
 title: Alexey needs a web presence
-description: Alexey needs a web presence
+description: "Alexey Komissarouk's blog on growth engineering, startups, and technology."
 url: 'https://alexeymk.com'
 #baseurl: 'https://alexeymk.com'
 google:
@@ -135,6 +135,10 @@ social: #max 5 social
  linked:
  youtube:
 # instagram:
+
+twitter:
+ username: alexeymk
+ card: summary_large_image
 
 # Company logos for homepage
 advised_companies:
