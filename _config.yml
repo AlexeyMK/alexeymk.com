@@ -1,12 +1,17 @@
 markdown: kramdown
 
-title: Alexey needs a web presence
-author: Alexey Komissarouk
-domain: http://alexeymk.com
+title: "Alexey needs a web presence"
+description: "Alexey Komissarouk's blog on growth engineering, startups, and technology."
+url: "https://alexeymk.com"
+domain: https://alexeymk.com
+author:
+  name: Alexey Komissarouk
+  email: alexey@alexeymk.com
+  twitter: alexeymk
 
 tag_title_prefix: ! "Posts on \""
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-sitemap]
 paginate: 5
 paginate_path: ":num"
 

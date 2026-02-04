@@ -6,11 +6,63 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>{{ page.title }}</title>
+	{% if page.title == site.title %}
+	<title>{{ site.title }}</title>
+	{% else %}
+	<title>{{ page.title }} | {{ site.title }}</title>
+	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
+	{% if page.description %}
+	<meta name="description" content="{{ page.description | strip_html | truncate: 160 }}">
+	{% elsif page.excerpt %}
+	<meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+	{% else %}
+	<meta name="description" content="{{ site.description }}">
+	{% endif %}
+	<link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+	{% if page.title == site.title %}
+	<meta property="og:title" content="{{ site.title }}">
+	{% else %}
+	<meta property="og:title" content="{{ page.title }}">
+	{% endif %}
+	{% if page.description %}
+	<meta property="og:description" content="{{ page.description | strip_html | truncate: 200 }}">
+	{% elsif page.excerpt %}
+	<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 200 }}">
+	{% else %}
+	<meta property="og:description" content="{{ site.description }}">
+	{% endif %}
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="og:site_name" content="{{ site.title }}">
+	{% if page.image %}
+	<meta property="og:image" content="{{ site.url }}{{ page.image }}">
+	{% endif %}
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@{{ site.author.twitter }}">
+	{% if page.title == site.title %}
+	<meta name="twitter:title" content="{{ site.title }}">
+	{% else %}
+	<meta name="twitter:title" content="{{ page.title }}">
+	{% endif %}
+	{% if page.description %}
+	<meta name="twitter:description" content="{{ page.description | strip_html | truncate: 200 }}">
+	{% elsif page.excerpt %}
+	<meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 200 }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ site.description }}">
+	{% endif %}
+	{% if page.image %}
+	<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+	{% endif %}
+
 	<link href='/css/style.css' rel="stylesheet" media="all">
-	<link href="http://feeds.feedburner.com/AlexeyNeedsAWebPresence" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	<link href="https://feeds.feedburner.com/AlexeyNeedsAWebPresence" rel="alternate" title="{{ site.title }}" type="application/atom+xml">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
   <script type="text/javascript">
     // google analytics
 
@@ -38,8 +90,8 @@
               <li class="page"><a href="/about">about</a></li>
               <li class="page"><a href="/growth-eng">Growth Engineering</a></li>
               <li class="page"><a href="https://tinyletter.com/engineering-growth">Newsletter</a></li>
-              <li class="page"><a href="http://feeds.feedburner.com/AlexeyNeedsAWebPresence">RSS</a></li>
-              <li class="page"><a href="http://twitter.com/alexeymk">twitter</a></li>
+              <li class="page"><a href="https://feeds.feedburner.com/AlexeyNeedsAWebPresence">RSS</a></li>
+              <li class="page"><a href="https://twitter.com/alexeymk">twitter</a></li>
               <li class="page"><a href="mailto:alexey.at.alexeymk.com">contact</a></li>
             </div>
           </ul>
@@ -65,7 +117,7 @@
       </div><!-- misc -->
         <br />
 				<p class="license">
-					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
+					Theme: <a href="https://layouts-the.me">the_minimum</a> based on <a href="https://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
 					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
 				</p>
 			</div><!-- unit-foot-inner -->
