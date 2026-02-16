@@ -1,16 +1,16 @@
 ---
 layout: homepage
-title: Alexey Komissarouk | Anthropic
-description: Full-time at Anthropic. Previously Growth Engineering leader at MasterClass and Opendoor. Limited advising availability.
+title: Alexey Komissarouk | Growth Engineering Advisor
+description: Growth at Anthropic. Previously Growth Engineering leader at MasterClass and Opendoor.
 ---
 
 <!-- Hero Section -->
 <section class="hero">
     <!-- Left Column: Main Content -->
     <div class="hero-content">
-        <h1>Hey, I'm Alexey</h1>
-        <div class="tagline">Alexey Komissarouk • Full-time at Anthropic</div>
-        <p>I'm currently full-time at <a href="https://www.anthropic.com">Anthropic</a>. Previously, I spent years leading Growth Engineering organizations at MasterClass and Opendoor, advised dozens of companies and taught over 100 students in my <a href="https://course.alexeymk.com">Growth Eng course</a>. I'm available for advising in a very limited capacity.</p>
+        <h1>Building High-Impact Growth Engineering Teams</h1>
+        <div class="tagline">Alexey Komissarouk • Growth Engineering Advisor</div>
+        <p>Currently doing growth at <a href="https://www.anthropic.com">Anthropic</a>. I've spent years leading Growth Engineering organizations at MasterClass and Opendoor, advised dozens of companies and taught over 100 students in my <a href="https://course.alexeymk.com">Growth Eng course</a>. My advising capacity is limited, but feel free to reach out.</p>
     </div>
     
     <!-- Right Column: Image and CTAs -->
@@ -112,7 +112,7 @@ description: Full-time at Anthropic. Previously Growth Engineering leader at Mas
 
 <!-- Packages Section -->
 <section class="packages">
-    <h2>How I Can Help <span style="font-size: 0.5em; font-weight: normal; opacity: 0.7;">(limited availability)</span></h2>
+    <h2>How I Can Help</h2>
     
     <div class="packages-grid">
         <div class="package">
