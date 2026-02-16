@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: Alexey Komissarouk | Growth Engineering Advisor
-description: I help companies execute Growth Engineering through a combination of investing, writing and advising.
+description: Growth at Anthropic. Previously Growth Engineering leader at MasterClass and Opendoor.
 ---
 
 <!-- Hero Section -->
@@ -10,7 +10,7 @@ description: I help companies execute Growth Engineering through a combination o
     <div class="hero-content">
         <h1>Building High-Impact Growth Engineering Teams</h1>
         <div class="tagline">Alexey Komissarouk • Growth Engineering Advisor</div>
-        <p>I help fast-growing companies build, scale, and hone their Growth Engineering practices. I've spent years leading Growth Engineering organizations at MasterClass and Opendoor, advised dozens of companies and taught over 100 students in my <a href="https://course.alexeymk.com">Growth Eng course</a>.</p>
+        <p>Currently doing growth at <a href="https://www.anthropic.com">Anthropic</a>. I've spent years leading Growth Engineering organizations at MasterClass and Opendoor, advised dozens of companies and taught over 100 students in my <a href="https://course.alexeymk.com">Growth Eng course</a>. My advising capacity is limited, but feel free to reach out.</p>
     </div>
     
     <!-- Right Column: Image and CTAs -->
@@ -29,7 +29,7 @@ description: I help companies execute Growth Engineering through a combination o
             <a href="mailto:alexey+contact-on-website@alexeymk.com">Contact</a>
         </div>
         <div class="hero-cta">
-            <a href="/growth-eng" class="cta-primary">Work With Me</a>
+            <a href="/growth-eng" class="cta-primary">Growth Eng Advising</a>
         </div>
         
     </div>

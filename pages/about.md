@@ -3,9 +3,9 @@ layout: default
 title: About Alexey
 permalink: /about
 ---
-Last updated March 2025.*
+Last updated February 2026.*
 
-These days, I'm living in Tokyo and [doing Growth Eng Advising start-ups scale up their Growth Engineering practice](/growth-eng).
+These days, I'm doing growth at [Anthropic](https://www.anthropic.com) and living in Tokyo. My [advising](/growth-eng) capacity is limited, but feel free to reach out.
 
 #### Growth Engineering Leader
 I spent the last 7 years running Growth Engineering teams, most recently as Head of Growth Engineering at [MasterClass](https://www.masterclass.com), and a Growth EM at [Opendoor](https://www.opendoor.com).  I also teach the [Growth Engineering Course](https://course.aleeymk.com) at Reforge and have worked with over a dozen Growth Engineering clients.
