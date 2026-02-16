@@ -1,16 +1,16 @@
 ---
 layout: homepage
-title: Alexey Komissarouk | Growth Engineering Advisor
-description: I help companies execute Growth Engineering through a combination of investing, writing and advising.
+title: Alexey Komissarouk | Anthropic
+description: Full-time at Anthropic. Previously Growth Engineering leader at MasterClass and Opendoor. Limited advising availability.
 ---
 
 <!-- Hero Section -->
 <section class="hero">
     <!-- Left Column: Main Content -->
     <div class="hero-content">
-        <h1>Building High-Impact Growth Engineering Teams</h1>
-        <div class="tagline">Alexey Komissarouk • Growth Engineering Advisor</div>
-        <p>I help fast-growing companies build, scale, and hone their Growth Engineering practices. I've spent years leading Growth Engineering organizations at MasterClass and Opendoor, advised dozens of companies and taught over 100 students in my <a href="https://course.alexeymk.com">Growth Eng course</a>.</p>
+        <h1>Hey, I'm Alexey</h1>
+        <div class="tagline">Alexey Komissarouk • Full-time at Anthropic</div>
+        <p>I'm currently full-time at <a href="https://www.anthropic.com">Anthropic</a>. Previously, I spent years leading Growth Engineering organizations at MasterClass and Opendoor, advised dozens of companies and taught over 100 students in my <a href="https://course.alexeymk.com">Growth Eng course</a>. I'm available for advising in a very limited capacity.</p>
     </div>
     
     <!-- Right Column: Image and CTAs -->
@@ -29,7 +29,7 @@ description: I help companies execute Growth Engineering through a combination o
             <a href="mailto:alexey+contact-on-website@alexeymk.com">Contact</a>
         </div>
         <div class="hero-cta">
-            <a href="/growth-eng" class="cta-primary">Work With Me</a>
+            <a href="/growth-eng" class="cta-primary">Growth Eng Advising</a>
         </div>
         
     </div>
@@ -112,7 +112,7 @@ description: I help companies execute Growth Engineering through a combination o
 
 <!-- Packages Section -->
 <section class="packages">
-    <h2>How I Can Help</h2>
+    <h2>How I Can Help <span style="font-size: 0.5em; font-weight: normal; opacity: 0.7;">(limited availability)</span></h2>
     
     <div class="packages-grid">
         <div class="package">

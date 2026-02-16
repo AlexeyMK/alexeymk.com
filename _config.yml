@@ -144,8 +144,6 @@ twitter:
 advised_companies:
  - name: Dropbox
    logo: /images/logos/Dropbox.png
- - name: Anthropic
-   logo: /images/logos/Anthropic.png
  - name: ClickUp
    logo: /images/logos/ClickUp.png
  - name: Eppo
